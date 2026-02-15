@@ -81,4 +81,13 @@ function getMonsterFull(m : Monster) : Monster{
     return {...monsters[m.id!], ...m}
 }
 
-export { memoryOfChaos, getMonsterFull }
+function getFullHp(moc : MemoryOfChaos) {
+    let hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
+    var f = moc.node1.wave1.map(v => hp(v)).reduce((p, c) => p+c);
+    f += moc.node1.wave2.map(v => hp(v)).reduce((p, c) => p+c);
+    f += moc.node2.wave1.map(v => hp(v)).reduce((p, c) => p+c);
+    f += moc.node2.wave2.map(v => hp(v)).reduce((p, c) => p+c);
+    return f;
+}
+
+export { memoryOfChaos, getMonsterFull, getFullHp }

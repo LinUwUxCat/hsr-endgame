@@ -1,6 +1,6 @@
 import type { ReactElement } from "react";
 import type { Monster } from "../data/types";
-import { getMonsterFull } from "../data/data";
+import { getMonsterFull } from "../data/moc";
 import MonsterElement from "./Monster";
 
 interface WaveProps {
