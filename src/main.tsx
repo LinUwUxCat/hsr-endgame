@@ -3,12 +3,17 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import MocPage from './pages/moc';
+import AAPage from './pages/arbitration';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MocPage />,
   },
+  {
+    path: "/arbitration",
+    element: <AAPage />
+  }
 ]);
 
 createRoot(document.getElementById('root')!).render(

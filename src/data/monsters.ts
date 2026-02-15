@@ -86,6 +86,73 @@ export const monsters : {[id:string]:Monster} = {
     "4044010": {
         name: "First Genius, Entelechy, Zandar",
         weakness: ["PHYSICAL", "ICE", "WIND"]
+    },
+    "4023020": {
+        name: "Moonlit Pegasus",
+        weakness: ["FIRE", "QUANTUM", "IMAGINARY"]
+    },
+    "8024010": {
+        name: "Swarm: True Sting",
+        weakness: ["ICE", "QUANTUM", "IMAGINARY"]
+    },
+    "1013020": {
+        name: "Automaton Direwol",
+        weakness: ["ICE", "LIGHTNING", "IMAGINARY"]
+    },
+    "3025010": {
+        name: `"Harmonious Choir" The Great Septimus`,
+        weakness: ["FIRE", "LIGHTNING", "IMAGINARY"]
+    },
+    "2033010": {
+        name: "Howling Casket",
+        weakness: ["LIGHTNING", "WIND", "IMAGINARY"]
+    },
+    "3002030": {
+        name: "Dreamjolt Troupe's Bubble Hound",
+        weakness: ["PHYSICAL", "LIGHTNING", "WIND"]
+    },
+    "8033010": {
+        name: "Senior Staff: Team Leader",
+        weakness: ["FIRE", "ICE", "IMAGINARY"]
+    },
+    "3004020": {
+        name: "Wonder Forest's Banacademic Office Staff",
+        weakness: ["IMAGINARY", "FIRE", "ICE", "LIGHTNING"]
+    },
+    "4015010": {
+        name: "Sublime, Radiant, Avatar of the Sky",
+        weakness: ["PHYSICAL", "ICE", "QUANTUM"]
+    }, 
+    "3012020": {
+        name: 'Memory Zone Meme "Heartbreaker"',
+        weakness: ["FIRE", "ICE", "LIGHTNING"]
+    },
+    "3013010": {
+        name: 'Memory Zone Meme "Shell of Faded Rage"',
+        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
+    },
+    "3004010": {
+        name: "The Past, Present, and Eternal Show",
+    },
+    "4052010": {
+        name: "Servant of Tides",
+        weakness: ["PHYSICAL", "LIGHTNING", "WIND"]
+    },
+    "3014020": {
+        name: 'Memory Zone Meme "Something Unto Death"',
+        weakness: ["FIRE", "WIND", "IMAGINARY"]
+    },
+    "4032050": {
+        name: "Black Tide's Decrepit Bow",
+        weakness: ["PHYSICAL", "ICE", "QUANTUM"]
+    },
+    "4033010": {
+        name: "Black Tide's Corroded Daemon",
+        weakness: ["PHYSICAL", "WIND", "QUANTUM"]
+    },
+    "4032010": {
+        name: "Tide-Eroded Blade",
+        weakness: ["PHYSICAL", "ICE", "QUANTUM"]
     }
 
 }

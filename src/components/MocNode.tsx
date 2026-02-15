@@ -1,9 +1,9 @@
 import type { ReactElement } from "react";
-import type { Phase } from "../data/types";
+import type { MoCPhase } from "../data/types";
 import Wave from "./Wave";
 
 interface MocNodeProps {
-    node : Phase;
+    node : MoCPhase;
     nodeNbr: number;
 }
 

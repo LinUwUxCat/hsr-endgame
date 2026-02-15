@@ -20,7 +20,18 @@ interface Monster {
     id?: string;
 }
 
-interface Phase {
+interface Effect {
+    name: string;
+    effect: string;
+}
+
+interface AAPhase {
+    recommendedTypes?: ElemType[];
+    waves: Monster[][];
+    anomaly?: Effect[];
+}
+
+interface MoCPhase {
     recommendedTypes?: ElemType[];
     wave1: Monster[];
     wave2: Monster[];
@@ -29,9 +40,17 @@ interface Phase {
 interface MemoryOfChaos extends Endgame {
     hpPercent?: number;
     atkPercent?: number;
-    node1: Phase;
-    node2: Phase;
+    node1: MoCPhase;
+    node2: MoCPhase;
     turbulence?: string;    
 };
 
-export type { Endgame, MemoryOfChaos, Monster, ElemType, Phase }
+interface AnomalyArbitration extends Endgame {
+    knight1: AAPhase;
+    knight2: AAPhase;
+    knight3: AAPhase;
+    boss: AAPhase;
+    bossHard: AAPhase;
+}
+
+export type { Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }

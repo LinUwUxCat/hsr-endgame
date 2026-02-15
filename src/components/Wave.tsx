@@ -22,7 +22,7 @@ export default function Wave({wave, waveNmr} : WaveProps) : ReactElement {
     return (
         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <div style={{fontWeight: "bold"}}>Wave {waveNmr}</div>
-            <div style={{display: "flex", flexDirection: "row"}}>{getMonsters()}</div>
+            <div style={wave.length > 5 ? {display: "grid", gridTemplateColumns: "repeat(5, 1fr)"} : {display: "flex", flexDirection: "row"}}>{getMonsters()}</div>
         </div>
     )
 }
