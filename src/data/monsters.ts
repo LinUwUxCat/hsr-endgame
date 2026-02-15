@@ -13,7 +13,7 @@ export const monsters : {[id:string]:Monster} = {
         name: "Cyclonic Swarm Mother",
         weakness: ["FIRE", "ICE", "LIGHTNING"]
     },
-    "302402009": {
+    "3024020": {
         name: "Stellaron Hunter: Sam",
         weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
     },
@@ -21,10 +21,10 @@ export const monsters : {[id:string]:Monster} = {
         name : "Dark Sun Gryphon",
         weakness: ["PHYSICAL", "FIRE", "QUANTUM"],
     },
-    "100401014": {
+    "1004010": {
         name : "Cocolia (Boss)",
     },
-    "100403002" : {
+    "1004030" : {
         name: "Bronya (Boss)"
     },
     "4053010": {
@@ -39,7 +39,7 @@ export const monsters : {[id:string]:Monster} = {
         name: "Harbinger of Death: Swarm Nightmare",
         weakness: ["PHYSICAL", "FIRE", "WIND"]
     },
-    "402301001": {
+    "4023010": {
         name: "Noontide Gryphon",
         weakness: ["PHYSICAL", "QUANTUM", "IMAGINARY"]
     },

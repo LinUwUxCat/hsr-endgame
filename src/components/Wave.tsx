@@ -1,6 +1,7 @@
 import type { ReactElement } from "react";
 import type { Monster } from "../data/types";
 import { getMonsterFull } from "../data/data";
+import MonsterElement from "./Monster";
 
 interface WaveProps {
     wave : Monster[];
@@ -13,18 +14,14 @@ export default function Wave({wave, waveNmr} : WaveProps) : ReactElement {
         return wave.map(monster => {
             var m = getMonsterFull(monster)
             return (
-                <div style={{display: "flex", flexDirection: "column", padding: "10px"}}>
-                    <div>{m.name}</div>
-                    <div>{m.hp}{m.hpBarCount != undefined ? `x${m.hpBarCount}` : ""}</div>
-                    <div>{m.toughness}{m.toughnessBarCount != undefined ? `x${m.toughnessBarCount}` : ""}</div>
-                </div>
+                <MonsterElement monster={m}/>
             )
         })
     }
 
     return (
-        <div>
-            <div>Wave {waveNmr}</div>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <div style={{fontWeight: "bold"}}>Wave {waveNmr}</div>
             <div style={{display: "flex", flexDirection: "row"}}>{getMonsters()}</div>
         </div>
     )

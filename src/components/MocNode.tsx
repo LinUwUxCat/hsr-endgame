@@ -4,9 +4,10 @@ import Wave from "./Wave";
 
 interface MocNodeProps {
     node : Phase;
+    nodeNbr: number;
 }
 
-export default function MocNode({node} : MocNodeProps) : ReactElement {
+export default function MocNode({node, nodeNbr} : MocNodeProps) : ReactElement {
 
     function getRecTypes() {
         if (node.recommendedTypes == undefined) return "";
@@ -14,10 +15,11 @@ export default function MocNode({node} : MocNodeProps) : ReactElement {
     }
 
     return (
-        <div>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <div style={{fontSize: "1.2rem", fontWeight: "bold"}}>Node {nodeNbr}</div>
             {getRecTypes()}
             <Wave wave={node.wave1} waveNmr={1} />
-            <Wave wave={node.wave2} waveNmr={2} />
+            {node.wave2.length > 0 && <Wave wave={node.wave2} waveNmr={2} />}
         </div>
     )
 }

@@ -9,17 +9,17 @@ const memoryOfChaos : MemoryOfChaos[] = [
         dateEnd: date("02/03/2026"),
         node1: {
             wave1: [
-                {id: "4033030", hp: 20944947, toughness: 160},
+                {id: "4033030", hp: 2094947, toughness: 160},
                 {id: "8003010", hp: 1396631, toughness: 100}
             ],
             wave2: [
-                {id: "100401014", hp: 4748546, hpPercent: 777, weakness: ["FIRE", "LIGHTNING", "QUANTUM"], toughness: 140},
-                {id: "100403002", hp:2374273, hpPercent: 567, weakness: ["PHYSICAL", "FIRE", "IMAGINARY"], toughness: 80}
+                {id: "1004010", hp: 4748546, hpPercent: 777, weakness: ["FIRE", "LIGHTNING", "QUANTUM"], toughness: 140},
+                {id: "1004030", hp:2374273, hpPercent: 567, weakness: ["PHYSICAL", "FIRE", "IMAGINARY"], toughness: 80}
             ]
         },
         node2: {
             wave1: [
-                {id: "4053010", hp: 20944947, toughness: 180},
+                {id: "4053010", hp: 2094947, toughness: 180},
                 {id: "4063010", hp: 2234610, toughness: 160}
             ],
             wave2: [
@@ -35,15 +35,15 @@ const memoryOfChaos : MemoryOfChaos[] = [
         node1: {
             wave1: [
                 {id: "2023030", hp: 1536294, toughness: 140},
-                {id: "4053020", hp: 20944947, toughness: 160}
+                {id: "4053020", hp: 2094947, toughness: 160}
             ],
             wave2: [
-                {id: "302402009", hp: 11173050, hpPercent: 640, toughness: 200},
+                {id: "3024020", hp: 11173050, hpPercent: 640, toughness: 200},
             ]
         },
         node2: {
             wave1: [
-                {id: "402301001", hp: 2513936, hpPercent: 554, toughness: 160},
+                {id: "4023010", hp: 2513936, hpPercent: 554, toughness: 160},
                 {id: "4063010", hp: 2234610, toughness: 160}
             ],
             wave2: [

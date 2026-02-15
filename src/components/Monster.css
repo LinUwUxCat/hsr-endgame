@@ -1,0 +1,36 @@
+.monster-img{
+    position: relative;
+}
+
+.monster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.monster:hover {
+    cursor: pointer;
+}
+
+.monster:hover .monster-img img{
+    opacity: 0.2;
+}
+
+.monster:hover .monster-img .monster-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monster-name {
+    display: none;
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
