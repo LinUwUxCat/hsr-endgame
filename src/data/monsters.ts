@@ -66,6 +66,26 @@ export const monsters : {[id:string]:Monster} = {
     "4064010": {
         name: "Ichor Memosprite: Judge of Oblivion",
         weakness: ["PHYSICAL", "ICE", "IMAGINARY"]
+    },
+    "4033020": {
+        name: "Black Tide's Champion",
+        weakness: ["PHYSICAL", "LIGHTNING", "WIND"]
+    },
+    "1004020": {
+        name: "Gepard",
+        weakness: ["PHYSICAL", "LIGHTNING", "IMAGINARY"]
+    },
+    "2023010": {
+        name: "Disciples of Sanctus Medicus: Shape Shifter",
+        weakness: ["ICE", "WIND", "IMAGINARY"]
+    },
+    "2023020": {
+        name: "Abundance Sprite: Malefic Ape",
+        weakness: ["FIRE", "ICE", "WIND"]
+    },
+    "4044010": {
+        name: "First Genius, Entelechy, Zandar",
+        weakness: ["PHYSICAL", "ICE", "WIND"]
     }
 
 }

@@ -15,7 +15,7 @@ export default function MocPage(): ReactElement {
     }, []) // Init
 
     const options = {
-        grid: { top: 8, right: 8, bottom: 24, left: 36 },
+        grid: { top: 8, right: 8, bottom: 8, left: 8 },
         xAxis: {
             type: 'category',
             data: mocList.map(m => m.name),
@@ -37,15 +37,17 @@ export default function MocPage(): ReactElement {
     }
 
     return (
-        <div className="moc-page">
-            <button onClick={() => { setCurrentMoc(currentMoc - 1 < 0 ? mocList.length - 1 : currentMoc - 1) }}>&lt;</button>
-            <div>
-                <div>{mocList[currentMoc].name}</div>
-                <div>{sd(mocList[currentMoc].dateStart)} - {sd(mocList[currentMoc].dateEnd)}</div>
+        <div className="moc-page" style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
+            <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+                <button onClick={() => { setCurrentMoc(currentMoc - 1 < 0 ? mocList.length - 1 : currentMoc - 1) }}>&lt;</button>
+                <div style={{textAlign: "center"}}>
+                    <div>{mocList[currentMoc].name}</div>
+                    <div>{sd(mocList[currentMoc].dateStart)} - {sd(mocList[currentMoc].dateEnd)}</div>
+                </div>
+                <button onClick={() => { setCurrentMoc((currentMoc + 1) % mocList.length) }}>&gt;</button>
             </div>
-            <button onClick={() => { setCurrentMoc((currentMoc + 1) % mocList.length) }}>&gt;</button>
             <CurrentMoc moc={mocList[currentMoc]} />
-            <EChartsReact option={options} />
+            <div style={{width: "95%"}}><EChartsReact option={options} /></div>
         </div>
     )
 }

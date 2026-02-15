@@ -15,6 +15,7 @@ interface Monster {
     weakness?: ElemType[];
     hpBarCount?: number;
     toughnessBarCount?: number;
+    speed?: number;
 
     id?: string;
 }

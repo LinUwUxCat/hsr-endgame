@@ -18,7 +18,7 @@ export default function MonsterElement({monster} : MonsterElementProps) : ReactE
         <div className="monster" style={{display: "flex", flexDirection: "column"}}>
             <div className="monster-img">
                 <img src={"/monster/" + monster.id + ".png"} style={{width: "128px", height: "128px"}}/>
-                <div className="monster-name">{monster.name}</div>
+                <div className="monster-name">{monster.name ?? monster.id ?? "UNKNOWN"}</div>
             </div>
             
             <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
@@ -29,7 +29,7 @@ export default function MonsterElement({monster} : MonsterElementProps) : ReactE
             <div style={{fontWeight: "bold"}}>
                 <span style={{color: "#cc0000"}}>{monster.hp}</span>
                 <span>{monster.hpBarCount != undefined && monster.hpBarCount > 1 ? ("×"+monster.hpBarCount) : ""}</span>
-                {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}>[{monster.hpPercent}%]</span>}
+                {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
             </div>
         </div>
     )
