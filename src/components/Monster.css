@@ -34,3 +34,9 @@
     right: 0;
     text-align: center;
 }
+
+.monster-amount {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

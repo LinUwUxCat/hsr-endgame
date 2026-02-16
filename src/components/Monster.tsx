@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import type { ElemType, Monster } from "../data/types";
+import type { ElemType, Monster, PFMonster } from "../data/types";
 import "./Monster.css"
 
 interface MonsterElementProps {
@@ -19,6 +19,7 @@ export default function MonsterElement({monster} : MonsterElementProps) : ReactE
             <div className="monster-img">
                 <img src={"/monster/" + monster.id + ".png"} style={{width: "128px", height: "128px"}}/>
                 <div className="monster-name">{monster.name ?? monster.id ?? "UNKNOWN"}</div>
+                {(monster as PFMonster).amount != undefined && <div className="monster-amount">{(monster as PFMonster).amount}</div>}
             </div>
             
             <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>

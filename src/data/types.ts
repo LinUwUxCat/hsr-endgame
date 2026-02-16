@@ -20,6 +20,10 @@ interface Monster {
     id?: string;
 }
 
+interface PFMonster extends Monster {
+    amount?: number;
+}
+
 interface Effect {
     name: string;
     effect: string;
@@ -28,6 +32,12 @@ interface Effect {
 interface AAPhase {
     recommendedTypes?: ElemType[];
     waves: Monster[][];
+    anomaly?: Effect[];
+}
+
+interface PFPhase {
+    recommendedTypes?: ElemType[];
+    waves: PFMonster[][];
     anomaly?: Effect[];
 }
 
@@ -53,4 +63,9 @@ interface AnomalyArbitration extends Endgame {
     bossHard: AAPhase;
 }
 
-export type { Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
+interface PureFiction extends Endgame {
+    node1: PFPhase;
+    node2: PFPhase;
+}
+
+export type { PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }

@@ -4,6 +4,7 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import MocPage from './pages/moc';
 import AAPage from './pages/arbitration';
+import PFPage from './pages/fiction';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/arbitration",
     element: <AAPage />
+  },
+  {
+    path: "/fiction",
+    element: <PFPage />
   }
 ]);
 
