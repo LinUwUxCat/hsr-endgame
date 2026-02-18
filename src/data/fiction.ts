@@ -2,7 +2,7 @@ import { date } from "../utils/date";
 import type { PFMonster, PureFiction } from "./types";
 
 const fiction : PureFiction[] = [
-    {
+/*    {
         "name": "",
         "dateStart": date("16/02/2026"),
         "dateEnd": date("30/03/2026"),
@@ -145,7 +145,7 @@ const fiction : PureFiction[] = [
                 ]
             ]
         }
-    },
+    },*/
     {
         "name": "史诗集群",
         "dateStart": date("05/01/2026"),
