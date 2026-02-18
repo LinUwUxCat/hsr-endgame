@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import type { MemoryOfChaos, Monster } from "../data/types";
+import type { MemoryOfChaos } from "../data/types";
 import "./CurrentEndgame.css"
 import MocNode from "./MocNode";
 
