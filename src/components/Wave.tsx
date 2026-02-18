@@ -6,15 +6,16 @@ import MonsterElement from "./Monster";
 interface WaveProps {
     wave : Monster[];
     waveNmr : number;
+    monsterSize? : number;
 }
 
-export default function Wave({wave, waveNmr} : WaveProps) : ReactElement {
+export default function Wave({wave, waveNmr, monsterSize} : WaveProps) : ReactElement {
 
     function getMonsters(){
         return wave.map(monster => {
             var m = getMonsterFull(monster)
             return (
-                <MonsterElement monster={m}/>
+                <MonsterElement size={monsterSize} monster={m}/>
             )
         })
     }

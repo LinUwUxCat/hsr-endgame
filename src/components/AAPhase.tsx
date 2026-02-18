@@ -5,13 +5,14 @@ import Wave from "./Wave";
 interface AAKnightProps {
     node: AAPhase;
     name: string;
+    monsterSize?: number;
 }
 
-export default function AAKnight({ node, name }: AAKnightProps): ReactElement {
+export default function AAKnight({ node, name, monsterSize }: AAKnightProps): ReactElement {
 
     function getRecTypes() {
         if (node.recommendedTypes == undefined) return "";
-        else return <div style={{display: "flex", alignItems: "center"}}>Recommended types : {node.recommendedTypes.map(e => {
+        else return <div style={{display: "flex", alignItems: "center"}}>{node.recommendedTypes.map(e => {
             return <img src={"/types/" + e.toString() + ".png"} style={{ width: "26px", height: "26px" }} />
         })}</div>
     }
@@ -20,7 +21,7 @@ export default function AAKnight({ node, name }: AAKnightProps): ReactElement {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <div style={{ fontSize: "1.2rem", fontWeight: "bold" }}>{name}</div>
             {getRecTypes()}
-            {node.waves.map((wave, index) => <Wave wave={wave} waveNmr={index + 1} />)}
+            {node.waves.map((wave, index) => <Wave monsterSize={monsterSize} wave={wave} waveNmr={index + 1} />)}
         </div>
     )
 }

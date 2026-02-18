@@ -4,9 +4,11 @@ import "./Monster.css"
 
 interface MonsterElementProps {
    monster : Monster;
+   size?: number;
 }
 
-export default function MonsterElement({monster} : MonsterElementProps) : ReactElement {
+export default function MonsterElement({monster, size} : MonsterElementProps) : ReactElement {
+    if (size == undefined) size = 1;
 
     function getWeakness(w : ElemType[]){
         return w.map(e => {
@@ -17,8 +19,8 @@ export default function MonsterElement({monster} : MonsterElementProps) : ReactE
     return (
         <div className="monster" style={{display: "flex", flexDirection: "column"}}>
             <div className="monster-img">
-                <img src={"/monster/" + monster.id + ".png"} style={{width: "128px", height: "128px"}}/>
-                <div className="monster-name">{monster.name ?? monster.id ?? "UNKNOWN"}</div>
+                <img src={"/monster/" + monster.id + ".png"} style={{width: `${128*size}px`, height: `${128*size}px`}}/>
+                <div className="monster-name" style={{width: `${128*size}px`, height: `${128*size}px`}}>{monster.name ?? monster.id ?? "UNKNOWN"}</div>
                 {(monster as PFMonster).amount != undefined && <div className="monster-amount">{(monster as PFMonster).amount}</div>}
             </div>
             

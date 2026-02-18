@@ -11,7 +11,7 @@ export default function MocNode({ node, nodeNbr }: MocNodeProps): ReactElement {
 
     function getRecTypes() {
         if (node.recommendedTypes == undefined) return "";
-        else return <div style={{ display: "flex", alignItems: "center" }}>Recommended types : {node.recommendedTypes.map(e => {
+        else return <div style={{ display: "flex", alignItems: "center" }}>{node.recommendedTypes.map(e => {
             return <img src={"/types/" + e.toString() + ".png"} style={{ width: "26px", height: "26px" }} />
         })}</div>
     }
