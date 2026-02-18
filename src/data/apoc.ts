@@ -1,9 +1,9 @@
 import { date } from "../utils/date";
 import type { ApocalypticShadow, Monster } from "./types";
 
-const apocalyptic : ApocalypticShadow[] = [
+const apocalyptic: ApocalypticShadow[] = [
     {
-        "name": "支配冥茫",
+        "name": "Dominance of Netherveil",
         "dateStart": date("02/02/2026"),
         "dateEnd": date("16/03/2026"),
         "node1": {
@@ -27,7 +27,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        "weakness": ["PHYSICAL", "FIRE", "WIND", "IMAGINARY"]
                     }
                 ]
             ]
@@ -53,14 +54,15 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.2,
                             "FIRE": 0.2,
                             "LIGHTNING": 0.2
-                        }
+                        },
+                        "weakness": ["ICE", "WIND", "QUANTUM", "IMAGINARY"]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "猢狲骑士",
+        "name": "Primate Knight",
         "dateStart": date("22/12/2025"),
         "dateEnd": date("02/02/2026"),
         "node1": {
@@ -83,7 +85,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "LIGHTNING": 0.6,
                             "WIND": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: ["PHYSICAL", "FIRE", "ICE", "IMAGINARY"]
                     }
                 ]
             ]
@@ -103,14 +106,14 @@ const apocalyptic : ApocalypticShadow[] = [
                         "hp": 14782474,
                         "hpBarCount": 2,
                         "toughness": 160,
-                        "speed": 76
+                        "speed": 76,
                     }
                 ]
             ]
         }
     },
     {
-        "name": "螟蝗煽动",
+        "name": "Instigation of the Locusts",
         "dateStart": date("10/11/2025"),
         "dateEnd": date("22/12/2025"),
         "node1": {
@@ -129,12 +132,14 @@ const apocalyptic : ApocalypticShadow[] = [
                         "hp": 8447128,
                         "hpBarCount": 2,
                         "toughness": 200,
+                        toughnessBarCount: 3,
                         "speed": 158,
                         "resist": {
                             "FIRE": 0.4,
                             "LIGHTNING": 0.4,
                             "WIND": 0.4
-                        }
+                        },
+                        weakness: ["PHYSICAL", "ICE", "IMAGINARY", "QUANTUM"]
                     }
                 ]
             ]
@@ -160,14 +165,15 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: ["WIND", "LIGHTNING", "IMAGINARY", "FIRE"]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "冥茫冽风",
+        "name": "Gale of Netherveil",
         "dateStart": date("29/09/2025"),
         "dateEnd": date("10/11/2025"),
         "node1": {
@@ -194,7 +200,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.6,
                             "IMAGINARY": 0.6
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "WIND",
+                            "QUANTUM"
+                        ]
                     },
                     {
                         "id": "1004020",
@@ -207,7 +219,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.2,
                             "ICE": 0.2,
                             "WIND": 0.2
-                        }
+                        },
+                        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
                     }
                 ]
             ]
@@ -233,14 +246,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.2,
                             "FIRE": 0.2,
                             "LIGHTNING": 0.2
-                        }
+                        },
+                        weakness: [
+                            "ICE",
+                            "WIND",
+                            "QUANTUM",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "天狼战首",
+        "name": "Lupine Warhead",
         "dateStart": date("18/08/2025"),
         "dateEnd": date("29/09/2025"),
         "node1": {
@@ -264,7 +283,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "WIND",
+                            "QUANTUM"
+                        ]
                     }
                 ]
             ]
@@ -290,14 +315,15 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "WIND": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: ["PHYSICAL", "FIRE", "LIGHTNING", "QUANTUM"]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "金血恶兽",
+        "name": "Ichor Beast",
         "dateStart": date("07/07/2025"),
         "dateEnd": date("18/08/2025"),
         "node1": {
@@ -315,13 +341,21 @@ const apocalyptic : ApocalypticShadow[] = [
                         "id": "4034010",
                         "hp": 2419750,
                         "hpBarCount": 2,
+                        hpPercent: 110,
                         "toughness": 300,
+                        toughnessBarCount: 2,
                         "speed": 174,
                         "resist": {
                             "FIRE": 0.4,
                             "WIND": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "ICE",
+                            "LIGHTNING",
+                            "QUANTUM"
+                        ]
                     }
                 ]
             ]
@@ -347,14 +381,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "LIGHTNING": 0.2,
                             "QUANTUM": 0.2,
                             "IMAGINARY": 0.2
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "ICE",
+                            "WIND"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "冽风支配",
+        "name": "Cutting Mistral",
         "dateStart": date("26/05/2025"),
         "dateEnd": date("07/07/2025"),
         "node1": {
@@ -381,7 +421,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.6,
                             "IMAGINARY": 0.6
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "WIND",
+                            "QUANTUM"
+                        ]
                     },
                     {
                         "id": "1004020",
@@ -394,7 +440,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.2,
                             "ICE": 0.2,
                             "WIND": 0.2
-                        }
+                        },
+                        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
                     }
                 ]
             ]
@@ -420,14 +467,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "WIND",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "螟蝗战首",
+        "name": "Warlord of the Locusts",
         "dateStart": date("14/04/2025"),
         "dateEnd": date("26/05/2025"),
         "node1": {
@@ -446,12 +499,19 @@ const apocalyptic : ApocalypticShadow[] = [
                         "hp": 4223564,
                         "hpBarCount": 2,
                         "toughness": 200,
+                        toughnessBarCount: 2,
                         "speed": 158,
                         "resist": {
                             "FIRE": 0.4,
                             "LIGHTNING": 0.4,
                             "WIND": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "ICE",
+                            "QUANTUM",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
@@ -477,14 +537,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "WIND",
+                            "QUANTUM"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "猢狲博弈",
+        "name": "Gambling Primate",
         "dateStart": date("03/03/2025"),
         "dateEnd": date("14/04/2025"),
         "node1": {
@@ -508,7 +574,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.4,
                             "QUANTUM": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "ICE",
+                            "LIGHTNING",
+                            "WIND"
+                        ]
                     }
                 ]
             ]
@@ -535,7 +607,7 @@ const apocalyptic : ApocalypticShadow[] = [
         }
     },
     {
-        "name": "煽动螟蝗",
+        "name": "Locust's Instigation",
         "dateStart": date("20/01/2025"),
         "dateEnd": date("03/03/2025"),
         "node1": {
@@ -554,12 +626,19 @@ const apocalyptic : ApocalypticShadow[] = [
                         "hp": 3519637,
                         "hpBarCount": 2,
                         "toughness": 200,
+                        toughnessBarCount: 2,
                         "speed": 158,
                         "resist": {
                             "FIRE": 0.4,
                             "LIGHTNING": 0.4,
                             "WIND": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "ICE",
+                            "QUANTUM",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
@@ -585,14 +664,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "WIND",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "冽风猢狲",
+        "name": "Gusty Primate",
         "dateStart": date("09/12/2024"),
         "dateEnd": date("20/01/2025"),
         "node1": {
@@ -619,7 +704,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.6,
                             "IMAGINARY": 0.6
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "WIND",
+                            "QUANTUM"
+                        ]
                     },
                     {
                         "id": "1004020",
@@ -632,7 +723,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.2,
                             "ICE": 0.2,
                             "WIND": 0.2
-                        }
+                        },
+                        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
                     }
                 ]
             ]
@@ -659,7 +751,7 @@ const apocalyptic : ApocalypticShadow[] = [
         }
     },
     {
-        "name": "支配指挥",
+        "name": "Sovereign Control",
         "dateStart": date("28/10/2024"),
         "dateEnd": date("09/12/2024"),
         "node1": {
@@ -683,7 +775,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "WIND",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
@@ -704,19 +802,26 @@ const apocalyptic : ApocalypticShadow[] = [
                         "hp": 3849603,
                         "hpBarCount": 2,
                         "toughness": 80,
+                        toughnessBarCount: 10,
                         "speed": 198,
                         "resist": {
                             "PHYSICAL": 0.4,
                             "ICE": 0.4,
                             "WIND": 0.4
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "QUANTUM",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "煽动博弈",
+        "name": "Gamer's Instigation",
         "dateStart": date("16/09/2024"),
         "dateEnd": date("28/10/2024"),
         "node1": {
@@ -740,7 +845,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.4,
                             "QUANTUM": 0.4,
                             "IMAGINARY": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "ICE",
+                            "LIGHTNING",
+                            "WIND"
+                        ]
                     }
                 ]
             ]
@@ -766,14 +877,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "FIRE",
+                            "LIGHTNING",
+                            "WIND",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "支配恶兽",
+        "name": "Dominated Evils",
         "dateStart": date("05/08/2024"),
         "dateEnd": date("16/09/2024"),
         "node1": {
@@ -797,7 +914,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "ICE": 0.4,
                             "LIGHTNING": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "WIND",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
@@ -822,14 +945,20 @@ const apocalyptic : ApocalypticShadow[] = [
                             "LIGHTNING": 0.2,
                             "QUANTUM": 0.2,
                             "IMAGINARY": 0.2
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "ICE",
+                            "WIND"
+                        ]
                     }
                 ]
             ]
         }
     },
     {
-        "name": "冽风骑士",
+        "name": "Stormwind Knight",
         "dateStart": date("19/06/2024"),
         "dateEnd": date("05/08/2024"),
         "node1": {
@@ -854,7 +983,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "PHYSICAL": 0.4,
                             "ICE": 0.6,
                             "IMAGINARY": 0.6
-                        }
+                        },
+                        weakness: ["FIRE", "LIGHTNING", "WIND", "QUANTUM"]
                     },
                     {
                         "id": "1004020",
@@ -867,7 +997,8 @@ const apocalyptic : ApocalypticShadow[] = [
                             "FIRE": 0.2,
                             "ICE": 0.2,
                             "WIND": 0.2
-                        }
+                        },
+                        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"]
                     }
                 ]
             ]
@@ -892,7 +1023,13 @@ const apocalyptic : ApocalypticShadow[] = [
                             "LIGHTNING": 0.6,
                             "WIND": 0.4,
                             "QUANTUM": 0.4
-                        }
+                        },
+                        weakness: [
+                            "PHYSICAL",
+                            "FIRE",
+                            "ICE",
+                            "IMAGINARY"
+                        ]
                     }
                 ]
             ]
@@ -900,13 +1037,13 @@ const apocalyptic : ApocalypticShadow[] = [
     }
 ]
 
-function getFullHp(apoc: ApocalypticShadow) : number{
-    let hp = (m : Monster) => (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
+function getFullHp(apoc: ApocalypticShadow): number {
+    let hp = (m: Monster) => (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
     var f = 0;
-    apoc.node1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-    apoc.node2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
+    apoc.node1.waves.forEach(w => f += w.map(v => hp(v)).reduce((p, c) => p + c))
+    apoc.node2.waves.forEach(w => f += w.map(v => hp(v)).reduce((p, c) => p + c))
 
     return f;
 }
 
-export { apocalyptic, getFullHp}
+export { apocalyptic, getFullHp }

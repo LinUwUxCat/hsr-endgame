@@ -153,6 +153,36 @@ export const monsters : {[id:string]:Monster} = {
     "4032010": {
         name: "Tide-Eroded Blade",
         weakness: ["PHYSICAL", "ICE", "QUANTUM"]
+    },
+    "3024010": {
+        name: " Argenti (Boss)",
+        weakness: ["PHYSICAL", "IMAGINARY", "FIRE"]
+    },
+    "4014030": {
+        name: "Pollux, Netherwing Husk, Ferry of Souls",
+        weakness: ["WIND", "QUANTUM", "IMAGINARY"]
+    },
+    "2004010": {
+        name: "Stellaron Hunter: Kafka",
+        weakness: ["PHYSICAL", "WIND", "IMAGINARY"]
+    },
+    "8015020": {
+        name: "Phantylia the Undying",
+        weakness: ["WIND", "LIGHTNING", "IMAGINARY"]
+    },
+    "8025010": {
+        name: "Starcrusher Swarm King: Skaracabaz (Synthetic)",
+        weakness: ["PHYSICAL", "ICE", "IMAGINARY"]
+    },
+    "2035010": {
+        name: "Hellcharred Shadow General",
+    },
+    "8015010": {
+        name: "Doomsday Beast"
+    },
+    "8034010": {
+        name: "Ten Stonehearts: Aventurine of Stratagems",
+        weakness: ["PHYSICAL", "ICE", "LIGHTNING"]
     }
 
 }
