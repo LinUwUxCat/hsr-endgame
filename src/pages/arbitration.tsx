@@ -1,8 +1,8 @@
 import { useEffect, useState, type ReactElement } from "react";
 import { sd } from "../utils/date";
-import EChartsReact from "echarts-for-react";
 import { getFullHp, arbitration } from "../data/arbitration";
 import CurrentAA from "../components/CurrentAA";
+import Graph from "../components/Graph";
 
 export default function AAPage(): ReactElement {
 
@@ -14,36 +14,11 @@ export default function AAPage(): ReactElement {
         setCurrentAA(aaList.length - 1)
     }, []) // Init
 
-    const options = {
-        grid: { top: 8, right: 8, bottom: 8, left: 8 },
-        xAxis: {
-            type: 'category',
-            data: aaList.map(m => m.name),
-        },
-        yAxis: {
-            type: 'value',
-        },
-        legend: {
-            data: ["Regular", "Plight"]
-        },
-        series: [
-            {
-                name: "Regular",
-                data: aaList.map(m => getFullHp(m)),
-                type: 'line',
-                smooth: false,
-            },
-            {
-                name: "Plight",
-                data: aaList.map(m => getFullHp(m, true)),
-                type: 'line',
-                smooth: false,
-            },
-        ],
-        tooltip: {
-            trigger: 'axis',
-        },
-        color: ['#4444cc', '#cc0000']
+    const data = {
+        names: aaList.map(l => l.name),
+        data: [aaList.map(l => Math.round(getFullHp(l, true))), aaList.map(m => getFullHp(m))],
+        titles: ["Total HP Count (Plight)", "Total HP Count (Regular)"],
+        colors: ['#cc0000', '#4444cc']
     }
 
     return (
@@ -57,7 +32,9 @@ export default function AAPage(): ReactElement {
                 <button onClick={() => { setCurrentAA((currentAA + 1) % aaList.length) }}>&gt;</button>
             </div>
             <CurrentAA aa={aaList[currentAA]} />
-            <div style={{width: "95%"}}><EChartsReact option={options} /></div>
+            <div style={{width: "95%"}}>
+                <Graph {...data}/>
+            </div>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import type { AnomalyArbitration, Monster } from "../data/types";
+import type { AnomalyArbitration } from "../data/types";
 import "./CurrentEndgame.css"
 import AAPhase from "./AAPhase";
 

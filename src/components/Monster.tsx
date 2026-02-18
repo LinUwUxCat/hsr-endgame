@@ -24,7 +24,7 @@ export default function MonsterElement({monster} : MonsterElementProps) : ReactE
             
             <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
                 {getWeakness(monster.weakness ?? [])}
-                <span style={{fontWeight: "bold"}}>{monster.toughness}{monster.toughnessBarCount != undefined && monster.toughnessBarCount > 1 ? ("×"+monster.toughnessBarCount) : ""}</span>
+                <span style={{fontWeight: "bold"}}>{typeof monster.toughness == "number" ? monster.toughness : monster.toughness?.join(", ")}{monster.toughnessBarCount != undefined && monster.toughnessBarCount > 1 ? ("×"+monster.toughnessBarCount) : ""}</span>
             </div>
             
             <div style={{fontWeight: "bold"}}>

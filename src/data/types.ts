@@ -10,14 +10,20 @@ interface Monster {
     name?: string; 
     hp?: number;
     hpPercent?: number; // compared to normal enemy
-    toughness?: number;
+    toughness?: number | number[];
     atk?: number;
     weakness?: ElemType[];
     hpBarCount?: number;
     toughnessBarCount?: number;
     speed?: number;
+    resist?: {[key in ElemType]?: number};
 
     id?: string;
+}
+
+interface BaseNode { // TODO: Switch all Nodes/Phases to extend this
+    waves: Monster[][];
+    recommendedTypes?: ElemType[];
 }
 
 interface PFMonster extends Monster {
@@ -68,4 +74,16 @@ interface PureFiction extends Endgame {
     node2: PFPhase;
 }
 
-export type { PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
+interface ASNode extends BaseNode {
+    buff?: Effect;
+    selectableBuff?: Effect[];
+    level?: number;
+    hpPercent?: number; // No fucking clue what that means
+}
+
+interface ApocalypticShadow extends Endgame {
+    node1: ASNode;
+    node2: ASNode;
+}
+
+export type { ASNode, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
