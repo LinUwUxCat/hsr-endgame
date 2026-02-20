@@ -29,11 +29,17 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
                 <span style={{fontWeight: "bold"}}>{typeof monster.toughness == "number" ? monster.toughness : monster.toughness?.join(", ")}{monster.toughnessBarCount != undefined && monster.toughnessBarCount > 1 ? ("×"+monster.toughnessBarCount) : ""}</span>
             </div>
             
-            <div style={{fontWeight: "bold"}}>
+            <div style={{fontWeight: "bold", display: "flex", alignItems: "center"}}>
+                <img src="/icon/HP.webp" height={32} width={32} style={{filter: "invert(1)"}}/>
                 <span style={{color: "#cc0000"}}>{monster.hp}</span>
                 <span>{monster.hpBarCount != undefined && monster.hpBarCount > 1 ? ("×"+monster.hpBarCount) : ""}</span>
                 {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
             </div>
+
+            {monster.speed && monster.speed != 0 && <div style={{display: "flex", alignItems: "center"}}>
+                <img src="/icon/SPD.webp" height={32} width={32} style={{filter: "invert(1)"}}/>
+                <span>{monster.speed}</span>
+            </div>}
 
             {monster.unsure && <div style={{fontSize: "0.7rem", color: "grey"}} title="Missing Data : HP Value incorrect">
                 missing data
