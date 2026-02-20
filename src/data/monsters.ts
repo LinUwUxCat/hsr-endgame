@@ -199,6 +199,13 @@ export const monsters : {[id:string]:Monster} = {
     "TEMP_SecurityDoggo": {
         name: "Security Doggo",
         weakness: ["ICE", "IMAGINARY"],
+    },
+    "TEMP_CanvasPeacock": {
+        name: "Canvas Peacock"
+    },
+    "TEMP_@SparxiConOfficial": {
+        name: "@SparxiConOfficial",
+        weakness: ["FIRE", "QUANTUM", "IMAGINARY"]
     }
 
 }

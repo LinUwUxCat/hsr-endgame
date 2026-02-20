@@ -6,6 +6,70 @@ const arbitration : AnomalyArbitration[] = [
         knight1: {
             waves: [
                 [
+                    {id: "3003010", hp: 2011149},
+                    {id: "4053010", hp: 1675957},
+                ],
+                [
+                    {id: "3024030", hp: 8938440},
+                ]
+            ],
+        },
+        knight2: {
+            waves: [
+                [
+                    {id: "4033010", hp: 2688515},
+                    {id: "4033030", hp: 2880552},
+                ], 
+                [
+                    {id: "4034010", hp: 6241196}
+                ]
+            ],
+        },
+        knight3: {
+            waves: [
+                [
+                    {id: "TEMP_CanvasPeacock", hp: 2793262},
+                    {id: "8003020", hp: 1745789},
+                ], 
+                [
+                    {id: "3024020", hp: 8728945}
+                ]
+            ],
+        },
+        boss: {
+            waves: [
+                [
+                    {id: "2023020", hp: 2812758},
+                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991},
+                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991},
+                    {id: "TEMP_RockingRebel", hp: 4219137},
+                ],
+                [
+                    {id: "TEMP_@SparxiConOfficial", hp: 9961851}
+                ]
+            ]
+        },
+        bossHard: {
+            waves: [
+                [
+                    {id: "2023020", hp: 2812758 * 4.7, unsure: true},
+                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991 * 4.7, unsure: true},
+                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991 * 4.7, unsure: true},
+                    {id: "TEMP_RockingRebel", hp: 4219137 * 4.7, unsure: true},
+                ],
+                [
+                    {id: "TEMP_@SparxiConOfficial", hp: 9961851 * 4.7, unsure: true}
+                ]
+            ]
+        },
+        name: "Cyber Crisis",
+        dateStart: date("13/02/2026"),
+        dateEnd: date("22/04/2026")
+    },
+    {
+        knight1: {
+            waves: [
+                [
                     {id: "4053020", toughness: 160, hp: 4189894},
                     {id: "2023030", toughness: 140, hp: 3072589},
                     {id: "4053020", toughness: 160, hp: 4189894},
@@ -43,7 +107,7 @@ const arbitration : AnomalyArbitration[] = [
         },
         name: "Dissonance",
         dateStart: date("17/12/2025"),
-        dateEnd: date("28/01/2026")
+        dateEnd: date("13/02/2026")
     },
     {
         knight1: {
