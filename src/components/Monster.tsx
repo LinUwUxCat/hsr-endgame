@@ -35,8 +35,8 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
                 {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
             </div>
 
-            {monster.unsure && <div>
-                wrong hp, missing data
+            {monster.unsure && <div style={{fontSize: "0.7rem", color: "grey"}} title="Missing Data : HP Value incorrect">
+                missing data
             </div>}
         </div>
     )

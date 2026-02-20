@@ -7,6 +7,7 @@ import AAPage from './pages/arbitration';
 import PFPage from './pages/fiction';
 import ASPage from './pages/shadow';
 import Navbar from './layout/nav';
+import HomePage from './pages/home';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div>No page</div>
+        element: <HomePage />
       },
       {
         path: "/chaos",
