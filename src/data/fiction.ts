@@ -2,69 +2,67 @@ import { date } from "../utils/date";
 import type { PFMonster, PureFiction } from "./types";
 
 const fiction : PureFiction[] = [
-/*    {
-        "name": "",
+    {
+        "name": "Wordless Novel",
         "dateStart": date("16/02/2026"),
         "dateEnd": date("30/03/2026"),
         "node1": {
             "waves": [
                 [
                     {
-                        "id": "1022010",
-                        "hp": 57778,
-                        "toughness": 20,
-                        "speed": 120,
+                        "id": "4052010",
+                        "hp": 125186,
+                        "toughness": 40,
                         "amount": 12
                     },
                     {
-                        "id": "8022020",
-                        "hp": 121334,
-                        "toughness": 40,
-                        "speed": 173,
+                        "id": "1022010",
+                        "hp": 57778,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
-                        "hp": 385187,
-                        "toughness": 60,
-                        "speed": 173,
+                        "id": "TEMP_FurboJournalist",
+                        "hp": 231112,
+                        "toughness": 90,
                         "amount": 2
                     }
                 ],
                 [
                     {
-                        "id": "4062010",
-                        "hp": 210102,
-                        "toughness": 30,
-                        "speed": 120,
-                        "amount": 40
+                        "id": "4032030",
+                        "hp": 285739,
+                        "toughness": 40,
+                        "amount": 20
                     },
                     {
-                        "id": "4063010",
+                        "id": "TEMP_AggressiveReadingMaterial",
+                        "hp": 210102,
+                        "amount": 20
+                    },
+                    {
+                        "id": "TEMP_RockingRebel",
                         "hp": 6933372,
-                        "toughness": 160,
-                        "speed": 144,
                         "amount": 1
                     }
                 ],
                 [
                     {
-                        "id": "2032010",
-                        "hp": 665324,
+                        "id": "8032020",
+                        "hp": 654818,
                         "toughness": 30,
-                        "speed": 144,
                         "amount": 20
                     },
                     {
-                        "id": "2032020",
-                        "hp": 665324,
+                        "id": "4062010",
+                        "hp": 600000,
                         "toughness": 30,
-                        "speed": 144,
-                        "amount": 20
+                        "amount": 20,
+                        unsure: true
                     },
                     {
-                        "id": "2034010",
-                        "hp": 27444596,
+                        "id": "1004030",
+                        "hp": 24555691,
                         "toughness": 240,
                         "speed": 173,
                         "amount": 1
@@ -76,24 +74,20 @@ const fiction : PureFiction[] = [
             "waves": [
                 [
                     {
-                        "id": "4032050",
-                        "hp": 115556,
+                        "id": "4012020",
+                        "hp": 100149,
                         "toughness": 30,
-                        "speed": 186,
                         "amount": 12
                     },
                     {
-                        "id": "2022110",
-                        "hp": 77037,
+                        "id": "4032010",
+                        "hp": 115556,
                         "toughness": 30,
-                        "speed": 120,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
-                        "hp": 385187,
-                        "toughness": 60,
-                        "speed": 173,
+                        "id": "TEMP_FurboJournalist",
+                        "hp": 231112,
                         "amount": 2
                     }
                 ],
@@ -102,52 +96,44 @@ const fiction : PureFiction[] = [
                         "id": "4032050",
                         "hp": 252123,
                         "toughness": 30,
-                        "speed": 186,
                         "amount": 20
                     },
                     {
-                        "id": "2022010",
-                        "hp": 100849,
-                        "toughness": 20,
-                        "speed": 100,
+                        "id": "TEMP_SecurityDoggo",
+                        "hp": 189092,
                         "amount": 20
                     },
                     {
-                        "id": "8003020",
+                        "id": "4023010",
                         "hp": 6933372,
-                        "toughness": 140,
-                        "speed": 144,
                         "amount": 1
                     }
                 ],
                 [
                     {
-                        "id": "2022070",
+                        "id": "4032010",
                         "hp": 532259,
                         "toughness": 30,
                         "speed": 120,
                         "amount": 20
                     },
                     {
-                        "id": "2022090",
-                        "hp": 665324,
+                        "id": "8022010",
+                        "hp": 669701,
                         "toughness": 30,
-                        "speed": 120,
                         "amount": 20
                     },
                     {
-                        "id": "2024010",
-                        "hp": 27444596,
-                        "toughness": 160,
-                        "speed": 138,
+                        "id": "8024010",
+                        "hp": 24555691,
                         "amount": 1
                     }
                 ]
             ]
         }
-    },*/
+    },
     {
-        "name": "史诗集群",
+        "name": "Epic Collection",
         "dateStart": date("05/01/2026"),
         "dateEnd": date("16/02/2026"),
         "node1": {
@@ -291,7 +277,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "程式句法",
+        "name": "Syntax Rule",
         "dateStart": date("24/11/2025"),
         "dateEnd": date("05/01/2026"),
         "node1": {
@@ -442,7 +428,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "五步抑扬",
+        "name": "Iambic Pentameter",
         "dateStart": date("13/10/2025"),
         "dateEnd": date("24/11/2025"),
         "node1": {
@@ -593,7 +579,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "主观叙事",
+        "name": "Subjective Narrative",
         "dateStart": date("01/09/2025"),
         "dateEnd": date("13/10/2025"),
         "node1": {
@@ -744,7 +730,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "三幕架构",
+        "name": "Three Act Structure",
         "dateStart": date("21/07/2025"),
         "dateEnd": date("01/09/2025"),
         "node1": {
@@ -895,7 +881,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "叙事分析",
+        "name": "Narrative Analysis",
         "dateStart": date("09/06/2025"),
         "dateEnd": date("21/07/2025"),
         "node1": {
@@ -1046,7 +1032,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "结构规律",
+        "name": "Structural Rules",
         "dateStart": date("28/04/2025"),
         "dateEnd": date("09/06/2025"),
         "node1": {
@@ -1197,7 +1183,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "自证预言",
+        "name": "Self-Fulfilling Prophecy",
         "dateStart": date("17/03/2025"),
         "dateEnd": date("28/04/2025"),
         "node1": {
@@ -1348,7 +1334,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "陈腔滥调",
+        "name": "Clichéd Sayings",
         "dateStart": date("03/02/2025"),
         "dateEnd": date("17/03/2025"),
         "node1": {
@@ -1499,7 +1485,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "深文巧诋",
+        "name": "Technicality Entrapment",
         "dateStart": date("23/12/2024"),
         "dateEnd": date("03/02/2025"),
         "node1": {
@@ -1650,7 +1636,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "论黄数黑",
+        "name": "Rumor Mill",
         "dateStart": date("11/11/2024"),
         "dateEnd": date("23/12/2024"),
         "node1": {
@@ -1801,7 +1787,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "巧言如流",
+        "name": "Volubility",
         "dateStart": date("30/09/2024"),
         "dateEnd": date("11/11/2024"),
         "node1": {
@@ -1952,7 +1938,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "欺人虚言",
+        "name": "Words of Deceit",
         "dateStart": date("19/08/2024"),
         "dateEnd": date("30/09/2024"),
         "node1": {
@@ -2103,7 +2089,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "向壁虚造",
+        "name": "Out of Thin Air",
         "dateStart": date("08/07/2024"),
         "dateEnd": date("19/08/2024"),
         "node1": {
@@ -2261,7 +2247,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "新词迷离",
+        "name": "Lexical Enigma",
         "dateStart": date("27/05/2024"),
         "dateEnd": date("08/07/2024"),
         "node1": {
@@ -2412,7 +2398,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "作言造语",
+        "name": "Fictitious Wordsmithing",
         "dateStart": date("29/04/2024"),
         "dateEnd": date("10/06/2024"),
         "node1": {
@@ -2563,7 +2549,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "撒诈捣虚",
+        "name": "Deceitful Chaos",
         "dateStart": date("01/04/2024"),
         "dateEnd": date("13/05/2024"),
         "node1": {
@@ -2714,7 +2700,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "舌灿莲花",
+        "name": "An Expression of Eloquence",
         "dateStart": date("04/03/2024"),
         "dateEnd": date("15/04/2024"),
         "node1": {
@@ -2886,7 +2872,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "羁鸟奇谭",
+        "name": "Tales of a Tethered Bird",
         "dateStart": date("05/02/2024"),
         "dateEnd": date("18/03/2024"),
         "node1": {
@@ -3058,7 +3044,7 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "游辞漫说",
+        "name": "Youci's Wandering Words",
         "dateStart": date("08/01/2024"),
         "dateEnd": date("19/02/2024"),
         "node1": {

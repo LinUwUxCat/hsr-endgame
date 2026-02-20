@@ -183,6 +183,22 @@ export const monsters : {[id:string]:Monster} = {
     "8034010": {
         name: "Ten Stonehearts: Aventurine of Stratagems",
         weakness: ["PHYSICAL", "ICE", "LIGHTNING"]
+    },
+    "TEMP_FurboJournalist": {
+        name: "Furbo Journalist",
+        weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"],
+    },
+    "TEMP_AggressiveReadingMaterial": {
+        name: "Aggressive Reading Material",
+        weakness: ["PHYSICAL", "FIRE", "LIGHTNING"],
+    },
+    "TEMP_RockingRebel": {
+        name: "Rocking Rebel",
+        weakness: ["PHYSICAL", "FIRE", "WIND"],
+    },
+    "TEMP_SecurityDoggo": {
+        name: "Security Doggo",
+        weakness: ["ICE", "IMAGINARY"],
     }
 
 }

@@ -34,6 +34,10 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
                 <span>{monster.hpBarCount != undefined && monster.hpBarCount > 1 ? ("×"+monster.hpBarCount) : ""}</span>
                 {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
             </div>
+
+            {monster.unsure && <div>
+                wrong hp, missing data
+            </div>}
         </div>
     )
 }

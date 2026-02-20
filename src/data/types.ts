@@ -18,6 +18,7 @@ interface Monster {
     speed?: number;
     resist?: {[key in ElemType]?: number};
 
+    unsure?: boolean;
     id?: string;
 }
 
