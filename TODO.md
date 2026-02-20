@@ -1,0 +1,3 @@
+- Better CSS
+- Find an up-to-date data source
+- Click on monster goes to a page with the list of their appearance and hp over time

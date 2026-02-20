@@ -1,18 +1,15 @@
-import { useEffect, useState, type ReactElement } from "react";
+import { useState, type ReactElement } from "react";
 import { sd } from "../utils/date";
 import { getFullHp, arbitration } from "../data/arbitration";
 import CurrentAA from "../components/CurrentAA";
 import Graph from "../components/Graph";
+import Pagination from "../components/Pagination";
+import EndgameInfo from "../components/EndgameInfo";
 
 export default function AAPage(): ReactElement {
 
-    const [aaList, setAaList] = useState(arbitration);
-    const [currentAA, setCurrentAA] = useState<number>(0);
-
-    useEffect(() => {
-        setAaList(arbitration.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1))
-        setCurrentAA(aaList.length - 1)
-    }, []) // Init
+    const [aaList, setAaList] = useState(arbitration.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const [currentAA, setCurrentAA] = useState<number>(aaList.length - 1);
 
     const data = {
         names: aaList.map(l => l.name),
@@ -24,12 +21,11 @@ export default function AAPage(): ReactElement {
     return (
         <div className="moc-page" style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
             <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                <button onClick={() => { setCurrentAA(currentAA - 1 < 0 ? aaList.length - 1 : currentAA - 1) }}>&lt;</button>
-                <div style={{textAlign: "center"}}>
-                    <div>{aaList[currentAA].name}</div>
-                    <div>{sd(aaList[currentAA].dateStart)} - {sd(aaList[currentAA].dateEnd)}</div>
-                </div>
-                <button onClick={() => { setCurrentAA((currentAA + 1) % aaList.length) }}>&gt;</button>
+                <Pagination currentPage={currentAA} changePage={setCurrentAA} maxPages={aaList.length}>
+                    <div style={{textAlign: "center"}}>
+                        <EndgameInfo endgame={aaList[currentAA]} />
+                    </div>
+                </Pagination>
             </div>
             <CurrentAA aa={aaList[currentAA]} />
             <div style={{width: "95%"}}>

@@ -2,6 +2,7 @@ interface Endgame {
     name: string;
     dateStart: Date;
     dateEnd: Date;
+    version?: string;
 };
 
 type ElemType = "ICE" | "FIRE" | "LIGHTNING" | "QUANTUM" | "IMAGINARY" | "WIND" | "PHYSICAL";

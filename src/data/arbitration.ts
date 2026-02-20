@@ -64,7 +64,8 @@ const arbitration : AnomalyArbitration[] = [
         },
         name: "Cyber Crisis",
         dateStart: date("13/02/2026"),
-        dateEnd: date("22/04/2026")
+        dateEnd: date("22/04/2026"),
+        version: "4.0"
     },
     {
         knight1: {
@@ -107,7 +108,8 @@ const arbitration : AnomalyArbitration[] = [
         },
         name: "Dissonance",
         dateStart: date("17/12/2025"),
-        dateEnd: date("13/02/2026")
+        dateEnd: date("13/02/2026"),
+        version: "3.8"
     },
     {
         knight1: {
@@ -156,7 +158,8 @@ const arbitration : AnomalyArbitration[] = [
         },
         name: "Illusory Realm of the Blazing Sun",
         dateStart: date("05/11/2025"),
-        dateEnd: date("17/12/2025")
+        dateEnd: date("17/12/2025"),
+        version: "3.7"
     },
     {
         knight1: {
@@ -221,7 +224,8 @@ const arbitration : AnomalyArbitration[] = [
         },
         name: "Intellitron Endgame",
         dateStart: date("24/09/2025"),
-        dateEnd: date("05/11/2025")
+        dateEnd: date("05/11/2025"),
+        version: "3.6"
     },
 
 ]
