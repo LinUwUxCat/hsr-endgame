@@ -28,7 +28,7 @@ const arbitration : AnomalyArbitration[] = [
         knight3: {
             waves: [
                 [
-                    {id: "TEMP_CanvasPeacock", hp: 2793262},
+                    {id: "5013030", hp: 2793262},
                     {id: "8003020", hp: 1745789},
                 ], 
                 [
@@ -40,12 +40,12 @@ const arbitration : AnomalyArbitration[] = [
             waves: [
                 [
                     {id: "2023020", hp: 2812758},
-                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991},
-                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991},
-                    {id: "TEMP_RockingRebel", hp: 4219137},
+                    {id: "5012030", hp: 585991},
+                    {id: "5012030", hp: 585991},
+                    {id: "5013010", hp: 4219137},
                 ],
                 [
-                    {id: "TEMP_@SparxiConOfficial", hp: 9961851}
+                    {id: "5014010", hp: 9961851}
                 ]
             ]
         },
@@ -53,12 +53,12 @@ const arbitration : AnomalyArbitration[] = [
             waves: [
                 [
                     {id: "2023020", hp: 2812758 * 4.7, unsure: true},
-                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991 * 4.7, unsure: true},
-                    {id: "TEMP_AggressiveReadingMaterial", hp: 585991 * 4.7, unsure: true},
-                    {id: "TEMP_RockingRebel", hp: 4219137 * 4.7, unsure: true},
+                    {id: "5012030", hp: 585991 * 4.7, unsure: true},
+                    {id: "5012030", hp: 585991 * 4.7, unsure: true},
+                    {id: "5013010", hp: 4219137 * 4.7, unsure: true},
                 ],
                 [
-                    {id: "TEMP_@SparxiConOfficial", hp: 9961851 * 4.7, unsure: true}
+                    {id: "5014010", hp: 9961851 * 4.7, unsure: true}
                 ]
             ]
         },

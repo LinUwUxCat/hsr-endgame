@@ -184,28 +184,32 @@ export const monsters : {[id:string]:Monster} = {
         name: "Ten Stonehearts: Aventurine of Stratagems",
         weakness: ["PHYSICAL", "ICE", "LIGHTNING"]
     },
-    "TEMP_FurboJournalist": {
+    "5012110": {
         name: "Furbo Journalist",
         weakness: ["LIGHTNING", "QUANTUM", "IMAGINARY"],
     },
-    "TEMP_AggressiveReadingMaterial": {
+    "5012030": {
         name: "Aggressive Reading Material",
         weakness: ["PHYSICAL", "FIRE", "LIGHTNING"],
     },
-    "TEMP_RockingRebel": {
+    "5013010": {
         name: "Rocking Rebel",
         weakness: ["PHYSICAL", "FIRE", "WIND"],
     },
-    "TEMP_SecurityDoggo": {
+    "5012020": {
         name: "Security Doggo",
         weakness: ["ICE", "IMAGINARY"],
     },
-    "TEMP_CanvasPeacock": {
+    "5013030": {
         name: "Canvas Peacock"
     },
-    "TEMP_@SparxiConOfficial": {
+    "5014010": {
         name: "@SparxiConOfficial",
         weakness: ["FIRE", "QUANTUM", "IMAGINARY"]
+    },
+    "5012010": {
+        name: "Autonomous Wand",
+        weakness: ["PHYSICAL", "IMAGINARY"]
     }
 
 }

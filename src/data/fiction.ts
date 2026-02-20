@@ -22,7 +22,7 @@ const fiction : PureFiction[] = [
                         "amount": 10
                     },
                     {
-                        "id": "TEMP_FurboJournalist",
+                        "id": "5012110",
                         "hp": 231112,
                         "toughness": 90,
                         "amount": 2
@@ -36,12 +36,12 @@ const fiction : PureFiction[] = [
                         "amount": 20
                     },
                     {
-                        "id": "TEMP_AggressiveReadingMaterial",
+                        "id": "5012030",
                         "hp": 210102,
                         "amount": 20
                     },
                     {
-                        "id": "TEMP_RockingRebel",
+                        "id": "5013010",
                         "hp": 6933372,
                         "amount": 1
                     }
@@ -86,7 +86,7 @@ const fiction : PureFiction[] = [
                         "amount": 10
                     },
                     {
-                        "id": "TEMP_FurboJournalist",
+                        "id": "5012110",
                         "hp": 231112,
                         "amount": 2
                     }
@@ -99,7 +99,7 @@ const fiction : PureFiction[] = [
                         "amount": 20
                     },
                     {
-                        "id": "TEMP_SecurityDoggo",
+                        "id": "5012020",
                         "hp": 189092,
                         "amount": 20
                     },
