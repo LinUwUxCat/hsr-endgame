@@ -8,6 +8,7 @@ import PFPage from './pages/fiction';
 import ASPage from './pages/shadow';
 import Navbar from './layout/nav';
 import HomePage from './pages/home';
+import { LanguageProvider } from './components/i18n/LanguageProvider';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <LanguageProvider>
+      <RouterProvider router={router} />
+    </LanguageProvider>
   </StrictMode>,
 )

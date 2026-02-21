@@ -1,0 +1,18 @@
+{
+    "home": {
+        "home-title": "Home",
+        "moc": "Memory of Chaos",
+        "pf": "Pure Fiction",
+        "as": "Apocalyptic Shadow",
+        "aa": "Anomaly Arbitration",
+        "about": {
+            "created-by": "Website created by ",
+            "created-by-2": ".",
+            "cpy1": "The images used on this website are sourced from Honkai: Star Rail.",
+            "cpy2": "Honkai: Star Rail is a registered trademark of miHoYo Co., Ltd. This website is not affiliated with miHoYo.",
+            "cpy3": "Montserrat is licensed under the SIL Open Font License, Version 1.1. This license is available at "
+        },
+        "warning": ""
+    }
+    
+}

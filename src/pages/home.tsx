@@ -1,9 +1,11 @@
 import type { ReactElement } from "react";
+import Ts from "../components/i18n/ts";
 
 export default function HomePage(): ReactElement {
 
     return (
         <div style={{display: "flex", flexDirection: "column"}}>
+            <Ts>home.warning</Ts>
             <div>Use the navbar to navigate.</div>
             <div>There is a lot of missing data here. Most monster images and names are missing.</div>
             <div>That said, HP values should be correct for anything pre-4.0.</div>
