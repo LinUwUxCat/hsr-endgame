@@ -1,5 +1,4 @@
 import { useState, type ReactElement } from "react";
-import { sd } from "../utils/date";
 import { getFullHp, arbitration } from "../data/arbitration";
 import CurrentAA from "../components/CurrentAA";
 import Graph from "../components/Graph";
@@ -8,7 +7,7 @@ import EndgameInfo from "../components/EndgameInfo";
 
 export default function AAPage(): ReactElement {
 
-    const [aaList, setAaList] = useState(arbitration.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const [aaList] = useState(arbitration.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
     const [currentAA, setCurrentAA] = useState<number>(aaList.length - 1);
 
     const data = {

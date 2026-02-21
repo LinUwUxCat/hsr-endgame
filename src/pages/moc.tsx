@@ -1,6 +1,5 @@
 import { useState, type ReactElement } from "react";
 import { getFullHp, memoryOfChaos } from "../data/moc";
-import { sd } from "../utils/date";
 import CurrentMoc from "../components/CurrentMoc";
 import EChartsReact from "echarts-for-react";
 import Pagination from "../components/Pagination";
@@ -8,7 +7,7 @@ import EndgameInfo from "../components/EndgameInfo";
 
 export default function MocPage(): ReactElement {
 
-    const [mocList, setMocList] = useState(memoryOfChaos.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const [mocList] = useState(memoryOfChaos.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
     const [currentMoc, setCurrentMoc] = useState<number>(mocList.length - 1);
 
     const options = {

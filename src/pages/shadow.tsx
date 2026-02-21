@@ -1,5 +1,4 @@
 import { useState, type ReactElement } from "react";
-import { sd } from "../utils/date";
 import CurrentAS from "../components/CurrentAS";
 import { apocalyptic, getFullHp } from "../data/apoc";
 import Graph from "../components/Graph";
@@ -8,7 +7,7 @@ import EndgameInfo from "../components/EndgameInfo";
 
 export default function ASPage(): ReactElement {
 
-    const [asList, setAsList] = useState(apocalyptic.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const [asList] = useState(apocalyptic.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
     const [currentAS, setCurrentAS] = useState<number>(asList.length - 1)
 
     const data = {

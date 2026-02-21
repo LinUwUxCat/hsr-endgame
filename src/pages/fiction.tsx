@@ -1,5 +1,4 @@
 import { useState, type ReactElement } from "react";
-import { sd } from "../utils/date";
 import EChartsReact from "echarts-for-react";
 import { fiction, getFullHp } from "../data/fiction";
 import CurrentPF from "../components/CurrentPF";
@@ -8,7 +7,7 @@ import EndgameInfo from "../components/EndgameInfo";
 
 export default function PFPage(): ReactElement {
 
-    const [pfList, setPfList] = useState(fiction.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const [pfList] = useState(fiction.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
     const [currentPF, setCurrentPF] = useState<number>(pfList.length - 1);
 
     const options = {
