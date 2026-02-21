@@ -55,10 +55,9 @@ const fiction : PureFiction[] = [
                     },
                     {
                         "id": "4062010",
-                        "hp": 600000,
+                        "hp": 744112,
                         "toughness": 30,
                         "amount": 20,
-                        unsure: true
                     },
                     {
                         "id": "1004030",
