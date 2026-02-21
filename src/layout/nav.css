@@ -7,7 +7,6 @@
     padding: 0 2%;
     gap: 5%;
     align-items: center;
-    margin-bottom: 1%;
 }
 
 .navlink {
@@ -15,4 +14,20 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+
+.navlink:hover {
+    cursor: pointer;
+}
+
+.popup-overlay {
+    background-color: #00000066;
+}
+
+.about-popup {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
