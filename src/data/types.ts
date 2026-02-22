@@ -1,7 +1,7 @@
 interface OldEndgame {
-    name?: string;
-    dateStart?: Date;
-    dateEnd?: Date;
+    name: string;
+    dateStart: Date;
+    dateEnd: Date;
     version?: string;
     id?: string;
 };
