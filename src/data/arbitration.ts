@@ -231,8 +231,8 @@ const arbitration : AnomalyArbitration[] = [
 ]
 
 function getFullHp(aa : AnomalyArbitration, hard: boolean = false){
-    let hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
-    var f = 0;
+    const hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
+    let f = 0;
     aa.knight1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
     aa.knight2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
     aa.knight3.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))

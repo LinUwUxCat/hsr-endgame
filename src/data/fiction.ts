@@ -3224,8 +3224,8 @@ const fiction : PureFiction[] = [
 ]
 
 function getFullHp(pf: PureFiction) {
-    let hp = (m : PFMonster) => (m.amount != undefined ? m.amount : 1) * (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
-    var f = 0;
+    const hp = (m : PFMonster) => (m.amount != undefined ? m.amount : 1) * (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
+    let f = 0;
     pf.node1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
     pf.node2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
 

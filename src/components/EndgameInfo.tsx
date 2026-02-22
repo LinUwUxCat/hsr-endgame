@@ -9,9 +9,9 @@ interface EndgameInfoProps {
 export default function EndgameInfo({endgame} : EndgameInfoProps) : ReactElement {
     return (
         <div style={{
-            border: "4px solid black", 
-            padding: "30px", 
-            borderRadius: "20px", 
+            border: "2px solid black", 
+            padding: "15px 30px", 
+            borderRadius: "6px", 
             fontSize: "1.4rem", 
             display: "flex", 
             flexDirection: "column", 

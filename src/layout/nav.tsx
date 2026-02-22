@@ -23,7 +23,6 @@ export default function Navbar(): ReactElement {
                     <Ts>home.about.cpy1</Ts>
                     <Ts>home.about.cpy2</Ts>
                     <div><Ts>home.about.cpy3</Ts><a href="https://openfontlicense.org/">https://openfontlicense.org/</a></div>
-                    <div><Ts>home.test</Ts></div>
                 </div>
             </Popup> 
         </div>

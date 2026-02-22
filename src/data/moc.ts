@@ -2530,8 +2530,8 @@ function getMonsterFull(m : Monster) : Monster{
 }
 
 function getFullHp(moc : MemoryOfChaos) : number{
-    let hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
-    var f = 0;
+    const hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
+    let f = 0;
     if (moc.node1.wave1.length > 0) f += moc.node1.wave1.map(v => hp(v)).reduce((p, c) => p+c);
     if (moc.node1.wave2.length > 0) f += moc.node1.wave2.map(v => hp(v)).reduce((p, c) => p+c);
     if (moc.node2.wave1.length > 0) f += moc.node2.wave1.map(v => hp(v)).reduce((p, c) => p+c);

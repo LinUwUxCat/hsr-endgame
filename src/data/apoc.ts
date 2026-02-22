@@ -1038,8 +1038,8 @@ const apocalyptic: ApocalypticShadow[] = [
 ]
 
 function getFullHp(apoc: ApocalypticShadow): number {
-    let hp = (m: Monster) => (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
-    var f = 0;
+    const hp = (m: Monster) => (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
+    let f = 0;
     apoc.node1.waves.forEach(w => f += w.map(v => hp(v)).reduce((p, c) => p + c))
     apoc.node2.waves.forEach(w => f += w.map(v => hp(v)).reduce((p, c) => p + c))
 
