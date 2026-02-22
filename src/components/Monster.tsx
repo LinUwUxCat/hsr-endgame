@@ -10,6 +10,10 @@ interface MonsterElementProps {
 export default function MonsterElement({monster, size} : MonsterElementProps) : ReactElement {
     if (size == undefined) size = 1;
 
+    let shortId = parseInt(monster.id!.slice(0, 7));
+    shortId = shortId - (shortId % 10)
+
+
     function getWeakness(w : ElemType[]){
         return w.map(e => {
             return <img src={"/types/" + e.toString() + ".png"} style={{width: "26px", height: "26px"}}/>
@@ -19,8 +23,8 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
     return (
         <div className="monster" style={{display: "flex", flexDirection: "column"}}>
             <div className="monster-img">
-                <img src={"/monster/" + monster.id + ".png"} style={{width: `${128*size}px`, height: `${128*size}px`}}/>
-                <div className="monster-name" style={{width: `${128*size}px`, height: `${128*size}px`}}>{monster.name ?? monster.id ?? "UNKNOWN"}</div>
+                <img src={"/monster/" + shortId + ".png"} style={{width: `${128*size}px`, height: `${128*size}px`}}/>
+                <div className="monster-name" style={{width: `${128*size}px`, height: `${128*size}px`}}>{monster.name ?? shortId ?? "UNKNOWN"}</div>
                 {(monster as PFMonster).amount != undefined && <div className="monster-amount">{(monster as PFMonster).amount}</div>}
             </div>
             
@@ -36,7 +40,7 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
                 {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
             </div>
 
-            {monster.speed && monster.speed != 0 && <div style={{display: "flex", alignItems: "center"}}>
+            {monster.speed != undefined && monster.speed != 0 && <div style={{display: "flex", alignItems: "center"}}>
                 <img src="/icon/SPD.webp" height={32} width={32} style={{filter: "invert(1)"}}/>
                 <span>{monster.speed}</span>
             </div>}

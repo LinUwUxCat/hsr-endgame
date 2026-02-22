@@ -1,0 +1,775 @@
+[
+    {
+        "id": "4001",
+        "dateStart": "24/09/2025",
+        "dateEnd": "05/11/2025",
+        "knight1": {
+            "waves": [
+                [
+                    {
+                        "id": "3012020",
+                        "hp": 117317,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "3013010",
+                        "hp": 1173170,
+                        "speed": 145,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "3013010",
+                        "hp": 1173170,
+                        "speed": 145,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "3012020",
+                        "hp": 117317,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "3004012",
+                        "hp": 4189894,
+                        "speed": 0,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033001"
+                }
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ]
+        },
+        "knight2": {
+            "waves": [
+                [
+                    {
+                        "id": "4052010",
+                        "hp": 272343,
+                        "speed": 190,
+                        "toughness": 40
+                    },
+                    {
+                        "id": "4053010",
+                        "hp": 1256968,
+                        "speed": 190,
+                        "toughness": 180
+                    },
+                    {
+                        "id": "4052010",
+                        "hp": 272343,
+                        "speed": 190,
+                        "toughness": 40
+                    },
+                    {
+                        "id": "4052010",
+                        "hp": 272343,
+                        "speed": 190,
+                        "toughness": 40
+                    },
+                    {
+                        "id": "4053010",
+                        "hp": 1256968,
+                        "speed": 190,
+                        "toughness": 180
+                    }
+                ],
+                [
+                    {
+                        "id": "3014020",
+                        "hp": 1843553,
+                        "speed": 190,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033002"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "WIND",
+                "LIGHTNING"
+            ]
+        },
+        "knight3": {
+            "waves": [
+                [
+                    {
+                        "id": "4032050",
+                        "hp": 523737,
+                        "speed": 205,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "4033010",
+                        "hp": 2444105,
+                        "speed": 158,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4032010",
+                        "hp": 523737,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "4032050",
+                        "hp": 523737,
+                        "speed": 205,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "4033010",
+                        "hp": 2444105,
+                        "speed": 158,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4033030",
+                        "hp": 2618684,
+                        "speed": 190,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4033010",
+                        "hp": 2444105,
+                        "speed": 158,
+                        "toughness": 160
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033003"
+                },
+                {
+                    "id": "3033004"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "QUANTUM"
+            ]
+        },
+        "boss": {
+            "waves": [
+                [
+                    {
+                        "id": "4023010",
+                        "hp": 4687930,
+                        "speed": 158,
+                        "toughness": 160,
+                        "actionAdvance": 50
+                    },
+                    {
+                        "id": "4023020",
+                        "hp": 3966710,
+                        "speed": 132,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "4044010",
+                        "hp": 43273200,
+                        "speed": 211,
+                        "toughness": 200
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033003"
+                },
+                {
+                    "id": "3033005"
+                },
+                {
+                    "id": "3033017"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033006"
+                },
+                {
+                    "id": "3033007"
+                },
+                {
+                    "id": "3033008"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM"
+            ]
+        },
+        "bossHard": {
+            "waves": [
+                [
+                    {
+                        "id": "4023010",
+                        "hp": 18751720,
+                        "speed": 180,
+                        "toughness": 160,
+                        "actionAdvance": 50
+                    },
+                    {
+                        "id": "4023020",
+                        "hp": 15866840,
+                        "speed": 150,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "4044010",
+                        "hp": 173092801,
+                        "speed": 240,
+                        "toughness": 200
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033010"
+                },
+                {
+                    "id": "3033013"
+                },
+                {
+                    "id": "3033019"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033006"
+                },
+                {
+                    "id": "3033007"
+                },
+                {
+                    "id": "3033008"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM"
+            ]
+        }
+    },
+    {
+        "id": "4002",
+        "dateStart": "05/11/2025",
+        "dateEnd": "17/12/2025",
+        "knight1": {
+            "waves": [
+                [
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 2094947,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 2094947,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 2094947,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 2094947,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 392803,
+                        "speed": 132,
+                        "toughness": 30
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033023"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "LIGHTNING"
+            ]
+        },
+        "knight2": {
+            "waves": [
+                [
+                    {
+                        "id": "4063010",
+                        "hp": 1955284,
+                        "speed": 158,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 1466463,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "2034010",
+                        "hp": 3360644,
+                        "speed": 264,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033025"
+                },
+                {
+                    "id": "3033005"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "WIND"
+            ]
+        },
+        "knight3": {
+            "waves": [
+                [
+                    {
+                        "id": "803301014",
+                        "hp": 1396631,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 1047473,
+                        "speed": 190,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "3004020",
+                        "hp": 3491578,
+                        "speed": 106,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033001"
+                }
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ]
+        },
+        "boss": {
+            "waves": [
+                [
+                    {
+                        "id": "401501101",
+                        "hp": 12677695,
+                        "speed": 190,
+                        "toughness": 320,
+                        "hpBarCount": 4.6,
+                        "actionAdvance": 50
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033012"
+                },
+                {
+                    "id": "3033017"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033020"
+                },
+                {
+                    "id": "3033021"
+                },
+                {
+                    "id": "3033022"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM"
+            ]
+        },
+        "bossHard": {
+            "waves": [
+                [
+                    {
+                        "id": "401501101",
+                        "hp": 56345313,
+                        "speed": 216,
+                        "toughness": 320,
+                        "hpBarCount": 4.6,
+                        "actionAdvance": 50
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033013"
+                },
+                {
+                    "id": "3033019"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033020"
+                },
+                {
+                    "id": "3033021"
+                },
+                {
+                    "id": "3033022"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM"
+            ]
+        }
+    },
+    {
+        "id": "4003",
+        "dateStart": "17/12/2025",
+        "dateEnd": "28/01/2026",
+        "knight1": {
+            "waves": [
+                [
+                    {
+                        "id": "4053020",
+                        "hp": 4189894,
+                        "speed": 218,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 3072589,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "4053020",
+                        "hp": 4189894,
+                        "speed": 218,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 3072589,
+                        "speed": 158,
+                        "toughness": 140
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033003"
+                }
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING"
+            ]
+        },
+        "knight2": {
+            "waves": [
+                [
+                    {
+                        "id": "4023010",
+                        "hp": 1815621,
+                        "speed": 158,
+                        "toughness": 160,
+                        "actionAdvance": 50
+                    },
+                    {
+                        "id": "4023020",
+                        "hp": 1536294,
+                        "speed": 132,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "802401107",
+                        "hp": 3072589,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033002"
+                }
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ]
+        },
+        "knight3": {
+            "waves": [
+                [
+                    {
+                        "id": "1013020",
+                        "hp": 1152221,
+                        "speed": 190,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003020",
+                        "hp": 1885452,
+                        "speed": 190,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "4064010",
+                        "hp": 2828178,
+                        "speed": 198,
+                        "toughness": 120,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 4
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033023"
+                },
+                {
+                    "id": "3033025"
+                }
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "IMAGINARY"
+            ]
+        },
+        "boss": {
+            "waves": [
+                [
+                    {
+                        "id": "3025016",
+                        "hp": 10818300,
+                        "speed": 190,
+                        "toughness": 70,
+                        "hpBarCount": 2.8,
+                        "toughnessBarCount": 3
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033028"
+                },
+                {
+                    "id": "3033038"
+                },
+                {
+                    "id": "3033035"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033032"
+                },
+                {
+                    "id": "3033033"
+                },
+                {
+                    "id": "3033034"
+                }
+            ],
+            "recommendedTypes": [
+                "FIRE"
+            ]
+        },
+        "bossHard": {
+            "waves": [
+                [
+                    {
+                        "id": "3025016",
+                        "hp": 50846010,
+                        "speed": 216,
+                        "toughness": 70,
+                        "hpBarCount": 2.8,
+                        "toughnessBarCount": 3
+                    }
+                ]
+            ],
+            "anomaly": [
+                {
+                    "id": "3033029"
+                },
+                {
+                    "id": "3033040"
+                },
+                {
+                    "id": "3033036"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033032"
+                },
+                {
+                    "id": "3033033"
+                },
+                {
+                    "id": "3033034"
+                }
+            ],
+            "recommendedTypes": [
+                "FIRE"
+            ]
+        }
+    },
+    {
+        "knight1": {
+            "waves": [
+                [
+                    {"id": "3003010", "hp": 2011149},
+                    {"id": "4053010", "hp": 1675957}
+                ],
+                [
+                    {"id": "3024030", "hp": 8938440}
+                ]
+            ]
+        },
+        "knight2": {
+            "waves": [
+                [
+                    {"id": "4033010", "hp": 2688515},
+                    {"id": "4033030", "hp": 2880552}
+                ], 
+                [
+                    {"id": "4034010", "hp": 6241196}
+                ]
+            ]
+        },
+        "knight3": {
+            "waves": [
+                [
+                    {"id": "5013030", "hp": 2793262},
+                    {"id": "8003020", "hp": 1745789}
+                ], 
+                [
+                    {"id": "3024020", "hp": 8728945}
+                ]
+            ]
+        },
+        "boss": {
+            "waves": [
+                [
+                    {"id": "2023020", "hp": 3029124},
+                    {"id": "5012030", "hp": 631068},
+                    {"id": "5012030", "hp": 631068},
+                    {"id": "5013010", "hp": 4543686}
+                ],
+                [
+                    {"id": "5014010", "hp": 10728148}
+                ]
+            ]
+        },
+        "bossHard": {
+            "waves": [
+                [
+                    {"id": "2023020", "hp": 12116496},
+                    {"id": "5012030", "hp": 2524270},
+                    {"id": "5012030", "hp": 2524270},
+                    {"id": "5013010", "hp": 18174744}
+                ],
+                [
+                    {"id": "5014010", "hp": 55533955}
+                ]
+            ]
+        },
+        "name": "Cyber Crisis",
+        "dateStart": "13/02/2026",
+        "dateEnd": "22/04/2026",
+        "version": "4.0"
+    }
+]

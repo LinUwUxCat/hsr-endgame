@@ -1,9 +1,9 @@
 import type { ReactElement } from "react";
-import type { Endgame } from "../data/types";
+import type { Endgame, OldEndgame } from "../data/types";
 import { sd } from "../utils/date";
 
 interface EndgameInfoProps {
-    endgame: Endgame;
+    endgame: Endgame | OldEndgame;
 }
 
 export default function EndgameInfo({endgame} : EndgameInfoProps) : ReactElement {
@@ -20,7 +20,7 @@ export default function EndgameInfo({endgame} : EndgameInfoProps) : ReactElement
             margin: "5% 0"
         }}>
             <div>{endgame.version && `[${endgame.version}]`} {endgame.name}</div>
-            <div>{sd(endgame.dateStart)} - {sd(endgame.dateEnd)}</div>
+            <div>{typeof endgame.dateStart == "string" ? endgame.dateStart: sd(endgame.dateStart!)} - {typeof endgame.dateEnd == "string" ? endgame.dateEnd: sd(endgame.dateEnd!)}</div>
         </div>
     )
 }

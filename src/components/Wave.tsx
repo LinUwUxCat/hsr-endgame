@@ -13,7 +13,7 @@ export default function Wave({wave, waveNmr, monsterSize} : WaveProps) : ReactEl
 
     function getMonsters(){
         return wave.map(monster => {
-            var m = getMonsterFull(monster)
+            const m = getMonsterFull(monster)
             return (
                 <MonsterElement size={monsterSize} monster={m}/>
             )

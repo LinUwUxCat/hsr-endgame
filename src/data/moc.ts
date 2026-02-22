@@ -2525,8 +2525,11 @@ const memoryOfChaos : MemoryOfChaos[] = [
 ]
 
 function getMonsterFull(m : Monster) : Monster{
-    if (m.id == undefined || monsters[m.id] == undefined) return m;
-    return {...monsters[m.id], ...m}
+    if (m.id == undefined) return m;
+    let shortId = parseInt(m.id.slice(0, 7));
+    shortId = shortId - (shortId % 10);
+    if (monsters[shortId] == undefined) return m;
+    return {...monsters[shortId], ...m}
 }
 
 function getFullHp(moc : MemoryOfChaos) : number{

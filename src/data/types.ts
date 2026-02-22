@@ -1,8 +1,17 @@
-interface Endgame {
-    name: string;
-    dateStart: Date;
-    dateEnd: Date;
+interface OldEndgame {
+    name?: string;
+    dateStart?: Date;
+    dateEnd?: Date;
     version?: string;
+    id?: string;
+};
+
+interface Endgame {
+    name?: string;
+    dateStart?: string;
+    dateEnd?: string;
+    version?: string;
+    id?: string;
 };
 
 type ElemType = "ICE" | "FIRE" | "LIGHTNING" | "QUANTUM" | "IMAGINARY" | "WIND" | "PHYSICAL";
@@ -18,6 +27,7 @@ interface Monster {
     toughnessBarCount?: number;
     speed?: number;
     resist?: {[key in ElemType]?: number};
+    actionAdvance?: number; // AA in %
 
     unsure?: boolean;
     id?: string;
@@ -33,14 +43,19 @@ interface PFMonster extends Monster {
 }
 
 interface Effect {
-    name: string;
-    effect: string;
+    name?: string;
+    effect?: string;
+    id?: string;
 }
 
 interface AAPhase {
     recommendedTypes?: ElemType[];
     waves: Monster[][];
     anomaly?: Effect[];
+}
+
+interface AAKing extends AAPhase {
+    buffs?: Effect[];
 }
 
 interface PFPhase {
@@ -55,7 +70,7 @@ interface MoCPhase {
     wave2: Monster[];
 }
 
-interface MemoryOfChaos extends Endgame {
+interface MemoryOfChaos extends OldEndgame {
     hpPercent?: number;
     atkPercent?: number;
     node1: MoCPhase;
@@ -67,11 +82,11 @@ interface AnomalyArbitration extends Endgame {
     knight1: AAPhase;
     knight2: AAPhase;
     knight3: AAPhase;
-    boss: AAPhase;
-    bossHard: AAPhase;
+    boss: AAKing;
+    bossHard: AAKing;
 }
 
-interface PureFiction extends Endgame {
+interface PureFiction extends OldEndgame {
     node1: PFPhase;
     node2: PFPhase;
 }
@@ -83,9 +98,9 @@ interface ASNode extends BaseNode {
     hpPercent?: number; // No fucking clue what that means
 }
 
-interface ApocalypticShadow extends Endgame {
+interface ApocalypticShadow extends OldEndgame {
     node1: ASNode;
     node2: ASNode;
 }
 
-export type { ASNode, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
+export type { ASNode, OldEndgame, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
