@@ -8,7 +8,7 @@ import type { AnomalyArbitration } from "../data/types";
 import { date } from "../utils/date";
 import AA from "../data/AA.json"
 import { useLanguage } from "../components/i18n/LanguageContext";
-import merge from "deepmerge-json";
+import { mergeById } from "../utils/merge";
 
 export default function AAPage(): ReactElement {
 
@@ -28,7 +28,7 @@ export default function AAPage(): ReactElement {
         fetch(`/data/${lang}/AA.json`)
         .then(d => d.json()
             .then(json =>
-                setlist(sortAA(merge(AA, json) as AnomalyArbitration[]))
+                setlist(sortAA(mergeById(AA, json) as AnomalyArbitration[]))
             )
         )
             

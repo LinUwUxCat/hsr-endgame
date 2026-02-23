@@ -17,7 +17,7 @@ export default function EndgameInfo({endgame} : EndgameInfoProps) : ReactElement
             flexDirection: "column", 
             textAlign: "center",
             fontWeight: 600,
-            margin: "5% 0"
+            margin: "25px 0"
         }}>
             <div>{endgame.version && `[${endgame.version}]`} {endgame.name}</div>
             <div>{typeof endgame.dateStart == "string" ? endgame.dateStart: sd(endgame.dateStart!)} - {typeof endgame.dateEnd == "string" ? endgame.dateEnd: sd(endgame.dateEnd!)}</div>
