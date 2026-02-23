@@ -21,7 +21,7 @@ export default function AAKnight({ node, name, monsterSize }: AAKnightProps): Re
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <div style={{ fontSize: "1.2rem", fontWeight: "bold" }}>{name}</div>
             {getRecTypes()}
-            {node.waves.map((wave, index) => <Wave monsterSize={monsterSize} wave={wave} waveNmr={index + 1} />)}
+            {node.waves.map((wave, index) => <Wave monsterSize={monsterSize} wave={wave} waveNmr={index + 1} key={index}/>)}
         </div>
     )
 }
