@@ -12,7 +12,7 @@ import PF from "../data/PF.json"
 
 export default function PFPage(): ReactElement {
 
-    const { lang } = useLanguage();
+    const { t, lang } = useLanguage();
 
     const [pfList, setPFList] = useState<PureFiction[]>(sortEndgameList(PF as PureFiction[]));
     const [currentPF, setCurrentPF] = useState<number>(pfList.length - 1);
@@ -37,7 +37,7 @@ export default function PFPage(): ReactElement {
         },
         series: [
             {
-                name: "Regular",
+                name: t("graph.total-hp"),
                 data: pfList.map(m => getFullHpPF(m)),
                 type: 'line',
                 smooth: false,

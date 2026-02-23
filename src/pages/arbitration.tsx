@@ -10,7 +10,7 @@ import { useLanguage } from "../components/i18n/LanguageContext";
 import { mergeById } from "../utils/merge";
 
 export default function AAPage(): ReactElement {
-    const { lang } = useLanguage();
+    const { t, lang } = useLanguage();
     const [aaList, setAAList] = useState<AnomalyArbitration[]>(sortEndgameList(AA as AnomalyArbitration[]));
 
     useEffect(() => {
@@ -28,7 +28,7 @@ export default function AAPage(): ReactElement {
     const data = {
         names: aaList.map(l => l.name ?? ""),
         data: [aaList.map(l => Math.round(getFullHpAA(l, true))), aaList.map(m => getFullHpAA(m))],
-        titles: ["Total HP Count (Plight)", "Total HP Count (Regular)"],
+        titles: [t("graph.total-hp-plight"), t("graph.total-hp")],
         colors: ['#cc0000', '#4444cc']
     }
 

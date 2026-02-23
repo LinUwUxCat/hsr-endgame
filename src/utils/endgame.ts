@@ -29,7 +29,9 @@ export function getFullHpMoc(moc : MemoryOfChaos) : number{
     const hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
     let f = 0;
 
-    f += moc.node1.waves.map(w => w.map(m => hp(m))).reduce((prev, cur) => prev+cur.reduce((p,c)=>p+c, 0), 0);
+    moc.node1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
+    moc.node2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
+
     return f;
 }
 

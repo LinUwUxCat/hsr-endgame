@@ -13,5 +13,9 @@
             "cpy3": "Montserrat字体采用SIL开源字体许可证1.1版授权。该许可证可在以下网址获取: "
         },
         "warning": "本网站使用谷歌翻译，因此很多内容缺失。给您带来的不便，敬请谅解！"
+    },
+    "graph": {
+        "total-hp": "总血量",
+        "total-hp-plight": "总血量 (Plight)"
     }
 }

@@ -14,7 +14,7 @@ import MOC from "../data/MOC.json"
 
 export default function MocPage(): ReactElement {
 
-    const { lang } = useLanguage();
+    const { t, lang } = useLanguage();
 
     const [mocList, setMocList] = useState<MemoryOfChaos[]>(sortEndgameList(MOC as MemoryOfChaos[]));
     const [currentMoc, setCurrentMoc] = useState<number>(mocList.length - 1);
@@ -40,6 +40,7 @@ export default function MocPage(): ReactElement {
         },
         series: [
             {
+                name: t("graph.total-hp"),
                 data: mocList.map(m => getFullHpMoc(m)),
                 type: 'line',
                 smooth: false,

@@ -12,7 +12,7 @@ import { mergeById } from "../utils/merge";
 
 export default function ASPage(): ReactElement {
 
-    const { lang } = useLanguage();
+    const { t, lang } = useLanguage();
 
     const [asList, setASList] = useState(sortEndgameList(AS as ApocalypticShadow[]));
     const [currentAS, setCurrentAS] = useState<number>(asList.length - 1)
@@ -29,7 +29,7 @@ export default function ASPage(): ReactElement {
     const data = {
         names: asList.map(l => l.name ?? ""),
         data: [asList.map(l => getFullHpAS(l))],
-        titles: ["Total HP Count"],
+        titles: [t("graph.total-hp")],
         colors: ["#cc0000"]
     }
 

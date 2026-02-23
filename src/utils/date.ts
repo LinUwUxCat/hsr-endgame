@@ -1,5 +1,3 @@
-import type { Endgame } from "../data/types";
-
 export function date(str : string){
     const dates = str.split("/");
     const d = new Date(Date.now());
@@ -14,8 +12,4 @@ export function sd(date : Date) : string {
 
 function pad(n : number) : string{
     return n < 10 ? `0${n}` : n.toString();
-}
-
-export function sortEndgameList<T extends Endgame>(e : T[]) : T[]{
-    return e.sort((a, b) => date(a.dateEnd!) < date(b.dateEnd!) ? -1 : 1);
 }
