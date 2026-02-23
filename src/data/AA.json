@@ -708,6 +708,7 @@
         }
     },
     {
+        "id": "4004",
         "knight1": {
             "waves": [
                 [
@@ -767,7 +768,6 @@
                 ]
             ]
         },
-        "name": "Cyber Crisis",
         "dateStart": "13/02/2026",
         "dateEnd": "22/04/2026",
         "version": "4.0"
