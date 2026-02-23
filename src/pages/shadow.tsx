@@ -1,18 +1,34 @@
-import { useState, type ReactElement } from "react";
+import { useEffect, useState, type ReactElement } from "react";
 import CurrentAS from "../components/CurrentAS";
-import { apocalyptic, getFullHp } from "../data/apoc";
 import Graph from "../components/Graph";
 import Pagination from "../components/Pagination";
 import EndgameInfo from "../components/EndgameInfo";
+import { getFullHpAS, sortEndgameList } from "../utils/endgame";
+import { useLanguage } from "../components/i18n/LanguageContext";
+
+import AS from "../data/AS.json"
+import type { ApocalypticShadow } from "../data/types";
+import { mergeById } from "../utils/merge";
 
 export default function ASPage(): ReactElement {
 
-    const [asList] = useState(apocalyptic.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const { lang } = useLanguage();
+
+    const [asList, setASList] = useState(sortEndgameList(AS as ApocalypticShadow[]));
     const [currentAS, setCurrentAS] = useState<number>(asList.length - 1)
 
+    useEffect(() => {
+        fetch(`/data/${lang}/AS.json`)
+        .then(d => d.json()
+            .then(json =>
+                setASList(sortEndgameList(mergeById(AS, json) as ApocalypticShadow[]))
+            )
+        )
+    }, [lang])
+
     const data = {
-        names: asList.map(l => l.name),
-        data: [asList.map(l => getFullHp(l))],
+        names: asList.map(l => l.name ?? ""),
+        data: [asList.map(l => getFullHpAS(l))],
         titles: ["Total HP Count"],
         colors: ["#cc0000"]
     }

@@ -1,0 +1,788 @@
+[
+    {
+        "id": "3015",
+        "name": "支配冥茫",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方目标被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体目标解除控制状态、立即行动并恢复战技点。<br>敌方全体目标受到的击破伤害提高<color style='color:#f29e38;'> 25% </color>，忆灵技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "攻无不克",
+                    "effect": "忆灵造成伤害时无视目标<color style='color:#f29e38;'> 20% </color>的防御力。"
+                },
+                {
+                    "name": "生机焕发",
+                    "effect": "我方全体造成的战技伤害提高<color style='color:#f29e38;'> 30% </color>，回合开始时，若当前生命值百分比等于或低于<color style='color:#f29e38;'> 1% </color>，则回复生命上限<color style='color:#f29e38;'> 15% </color>的生命值。"
+                },
+                {
+                    "name": "破竹之势",
+                    "effect": "角色施放终结技时，使自身的弱点击破效率提高<color style='color:#f29e38;'> 100% </color>，暴击伤害提高<color style='color:#f29e38;'> 40% </color>，持续<color style='color:#f29e38;'> 3 </color>回合。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "101301",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "101302",
+                    "name": "朽株枯木",
+                    "effect": "本场战斗中我方单位的生命值最多降至1点，同时会将受到的伤害超出当前生命值的部分转化为【负载生命值】。处于【负载生命值】状态的我方单位造成的伤害和弱点击破效率大幅降低。"
+                },
+                {
+                    "id": "101303",
+                    "name": "摧刚为柔",
+                    "effect": "【哀悯长臂】的韧性上限提高。"
+                },
+                {
+                    "id": "101304",
+                    "name": "坚韧之志",
+                    "effect": "敌方全体受到的伤害降低。但每拥有1个<color style='color:#f29e38;'>弱点属性</color>，受到的伤害提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3014",
+        "name": "猢狲骑士",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方目标被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体目标解除控制状态、立即行动并恢复战技点。<br>敌方全体目标受到的击破伤害提高<color style='color:#f29e38;'> 25% </color>，忆灵技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "前尘影事",
+                    "effect": "当前在场的我方忆灵数量大于等于3时，我方全体目标造成的伤害提高<color style='color:#f29e38;'> 60% </color>。"
+                },
+                {
+                    "name": "疾如旋踵",
+                    "effect": "我方目标对持有大于等于<color style='color:#f29e38;'> 1 </color>个持续伤害状态的敌方目标施放攻击后，使自身速度提高<color style='color:#f29e38;'> 25% </color>，持续<color style='color:#f29e38;'> 3 </color>个回合。"
+                },
+                {
+                    "name": "智圆行方",
+                    "effect": "我方队伍中存在智识命途的角色时，我方全体全属性抗性穿透提高<color style='color:#f29e38;'> 15% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100801",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100802",
+                    "name": "共同阵线",
+                    "effect": "所有敌方单位受到的伤害降低<color style='color:#f29e38;'> 50% </color>，并在处于【课堂频道】状态时拥有<color style='color:#f29e38;'><u>切换计数</u></color>。当首领幻影被<color style='color:#f29e38;'>弱点击破</color>后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100803",
+                    "name": "计数流失",
+                    "effect": "每回合开始时，敌方处于【课堂频道】状态的单位的<color style='color:#f29e38;'><u>切换计数</u></color>会扣减一定数值。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100804",
+                    "name": "速度强化",
+                    "effect": "【期末晚会】的速度提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3013",
+        "name": "螟蝗煽动",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方目标被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体目标解除控制状态、立即行动并回复生命值。<br>敌方全体目标受到的忆灵技伤害提高<color style='color:#f29e38;'> 15% </color>，终结技伤害提高<color style='color:#f29e38;'> 25% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "险象环生",
+                    "effect": "我方目标对当前承受大于等于<color style='color:#f29e38;'> 3 </color>种持续伤害状态的敌方目标造成伤害时，弱点击破效率提高<color style='color:#f29e38;'> 50% </color>。"
+                },
+                {
+                    "name": "石破天惊",
+                    "effect": "敌方全体目标受到的弱点击破伤害提高<color style='color:#f29e38;'> 15% </color>，超击破伤害额外提高<color style='color:#f29e38;'> 20% </color>。"
+                },
+                {
+                    "name": "势如破竹",
+                    "effect": "我方全体造成的普攻和终结技伤害的暴击伤害提高<color style='color:#f29e38;'> 30% </color>，对处于弱点击破状态下的敌方目标额外提高<color style='color:#f29e38;'> 30% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100601",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100602",
+                    "name": "移花接木",
+                    "effect": "召唤新的【玄莲】时，首领幻影会进入<color style='color:#f29e38;'><u>韧性保护</u></color>状态。消灭任意召唤物会使首领幻影的韧性保护解除，并且对首领幻影造成额外韧性削减。",
+                    "attribute": [
+                        {
+                            "name": "韧性保护",
+                            "effect": "韧性值无法受到削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100603",
+                    "name": "枯木逢春",
+                    "effect": "在一阶段，首领幻影在切换形态时会回复召唤物<color style='color:#f29e38;'> 25% </color>生命值。"
+                },
+                {
+                    "id": "100604",
+                    "name": "空花阳焰",
+                    "effect": "在二阶段，召唤物的生命上限提高<color style='color:#f29e38;'> 20% </color>。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3012",
+        "name": "冥茫冽风",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、激活终结技并回复生命值。<br>敌方全体受到的忆灵技伤害提高<color style='color:#f29e38;'> 10% </color>，战技伤害提高<color style='color:#f29e38;'> 30% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "攻无不克",
+                    "effect": "忆灵造成伤害时无视目标<color style='color:#f29e38;'> 20% </color>的防御力。"
+                },
+                {
+                    "name": "生机焕发",
+                    "effect": "我方全体造成的战技伤害提高<color style='color:#f29e38;'> 30% </color>，回合开始时，若当前生命值百分比等于或低于<color style='color:#f29e38;'> 1% </color>，则回复生命上限<color style='color:#f29e38;'> 15% </color>的生命值。"
+                },
+                {
+                    "name": "破竹之势",
+                    "effect": "角色施放终结技时，使自身的弱点击破效率提高<color style='color:#f29e38;'> 100% </color>，暴击伤害提高<color style='color:#f29e38;'> 40% </color>，持续<color style='color:#f29e38;'> 3 </color>回合。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "101301",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "101302",
+                    "name": "朽株枯木",
+                    "effect": "本场战斗中我方单位的生命值最多降至1点，同时会将受到的伤害超出当前生命值的部分转化为【负载生命值】。处于【负载生命值】状态的我方单位造成的伤害和弱点击破效率大幅降低。"
+                },
+                {
+                    "id": "101303",
+                    "name": "摧刚为柔",
+                    "effect": "【哀悯长臂】的韧性上限提高。"
+                },
+                {
+                    "id": "101304",
+                    "name": "坚韧之志",
+                    "effect": "敌方全体受到的伤害降低。但每拥有1个<color style='color:#f29e38;'>弱点属性</color>，受到的伤害提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3011",
+        "name": "天狼战首",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、恢复战技点并激活终结技。<br>敌方全体受到的持续伤害提高<color style='color:#f29e38;'> 25% </color>，战技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "抵瑕陷隙",
+                    "effect": "我方全体造成的终结技伤害提高<color style='color:#f29e38;'> 30% </color>，对处于弱点击破状态下的敌方目标额外提高<color style='color:#f29e38;'> 30% </color>。"
+                },
+                {
+                    "name": "蔓草难除",
+                    "effect": "我方全体施放普攻或战技攻击处于弱点击破状态下的敌人后，使其当前承受的所有持续伤害立即产生相当于原伤害<color style='color:#f29e38;'> 15% </color>的伤害。"
+                },
+                {
+                    "name": "登锋陷阵",
+                    "effect": "队伍中的第1位角色施放终结技后，使自身的弱点击破效率提高<color style='color:#f29e38;'> 50% </color>，暴击伤害提高<color style='color:#f29e38;'> 50% </color>，持续<color style='color:#f29e38;'> 1 </color>回合。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "101201",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "101202",
+                    "name": "铁骨峥嵘",
+                    "effect": "部位受到的伤害降低<color style='color:#f29e38;'> 50% </color>。当首领幻影被<color style='color:#f29e38;'>弱点击破</color>后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>"
+                },
+                {
+                    "id": "101203",
+                    "name": "钩爪锯牙",
+                    "effect": "首领幻影的韧性提高<color style='color:#f29e38;'> 40 </color>点。"
+                },
+                {
+                    "id": "101204",
+                    "name": "兽血沸腾",
+                    "effect": "<color style='color:#f29e38;'>【厉咒】</color>状态的持续时间延长<color style='color:#f29e38;'> 1 </color>回合。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3010",
+        "name": "金血恶兽",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、恢复战技点并激活终结技。<br>敌方全体受到的战技伤害提高<color style='color:#f29e38;'> 25% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "蕉学相长",
+                    "effect": "我方全体造成的战技和终结技伤害提高<color style='color:#f29e38;'> 50% </color>。"
+                },
+                {
+                    "name": "猎逐步伐",
+                    "effect": "我方角色击破敌方目标弱点时，行动提前<color style='color:#f29e38;'> 25% </color>。"
+                },
+                {
+                    "name": "时来运转",
+                    "effect": "角色造成的追加攻击伤害无视敌方目标<color style='color:#f29e38;'> 15% </color>的全属性抗性，同时对非弱点目标也能削减韧性，效果等同于原技能削韧值的<color style='color:#f29e38;'> 50% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100301",
+                    "name": "坚防守备",
+                    "effect": "首领幻影不可被攻击。首领幻影的三个<color style='color:#f29e38;'><u>部位</u></color>同时处于假死状态时，首领幻影陷入弱点击破状态并可以被攻击，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。",
+                    "attribute": [
+                        {
+                            "name": "部位",
+                            "effect": "对部位进行的攻击会同时对本体削减等量的生命值"
+                        }
+                    ]
+                },
+                {
+                    "id": "100302",
+                    "name": "阵地转移",
+                    "effect": "【反物质引擎】会将自身弱点属性<color style='color:#f29e38;'><u>转移</u></color>给【灾虐的右手】和【黎明的左手】，但当【灾虐的右手】或【黎明的左手】被消灭时，【反物质引擎】的韧性值受到额外削减。",
+                    "attribute": [
+                        {
+                            "name": "转移",
+                            "effect": "将弱点属性转移给目标，弱点属性会在目标被消灭后返回，并造成额外韧性值削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100303",
+                    "name": "战而愈勇",
+                    "effect": "敌方单位施放单攻技能后，速度提高，持续1回合；施放群攻技能后，攻击力提高，持续1回合；施放辅助技能后，为技能目标回复生命值。"
+                },
+                {
+                    "id": "100304",
+                    "name": "坚韧之志",
+                    "effect": "敌方全体受到的伤害降低。但每拥有1个<color style='color:#f29e38;'>弱点属性</color>，受到的伤害提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3009",
+        "name": "冽风支配",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、恢复战技点并激活终结技。<br>我方全体受到的回复量提高<color style='color:#f29e38;'> 50% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "血战狂澜",
+                    "effect": "我方全体造成的物理属性伤害提高<color style='color:#f29e38;'> 50% </color>，施放战技时恢复自身<color style='color:#f29e38;'> 20% </color>的生命值。"
+                },
+                {
+                    "name": "时来运转",
+                    "effect": "角色造成的追加攻击伤害无视敌方目标<color style='color:#f29e38;'> 15% </color>的全属性抗性，同时对非弱点目标也能削减韧性，效果等同于原技能削韧值的<color style='color:#f29e38;'> 50% </color>。"
+                },
+                {
+                    "name": "臻冰彻骨",
+                    "effect": "敌方全体受到的击破伤害提高<color style='color:#f29e38;'> 10% </color>。击破敌方弱点后，我方全体速度提高<color style='color:#f29e38;'> 20% </color>，持续<color style='color:#f29e38;'> 2 </color>回合。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100401",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100402",
+                    "name": "阵地转移",
+                    "effect": "首领幻影召唤2个精英敌人协助战斗。首领幻影会将自身弱点属性<color style='color:#f29e38;'><u>传递</u></color>给召唤物，但当召唤物被消灭时，自身韧性值受到额外削减。",
+                    "attribute": [
+                        {
+                            "name": "传递",
+                            "effect": "将弱点属性传递给目标，目标被消灭后造成额外韧性值削减，弱点属性会在所有获得弱点属性的目标被消灭后返回。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100403",
+                    "name": "众星拱卫",
+                    "effect": "除首领幻影外，每多存在1个<color style='color:#f29e38;'>敌方单位</color>，敌方全体受到的伤害降低。"
+                },
+                {
+                    "id": "100404",
+                    "name": "绝境逆转",
+                    "effect": "首领幻影第二阶段施放【傀儡候场】时，会对<color style='color:#f29e38;'>所有的召唤物</color>附加强化效果。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3008",
+        "name": "螟蝗战首",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、立即行动并回复生命值。<br>敌方全体受到的忆灵技伤害提高<color style='color:#f29e38;'> 25% </color>，战技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "雷厉风行",
+                    "effect": "我方目标击破敌方目标弱点时，使我方全体目标速度提高<color style='color:#f29e38;'> 20% </color>，持续<color style='color:#f29e38;'> 2 </color>回合。"
+                },
+                {
+                    "name": "枯木逢春",
+                    "effect": "任意我方目标被消耗生命值后，回复<color style='color:#f29e38;'> 60% </color>的消耗生命值，每回合最多通过该方式回复<color style='color:#f29e38;'> 50% </color>生命值。"
+                },
+                {
+                    "name": "追亡逐北",
+                    "effect": "我方目标造成的追加攻击伤害提高<color style='color:#f29e38;'> 30% </color>，对弱点击破状态下的敌方目标额外提高<color style='color:#f29e38;'> 30% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "101001",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "101002",
+                    "name": "宁枉勿纵",
+                    "effect": "首领幻影在施放【裂地三舍，寸草不留】时，将会消灭其他所有狼卒。"
+                },
+                {
+                    "id": "101003",
+                    "name": "狼顾鸱张",
+                    "effect": "首领幻影在进入第二阶段后，【孤战】期间每回合可再次行动。"
+                },
+                {
+                    "id": "101004",
+                    "name": "至死方休",
+                    "effect": "首领幻影在进入【孤战】后，受到的伤害额外降低<color style='color:#f29e38;'> 15% </color>。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3007",
+        "name": "猢狲博弈",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、恢复战技点并回复生命值。<br>敌方全体受到的普攻伤害提高<color style='color:#f29e38;'> 15% </color>，战技伤害提高<color style='color:#f29e38;'> 25% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "言传身蕉",
+                    "effect": "对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高<color style='color:#f29e38;'> 35% </color>，持续<color style='color:#f29e38;'> 2 </color>回合，该效果最多叠加<color style='color:#f29e38;'> 2 </color>次。"
+                },
+                {
+                    "name": "有蕉无类",
+                    "effect": "敌方全体受到的击破伤害提高<color style='color:#f29e38;'> 10% </color>。击破敌方弱点后，我方全体速度提高<color style='color:#f29e38;'> 20% </color>，持续<color style='color:#f29e38;'> 2 </color>回合。"
+                },
+                {
+                    "name": "蕉学相长",
+                    "effect": "我方全体造成的战技和终结技伤害提高<color style='color:#f29e38;'> 50% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100801",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100802",
+                    "name": "共同阵线",
+                    "effect": "所有敌方单位受到的伤害降低<color style='color:#f29e38;'> 50% </color>，并在处于【课堂频道】状态时拥有<color style='color:#f29e38;'><u>切换计数</u></color>。当首领幻影被<color style='color:#f29e38;'>弱点击破</color>后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100803",
+                    "name": "计数流失",
+                    "effect": "每回合开始时，敌方处于【课堂频道】状态的单位的<color style='color:#f29e38;'><u>切换计数</u></color>会扣减一定数值。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100804",
+                    "name": "速度强化",
+                    "effect": "【期末晚会】的速度提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3006",
+        "name": "煽动螟蝗",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体解除控制状态、恢复战技点并激活终结技。<br>敌方全体受到的战技伤害提高<color style='color:#f29e38;'> 25% </color>，终结技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "寸草不生",
+                    "effect": "角色攻击处于弱点击破状态下的敌人后，其当前承受的所有持续伤害立即产生相当于原伤害<color style='color:#f29e38;'> 60% </color>的伤害，该效果单个回合内每个角色各自最多触发<color style='color:#f29e38;'> 1 </color>次。"
+                },
+                {
+                    "name": "牵丝攀藤",
+                    "effect": "消灭敌方目标后，敌方全体受到的击破伤害提高<color style='color:#f29e38;'> 5% </color>，最多叠加<color style='color:#f29e38;'> 5 </color>层，该效果对所有新上场的敌人也生效。"
+                },
+                {
+                    "name": "势如破竹",
+                    "effect": "我方全体造成的普攻和终结技伤害的暴击伤害提高<color style='color:#f29e38;'> 30% </color>，对处于弱点击破状态下的敌方目标额外提高<color style='color:#f29e38;'> 30% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100601",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100602",
+                    "name": "移花接木",
+                    "effect": "召唤新的【玄莲】时，首领幻影会进入<color style='color:#f29e38;'><u>韧性保护</u></color>状态。消灭任意召唤物会使首领幻影的韧性保护解除，并且对首领幻影造成额外韧性削减。",
+                    "attribute": [
+                        {
+                            "name": "韧性保护",
+                            "effect": "韧性值无法受到削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100603",
+                    "name": "枯木逢春",
+                    "effect": "在一阶段，首领幻影在切换形态时会回复召唤物<color style='color:#f29e38;'> 25% </color>生命值。"
+                },
+                {
+                    "id": "100604",
+                    "name": "空花阳焰",
+                    "effect": "在二阶段，召唤物的生命上限提高<color style='color:#f29e38;'> 20% </color>。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3005",
+        "name": "冽风猢狲",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体行动提前并恢复战技点。<br>敌方全体受到的弱点击破伤害提高<color style='color:#f29e38;'> 20% </color>，追加攻击伤害提高<color style='color:#f29e38;'> 20% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "作弊小抄",
+                    "effect": "对我方单体目标施放战技或终结技时，使技能目标的攻击力提高<color style='color:#f29e38;'> 25% </color>，持续<color style='color:#f29e38;'> 2 </color>回合，该效果最多叠加<color style='color:#f29e38;'> 2 </color>次。"
+                },
+                {
+                    "name": "课间休息",
+                    "effect": "我方全体对处于弱点击破状态下的敌方目标造成的终结技伤害提高<color style='color:#f29e38;'> 70% </color>。"
+                },
+                {
+                    "name": "放学别走",
+                    "effect": "我方全体造成的普攻和战技伤害提高<color style='color:#f29e38;'> 55% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100801",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100802",
+                    "name": "共同阵线",
+                    "effect": "所有敌方单位受到的伤害降低<color style='color:#f29e38;'> 50% </color>，并在处于【课堂频道】状态时拥有<color style='color:#f29e38;'><u>切换计数</u></color>。当首领幻影被<color style='color:#f29e38;'>弱点击破</color>后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100803",
+                    "name": "计数流失",
+                    "effect": "每回合开始时，敌方处于【课堂频道】状态的单位的<color style='color:#f29e38;'><u>切换计数</u></color>会扣减一定数值。",
+                    "attribute": [
+                        {
+                            "name": "切换计数",
+                            "effect": "处于【课堂频道】状态的单位受到攻击后增加1点切换计数，切换计数达到上限时，转变为【课间频道】状态，同时削减首领幻影的韧性，并立即获得一次该单位的【课间频道】奖励。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100804",
+                    "name": "速度强化",
+                    "effect": "【期末晚会】的速度提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3004",
+        "name": "支配指挥",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体角色恢复战技点并激活终结技。<br>敌方全体受到的弱点击破伤害提高<color style='color:#f29e38;'> 20% </color>，追加攻击伤害提高<color style='color:#f29e38;'> 20% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "乘胜追击",
+                    "effect": "角色施放追加攻击后，行动提前<color style='color:#f29e38;'> 15% </color>，该效果每个角色下次行动前最多触发<color style='color:#f29e38;'> 1 </color>次。"
+                },
+                {
+                    "name": "风卷残云",
+                    "effect": "角色造成终结技伤害时的弱点击破效率提高<color style='color:#f29e38;'> 25% </color>。"
+                },
+                {
+                    "name": "以战养战",
+                    "effect": "我方全体角色击破特攻提高<color style='color:#f29e38;'> 50% </color>，角色击破敌方目标弱点时，恢复该角色<color style='color:#f29e38;'> 5 </color>点能量。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100701",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100702",
+                    "name": "韵律不息",
+                    "effect": "召唤物受到的伤害降低<color style='color:#f29e38;'> 50% </color>。当首领幻影被<color style='color:#f29e38;'>弱点击破</color>后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100703",
+                    "name": "苦乐同享",
+                    "effect": "首领幻影将自身弱点属性<color style='color:#f29e38;'><u>分享</u></color>给召唤物，同时非对应弱点的属性抗性提高<color style='color:#f29e38;'> 40% </color>。",
+                    "attribute": [
+                        {
+                            "name": "分享",
+                            "effect": "将弱点属性分享给目标，弱点属性会在目标被弱点击破后添加给所有敌方目标，并造成额外韧性值削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100704",
+                    "name": "神主赐福",
+                    "effect": "召唤物的韧性上限提高<color style='color:#f29e38;'> 10 </color>。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3003",
+        "name": "煽动博弈",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体行动提前并恢复战技点。<br>敌方全体受到的追加攻击伤害提高<color style='color:#f29e38;'> 25% </color>，终结技伤害提高<color style='color:#f29e38;'> 15% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "寸草不生",
+                    "effect": "角色攻击处于弱点击破状态下的敌人后，其当前承受的所有持续伤害立即产生相当于原伤害<color style='color:#f29e38;'> 80% </color>的伤害，该效果单个回合内每个角色各自最多触发<color style='color:#f29e38;'> 2 </color>次。"
+                },
+                {
+                    "name": "牵丝攀藤",
+                    "effect": "消灭敌方目标后，敌方全体受到的击破伤害提高<color style='color:#f29e38;'> 5% </color>，最多叠加<color style='color:#f29e38;'> 5 </color>层，该效果对所有新上场的敌人也生效。"
+                },
+                {
+                    "name": "势如破竹",
+                    "effect": "造成的终结技伤害的暴击伤害提高<color style='color:#f29e38;'> 30% </color>，对处于弱点击破状态下的敌方目标额外提高<color style='color:#f29e38;'> 30% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100601",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100602",
+                    "name": "移花接木",
+                    "effect": "召唤新的【玄莲】时，首领幻影会进入<color style='color:#f29e38;'><u>韧性保护</u></color>状态。消灭任意召唤物会使首领幻影的韧性保护解除，并且对首领幻影造成额外韧性削减。",
+                    "attribute": [
+                        {
+                            "name": "韧性保护",
+                            "effect": "韧性值无法受到削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100603",
+                    "name": "枯木逢春",
+                    "effect": "在一阶段，首领幻影在切换形态时会回复召唤物<color style='color:#f29e38;'> 25% </color>生命值。"
+                },
+                {
+                    "id": "100604",
+                    "name": "空花阳焰",
+                    "effect": "在二阶段，召唤物的生命上限提高<color style='color:#f29e38;'> 20% </color>。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3002",
+        "name": "支配恶兽",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体行动提前<color style='color:#f29e38;'> 100% </color>并激活终结技。<br>敌方全体受到的追加攻击伤害提高<color style='color:#f29e38;'> 15% </color>，反击伤害额外提高<color style='color:#f29e38;'> 25% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "末路天堂",
+                    "effect": "追加攻击/反击对非弱点目标也能削减韧性，效果分别等同于原技能削韧值的<color style='color:#f29e38;'> 50% </color>/<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "name": "锐不可当",
+                    "effect": "敌方全体受到的击破伤害提高<color style='color:#f29e38;'> 20% </color>。"
+                },
+                {
+                    "name": "背水一战",
+                    "effect": "我方全体战技造成的暴击伤害提高<color style='color:#f29e38;'> 40% </color>，且战技对处于弱点击破状态的目标造成的暴击伤害额外提高<color style='color:#f29e38;'> 40% </color>。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100301",
+                    "name": "坚防守备",
+                    "effect": "首领幻影不可被攻击。首领幻影的三个<color style='color:#f29e38;'><u>部位</u></color>同时处于假死状态时，首领幻影陷入弱点击破状态并可以被攻击，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。",
+                    "attribute": [
+                        {
+                            "name": "部位",
+                            "effect": "对部位进行的攻击会同时对本体削减等量的生命值"
+                        }
+                    ]
+                },
+                {
+                    "id": "100302",
+                    "name": "阵地转移",
+                    "effect": "【反物质引擎】会将自身弱点属性<color style='color:#f29e38;'><u>转移</u></color>给【灾虐的右手】和【黎明的左手】，但当【灾虐的右手】或【黎明的左手】被消灭时，【反物质引擎】的韧性值受到额外削减。",
+                    "attribute": [
+                        {
+                            "name": "转移",
+                            "effect": "将弱点属性转移给目标，弱点属性会在目标被消灭后返回，并造成额外韧性值削减。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100303",
+                    "name": "战而愈勇",
+                    "effect": "敌方单位施放单攻技能后，速度提高，持续1回合；施放群攻技能后，攻击力提高，持续1回合；施放辅助技能后，为技能目标回复生命值。"
+                },
+                {
+                    "id": "100304",
+                    "name": "坚韧之志",
+                    "effect": "敌方全体受到的伤害降低。但每拥有1个<color style='color:#f29e38;'>弱点属性</color>，受到的伤害提高。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3001",
+        "name": "冽风骑士",
+        "buff": {
+            "name": "末法余烬",
+            "effect": "拥有<color style='color:#f29e38;'>【坚防守备】</color>的敌方单位被<color style='color:#f29e38;'>弱点击破</color>时，使我方全体恢复战技点并激活终结技。<br>敌方全体受到的弱点击破伤害提高<color style='color:#f29e38;'> 15% </color>，超击破伤害额外提高<color style='color:#f29e38;'> 25% </color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "name": "破碎乐土",
+                    "effect": "我方全体击破特攻提高<color style='color:#f29e38;'> 50% </color>，对敌方造成超击破伤害后速度提高，提高数值等同于当前速度的<color style='color:#f29e38;'> 40% </color>，持续直到下次行动。"
+                },
+                {
+                    "name": "灰色战场",
+                    "effect": "我方全体普攻、战技造成的伤害提高<color style='color:#f29e38;'> 50% </color>。消灭敌方目标后，攻击者行动提前<color style='color:#f29e38;'> 25% </color>。"
+                },
+                {
+                    "name": "末日追击",
+                    "effect": "在拥有【坚防守备】的敌方单位被弱点击破前，累积受到的追加攻击伤害值。在弱点击破后对该单位造成等同于累积伤害值<color style='color:#f29e38;'> 200% </color>的附加伤害。"
+                }
+            ],
+            "bossTrait": [
+                {
+                    "id": "100201",
+                    "name": "坚防守备",
+                    "effect": "首领幻影受到的伤害降低<color style='color:#f29e38;'> 50% </color>。<color style='color:#f29e38;'>弱点击破</color>后，行动额外延后，受到的伤害提高<color style='color:#f29e38;'> 100% </color>。"
+                },
+                {
+                    "id": "100202",
+                    "name": "攻守易型",
+                    "effect": "首领幻影会在战斗中切换自身<color style='color:#f29e38;'><u>战斗姿态</u></color>，召唤不同雕塑进行战斗；我方消灭处于【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+                    "attribute": [
+                        {
+                            "name": "战斗姿态",
+                            "effect": "芒寒色正的银骑士会随着战斗改变自身的状态：<br>【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。<br>【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。<br>【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。"
+                        }
+                    ]
+                },
+                {
+                    "id": "100203",
+                    "name": "绝境逆转",
+                    "effect": "首领幻影第二阶段施加【灵魂释放】时，会选择<color style='color:#f29e38;'>所有</color>雕塑作为目标。"
+                },
+                {
+                    "id": "100204",
+                    "name": "众星拱卫",
+                    "effect": "除芒寒色正的银骑士外，每多存在一个敌方单位，敌方全体受到的伤害降低 <color style='color:#f29e38'>5.0%</color> ，造成的伤害提高 <color style='color:#f29e38'>3.0%</color> 。"
+                }
+            ]
+        }
+    }
+]

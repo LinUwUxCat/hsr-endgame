@@ -1,0 +1,1668 @@
+[
+    {
+        "id": "3015",
+        "dateStart": "02/02/2026",
+        "dateEnd": "16/03/2026",
+        "buff": {
+            "id": "3110014"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "200401404",
+                        "hp": 4262060,
+                        "speed": 198,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "actionAdvance": -50,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "hpPercent": 250,
+            "bossTrait": [
+                {
+                    "id": "100401"
+                },
+                {
+                    "id": "100402"
+                },
+                {
+                    "id": "100403"
+                },
+                {
+                    "id": "100404"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111055"
+                },
+                {
+                    "id": "3111074"
+                },
+                {
+                    "id": "3111030"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "401403604",
+                        "hp": 13198637,
+                        "speed": 190,
+                        "toughness": 800,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "LIGHTNING": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "WIND",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "hpPercent": 120,
+            "bossTrait": [
+                {
+                    "id": "101301"
+                },
+                {
+                    "id": "101302"
+                },
+                {
+                    "id": "101303"
+                },
+                {
+                    "id": "101304"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111065"
+                },
+                {
+                    "id": "3111066"
+                },
+                {
+                    "id": "3111067"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3014",
+        "dateStart": "22/12/2025",
+        "dateEnd": "02/02/2026",
+        "buff": {
+            "id": "3110014"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "302401304",
+                        "hp": 6049375,
+                        "speed": 139,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "LIGHTNING": 0.6,
+                            "WIND": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "IMAGINARY"
+            ],
+            "hpPercent": 440.00000000000006,
+            "bossTrait": [
+                {
+                    "id": "100201"
+                },
+                {
+                    "id": "100202"
+                },
+                {
+                    "id": "100203"
+                },
+                {
+                    "id": "100204"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111077"
+                },
+                {
+                    "id": "3111078"
+                },
+                {
+                    "id": "3111079"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "300402104",
+                        "hp": 14782474,
+                        "speed": 76,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
+            "hpPercent": 320,
+            "bossTrait": [
+                {
+                    "id": "100801"
+                },
+                {
+                    "id": "100802"
+                },
+                {
+                    "id": "100803"
+                },
+                {
+                    "id": "100804"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111080"
+                },
+                {
+                    "id": "3111081"
+                },
+                {
+                    "id": "3111082"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3013",
+        "dateStart": "10/11/2025",
+        "dateEnd": "22/12/2025",
+        "buff": {
+            "id": "3110013"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "802501104",
+                        "hp": 8447128,
+                        "speed": 158,
+                        "toughness": 200,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 3,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "WIND": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "hpPercent": 240,
+            "bossTrait": [
+                {
+                    "id": "100901"
+                },
+                {
+                    "id": "100902"
+                },
+                {
+                    "id": "100903"
+                },
+                {
+                    "id": "100904"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111071"
+                },
+                {
+                    "id": "3111072"
+                },
+                {
+                    "id": "3111073"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "801502204",
+                        "hp": 4751509,
+                        "speed": 158,
+                        "toughness": 380,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "hpPercent": 270,
+            "bossTrait": [
+                {
+                    "id": "100601"
+                },
+                {
+                    "id": "100602"
+                },
+                {
+                    "id": "100603"
+                },
+                {
+                    "id": "100604"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111074"
+                },
+                {
+                    "id": "3111075"
+                },
+                {
+                    "id": "3111076"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3012",
+        "dateStart": "29/09/2025",
+        "dateEnd": "10/11/2025",
+        "buff": {
+            "id": "3110012"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "100401404",
+                        "hp": 3712117,
+                        "speed": 172,
+                        "toughness": [
+                            "190",
+                            "270"
+                        ],
+                        "hpBarCount": 2,
+                        "actionAdvance": 80,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.6,
+                            "IMAGINARY": 0.6
+                        }
+                    },
+                    {
+                        "id": "100402604",
+                        "hp": 1781816,
+                        "speed": 165,
+                        "toughness": 200,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "ICE": 0.2,
+                            "WIND": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "QUANTUM"
+            ],
+            "atkPercent": 95,
+            "hpPercent": 270,
+            "bossTrait": [
+                {
+                    "id": "100101"
+                },
+                {
+                    "id": "100102"
+                },
+                {
+                    "id": "100103"
+                },
+                {
+                    "id": "100104"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111068"
+                },
+                {
+                    "id": "3111069"
+                },
+                {
+                    "id": "3111070"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "401403604",
+                        "hp": 11548808,
+                        "speed": 190,
+                        "toughness": 800,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "LIGHTNING": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "WIND",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "hpPercent": 105,
+            "bossTrait": [
+                {
+                    "id": "101301"
+                },
+                {
+                    "id": "101302"
+                },
+                {
+                    "id": "101303"
+                },
+                {
+                    "id": "101304"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111065"
+                },
+                {
+                    "id": "3111066"
+                },
+                {
+                    "id": "3111067"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3011",
+        "dateStart": "18/08/2025",
+        "dateEnd": "29/09/2025",
+        "buff": {
+            "id": "3110011"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "203401404",
+                        "hp": 3387650,
+                        "speed": 211,
+                        "toughness": 380,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "QUANTUM"
+            ],
+            "hpPercent": 140,
+            "bossTrait": [
+                {
+                    "id": "101001"
+                },
+                {
+                    "id": "101002"
+                },
+                {
+                    "id": "101003"
+                },
+                {
+                    "id": "101004"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111062"
+                },
+                {
+                    "id": "3111063"
+                },
+                {
+                    "id": "3111061"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "203501204",
+                        "hp": 8469126,
+                        "speed": 190,
+                        "toughness": 280,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "ICE": 0.4,
+                            "WIND": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "LIGHTNING",
+                "WIND"
+            ],
+            "bossTrait": [
+                {
+                    "id": "101201"
+                },
+                {
+                    "id": "101202"
+                },
+                {
+                    "id": "101203"
+                },
+                {
+                    "id": "101204"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111059"
+                },
+                {
+                    "id": "3111060"
+                },
+                {
+                    "id": "3111064"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3010",
+        "dateStart": "07/07/2025",
+        "dateEnd": "18/08/2025",
+        "buff": {
+            "id": "3110010"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "403401304",
+                        "hp": 2419750,
+                        "speed": 174,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 2,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "WIND": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "LIGHTNING",
+                "QUANTUM"
+            ],
+            "bossTrait": [
+                {
+                    "id": "101101"
+                },
+                {
+                    "id": "101102"
+                },
+                {
+                    "id": "101103"
+                },
+                {
+                    "id": "101104"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111056"
+                },
+                {
+                    "id": "3111057"
+                },
+                {
+                    "id": "3111058"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "801501204",
+                        "hp": 3811106,
+                        "speed": 158,
+                        "toughness": 100,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "LIGHTNING": 0.2,
+                            "QUANTUM": 0.2,
+                            "IMAGINARY": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "ICE",
+                "WIND"
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 210,
+            "bossTrait": [
+                {
+                    "id": "100301"
+                },
+                {
+                    "id": "100302"
+                },
+                {
+                    "id": "100303"
+                },
+                {
+                    "id": "100304"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111046"
+                },
+                {
+                    "id": "3111014"
+                },
+                {
+                    "id": "3111021"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3009",
+        "dateStart": "26/05/2025",
+        "dateEnd": "07/07/2025",
+        "buff": {
+            "id": "3110009"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "100401404",
+                        "hp": 2887202,
+                        "speed": 172,
+                        "toughness": [
+                            "190",
+                            "270"
+                        ],
+                        "hpBarCount": 2,
+                        "actionAdvance": 80,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.6,
+                            "IMAGINARY": 0.6
+                        }
+                    },
+                    {
+                        "id": "100402604",
+                        "hp": 1385857,
+                        "speed": 165,
+                        "toughness": 200,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "ICE": 0.2,
+                            "WIND": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "QUANTUM"
+            ],
+            "atkPercent": 93,
+            "hpPercent": 210,
+            "bossTrait": [
+                {
+                    "id": "100101"
+                },
+                {
+                    "id": "100102"
+                },
+                {
+                    "id": "100103"
+                },
+                {
+                    "id": "100104"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111053"
+                },
+                {
+                    "id": "3111018"
+                },
+                {
+                    "id": "3111020"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "200401404",
+                        "hp": 3068683,
+                        "speed": 198,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "actionAdvance": -50,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 180,
+            "bossTrait": [
+                {
+                    "id": "100401"
+                },
+                {
+                    "id": "100402"
+                },
+                {
+                    "id": "100403"
+                },
+                {
+                    "id": "100404"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111055"
+                },
+                {
+                    "id": "3111021"
+                },
+                {
+                    "id": "3111030"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3008",
+        "dateStart": "14/04/2025",
+        "dateEnd": "26/05/2025",
+        "buff": {
+            "id": "3110008"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "802501104",
+                        "hp": 4223564,
+                        "speed": 158,
+                        "toughness": 200,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 3,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "WIND": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "hpPercent": 120,
+            "bossTrait": [
+                {
+                    "id": "100901"
+                },
+                {
+                    "id": "100902"
+                },
+                {
+                    "id": "100903"
+                },
+                {
+                    "id": "100904"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111047"
+                },
+                {
+                    "id": "3111048"
+                },
+                {
+                    "id": "3111049"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "203401404",
+                        "hp": 2419750,
+                        "speed": 211,
+                        "toughness": 380,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "QUANTUM"
+            ],
+            "bossTrait": [
+                {
+                    "id": "101001"
+                },
+                {
+                    "id": "101002"
+                },
+                {
+                    "id": "101003"
+                },
+                {
+                    "id": "101004"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111050"
+                },
+                {
+                    "id": "3111051"
+                },
+                {
+                    "id": "3111052"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3007",
+        "dateStart": "03/03/2025",
+        "dateEnd": "14/04/2025",
+        "buff": {
+            "id": "3110007"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "803401204",
+                        "hp": 2502242,
+                        "speed": 158,
+                        "toughness": 190,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "QUANTUM": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "LIGHTNING",
+                "WIND"
+            ],
+            "atkPercent": 108,
+            "hpPercent": 130,
+            "bossTrait": [
+                {
+                    "id": "100501"
+                },
+                {
+                    "id": "100502"
+                },
+                {
+                    "id": "100503"
+                },
+                {
+                    "id": "100504"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111041"
+                },
+                {
+                    "id": "3111042"
+                },
+                {
+                    "id": "3111043"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "300402104",
+                        "hp": 5543428,
+                        "speed": 76,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
+            "hpPercent": 120,
+            "bossTrait": [
+                {
+                    "id": "100801"
+                },
+                {
+                    "id": "100802"
+                },
+                {
+                    "id": "100803"
+                },
+                {
+                    "id": "100804"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111044"
+                },
+                {
+                    "id": "3111045"
+                },
+                {
+                    "id": "3111046"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3006",
+        "dateStart": "20/01/2025",
+        "dateEnd": "03/03/2025",
+        "buff": {
+            "id": "3110006"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "802501104",
+                        "hp": 3519637,
+                        "speed": 158,
+                        "toughness": 200,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 3,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "WIND": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100901"
+                },
+                {
+                    "id": "100902"
+                },
+                {
+                    "id": "100903"
+                },
+                {
+                    "id": "100904"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111035"
+                },
+                {
+                    "id": "3111036"
+                },
+                {
+                    "id": "3111037"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "801502204",
+                        "hp": 2674924,
+                        "speed": 158,
+                        "toughness": 380,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 152,
+            "bossTrait": [
+                {
+                    "id": "100601"
+                },
+                {
+                    "id": "100602"
+                },
+                {
+                    "id": "100603"
+                },
+                {
+                    "id": "100604"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111038"
+                },
+                {
+                    "id": "3111039"
+                },
+                {
+                    "id": "3111040"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3005",
+        "dateStart": "09/12/2024",
+        "dateEnd": "20/01/2025",
+        "buff": {
+            "id": "3110005"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "100401404",
+                        "hp": 1787315,
+                        "speed": 172,
+                        "toughness": [
+                            "190",
+                            "270"
+                        ],
+                        "hpBarCount": 2,
+                        "actionAdvance": 80,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.6,
+                            "IMAGINARY": 0.6
+                        }
+                    },
+                    {
+                        "id": "100402604",
+                        "hp": 857911,
+                        "speed": 165,
+                        "toughness": 200,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "ICE": 0.2,
+                            "WIND": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "QUANTUM"
+            ],
+            "atkPercent": 85,
+            "hpPercent": 130,
+            "bossTrait": [
+                {
+                    "id": "100101"
+                },
+                {
+                    "id": "100102"
+                },
+                {
+                    "id": "100103"
+                },
+                {
+                    "id": "100104"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111030"
+                },
+                {
+                    "id": "3111033"
+                },
+                {
+                    "id": "3111034"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "300402104",
+                        "hp": 4619523,
+                        "speed": 76,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100801"
+                },
+                {
+                    "id": "100802"
+                },
+                {
+                    "id": "100803"
+                },
+                {
+                    "id": "100804"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111029"
+                },
+                {
+                    "id": "3111032"
+                },
+                {
+                    "id": "3111031"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3004",
+        "dateStart": "28/10/2024",
+        "dateEnd": "09/12/2024",
+        "buff": {
+            "id": "3110004"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "200401404",
+                        "hp": 2216271,
+                        "speed": 198,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "actionAdvance": -50,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "hpPercent": 130,
+            "bossTrait": [
+                {
+                    "id": "100401"
+                },
+                {
+                    "id": "100402"
+                },
+                {
+                    "id": "100403"
+                },
+                {
+                    "id": "100404"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111028"
+                },
+                {
+                    "id": "3111027"
+                },
+                {
+                    "id": "3111021"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "302501304",
+                        "hp": 3849603,
+                        "speed": 198,
+                        "toughness": 80,
+                        "hpBarCount": 2,
+                        "toughnessBarCount": 10,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.4,
+                            "WIND": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100701"
+                },
+                {
+                    "id": "100702"
+                },
+                {
+                    "id": "100703"
+                },
+                {
+                    "id": "100704"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111024"
+                },
+                {
+                    "id": "3111025"
+                },
+                {
+                    "id": "3111026"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3003",
+        "dateStart": "16/09/2024",
+        "dateEnd": "28/10/2024",
+        "buff": {
+            "id": "3110003"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "803401204",
+                        "hp": 1924801,
+                        "speed": 158,
+                        "toughness": 190,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "FIRE": 0.4,
+                            "QUANTUM": 0.4,
+                            "IMAGINARY": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE",
+                "LIGHTNING",
+                "WIND"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100501"
+                },
+                {
+                    "id": "100502"
+                },
+                {
+                    "id": "100503"
+                },
+                {
+                    "id": "100504"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111021"
+                },
+                {
+                    "id": "3111022"
+                },
+                {
+                    "id": "3111023"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "801502204",
+                        "hp": 1759818,
+                        "speed": 158,
+                        "toughness": 380,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100601"
+                },
+                {
+                    "id": "100602"
+                },
+                {
+                    "id": "100603"
+                },
+                {
+                    "id": "100604"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111018"
+                },
+                {
+                    "id": "3111019"
+                },
+                {
+                    "id": "3111020"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3002",
+        "dateStart": "05/08/2024",
+        "dateEnd": "16/09/2024",
+        "buff": {
+            "id": "3110002"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "200401404",
+                        "hp": 1704824,
+                        "speed": 198,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "actionAdvance": -50,
+                        "resist": {
+                            "ICE": 0.4,
+                            "LIGHTNING": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "WIND",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100401"
+                },
+                {
+                    "id": "100402"
+                },
+                {
+                    "id": "100403"
+                },
+                {
+                    "id": "100404"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111015"
+                },
+                {
+                    "id": "3111013"
+                },
+                {
+                    "id": "3111014"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "801501204",
+                        "hp": 1814813,
+                        "speed": 158,
+                        "toughness": 100,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "LIGHTNING": 0.2,
+                            "QUANTUM": 0.2,
+                            "IMAGINARY": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "ICE"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100301"
+                },
+                {
+                    "id": "100302"
+                },
+                {
+                    "id": "100303"
+                },
+                {
+                    "id": "100304"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111015"
+                },
+                {
+                    "id": "3111016"
+                },
+                {
+                    "id": "3111017"
+                }
+            ]
+        }
+    },
+    {
+        "id": "3001",
+        "dateStart": "19/06/2024",
+        "dateEnd": "05/08/2024",
+        "buff": {
+            "id": "3110001"
+        },
+        "node1": {
+            "waves": [
+                [
+                    {
+                        "id": "100401404",
+                        "hp": 1374858,
+                        "speed": 172,
+                        "toughness": [
+                            "190",
+                            "270"
+                        ],
+                        "hpBarCount": 2,
+                        "actionAdvance": 80,
+                        "resist": {
+                            "PHYSICAL": 0.4,
+                            "ICE": 0.6,
+                            "IMAGINARY": 0.6
+                        }
+                    },
+                    {
+                        "id": "100402604",
+                        "hp": 659932,
+                        "speed": 165,
+                        "toughness": 200,
+                        "resist": {
+                            "PHYSICAL": 0.2,
+                            "FIRE": 0.2,
+                            "ICE": 0.2,
+                            "WIND": 0.2
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
+            "atkPercent": 85,
+            "bossTrait": [
+                {
+                    "id": "100101"
+                },
+                {
+                    "id": "100102"
+                },
+                {
+                    "id": "100103"
+                },
+                {
+                    "id": "100104"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111008"
+                },
+                {
+                    "id": "3111010"
+                },
+                {
+                    "id": "3111011"
+                }
+            ]
+        },
+        "node2": {
+            "waves": [
+                [
+                    {
+                        "id": "302401304",
+                        "hp": 1374858,
+                        "speed": 139,
+                        "toughness": 300,
+                        "hpBarCount": 2,
+                        "resist": {
+                            "LIGHTNING": 0.6,
+                            "WIND": 0.4,
+                            "QUANTUM": 0.4
+                        }
+                    }
+                ]
+            ],
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "IMAGINARY"
+            ],
+            "bossTrait": [
+                {
+                    "id": "100201"
+                },
+                {
+                    "id": "100202"
+                },
+                {
+                    "id": "100203"
+                },
+                {
+                    "id": "100204"
+                }
+            ],
+            "selectableBuff": [
+                {
+                    "id": "3111008"
+                },
+                {
+                    "id": "3111009"
+                },
+                {
+                    "id": "3111012"
+                }
+            ]
+        }
+    }
+]

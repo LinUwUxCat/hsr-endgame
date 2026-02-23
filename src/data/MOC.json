@@ -1,0 +1,3478 @@
+[
+    {
+        "id": "1029",
+        "dateStart": "19/01/2026",
+        "dateEnd": "02/03/2026",
+        "turbulence": {
+            "id": "3030142"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4033030",
+                        "hp": 2094947,
+                        "speed": 190,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "8003010",
+                        "hp": 1396631,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "100401014",
+                        "hp": 4748546,
+                        "speed": 158,
+                        "toughness": 140,
+                        "hpPercent": 777.144
+                    },
+                    {
+                        "id": "100403002",
+                        "hp": 2374273,
+                        "speed": 158,
+                        "toughness": 80,
+                        "hpPercent": 566.668
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 400
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4053010",
+                        "hp": 2094947,
+                        "speed": 190,
+                        "toughness": 180
+                    },
+                    {
+                        "id": "4063010",
+                        "hp": 2234610,
+                        "speed": 158,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "3024030",
+                        "hp": 11173050,
+                        "speed": 190,
+                        "toughness": 200
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 400
+        }
+    },
+    {
+        "id": "1028",
+        "dateStart": "08/12/2025",
+        "dateEnd": "19/01/2026",
+        "turbulence": {
+            "id": "3030141"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 1536294,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "4053020",
+                        "hp": 2094947,
+                        "speed": 218,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "302402009",
+                        "hp": 11173050,
+                        "speed": 158,
+                        "toughness": 200,
+                        "hpPercent": 640
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 400
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "402301001",
+                        "hp": 2513936,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": 553.8439999999999
+                    },
+                    {
+                        "id": "4063010",
+                        "hp": 2234610,
+                        "speed": 158,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "2034010",
+                        "hp": 3840736,
+                        "speed": 264,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 400
+        }
+    },
+    {
+        "id": "1027",
+        "dateStart": "27/10/2025",
+        "dateEnd": "08/12/2025",
+        "turbulence": {
+            "id": "3030140"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4013010",
+                        "hp": 2011149,
+                        "speed": 174,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 1229035,
+                        "speed": 158,
+                        "toughness": 140
+                    }
+                ],
+                [
+                    {
+                        "id": "4034010",
+                        "hp": 3631241,
+                        "speed": 174,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 320
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3003020",
+                        "hp": 2011149,
+                        "speed": 190,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 1340766,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "4064010",
+                        "hp": 3016723,
+                        "speed": 198,
+                        "toughness": 120,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 320
+        }
+    },
+    {
+        "id": "1026",
+        "dateStart": "15/09/2025",
+        "dateEnd": "27/10/2025",
+        "turbulence": {
+            "id": "3030139"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4053010",
+                        "hp": 1466463,
+                        "speed": 190,
+                        "toughness": 180
+                    },
+                    {
+                        "id": "4033020",
+                        "hp": 1759755,
+                        "speed": 174,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "4053010",
+                        "hp": 1466463,
+                        "speed": 190,
+                        "toughness": 180
+                    },
+                    {
+                        "id": "100402016",
+                        "hp": 2346340,
+                        "speed": 170,
+                        "toughness": 140,
+                        "hpPercent": 610.9096
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 280
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 1173170,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 1173170,
+                        "speed": 190,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "4044010",
+                        "hp": 11731702,
+                        "speed": 211,
+                        "toughness": 200
+                    }
+                ]
+            ],
+            "atkPercent": 110.00000000000001,
+            "hpPercent": 280
+        }
+    },
+    {
+        "id": "1025",
+        "dateStart": "04/08/2025",
+        "dateEnd": "15/09/2025",
+        "turbulence": {
+            "id": "3030138"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2033010",
+                        "hp": 1340766,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 1117305,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "101401016",
+                        "hp": 3687106,
+                        "speed": 158,
+                        "toughness": 140,
+                        "hpPercent": 660
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 1340766,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ]
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 320
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4033010",
+                        "hp": 1270934,
+                        "speed": 158,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4033020",
+                        "hp": 1634059,
+                        "speed": 174,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "803401004",
+                        "hp": 2360307,
+                        "speed": 158,
+                        "toughness": 150,
+                        "hpBarCount": 2,
+                        "hpPercent": 281.6658
+                    }
+                ]
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 260
+        }
+    },
+    {
+        "id": "1024",
+        "dateStart": "23/06/2025",
+        "dateEnd": "04/08/2025",
+        "turbulence": {
+            "id": "3030137"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "402302001",
+                        "hp": 1452496,
+                        "speed": 132,
+                        "toughness": 160,
+                        "hpPercent": 378.1804
+                    },
+                    {
+                        "id": "4013010",
+                        "hp": 1634059,
+                        "speed": 174,
+                        "toughness": 160
+                    }
+                ],
+                [
+                    {
+                        "id": "802401107",
+                        "hp": 1997183,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2,
+                        "hpPercent": 317.77720000000005
+                    },
+                    {
+                        "id": "402302001",
+                        "hp": 1452496,
+                        "speed": 132,
+                        "toughness": 160,
+                        "hpPercent": 378.1804
+                    }
+                ]
+            ],
+            "atkPercent": 120,
+            "hpPercent": 260
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4033010",
+                        "hp": 1173170,
+                        "speed": 158,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4033030",
+                        "hp": 1256968,
+                        "speed": 190,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "4032030",
+                        "hp": 284913,
+                        "speed": 132,
+                        "toughness": 40
+                    }
+                ],
+                [
+                    {
+                        "id": "2034010",
+                        "hp": 2304441,
+                        "speed": 264,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 114.99999999999999,
+            "hpPercent": 240
+        }
+    },
+    {
+        "id": "1023",
+        "dateStart": "12/05/2025",
+        "dateEnd": "23/06/2025",
+        "turbulence": {
+            "id": "3030136"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "QUANTUM",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "4014030",
+                        "hp": 2723431,
+                        "speed": 190,
+                        "toughness": 180,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 105,
+            "hpPercent": 240
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8003020",
+                        "hp": 837979,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 1005574,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 837979,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "3004020",
+                        "hp": 3351915,
+                        "speed": 106,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 105,
+            "hpPercent": 240
+        }
+    },
+    {
+        "id": "1022",
+        "dateStart": "31/03/2025",
+        "dateEnd": "12/05/2025",
+        "turbulence": {
+            "id": "3030135"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "ICE",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "800302024",
+                        "hp": 453905,
+                        "speed": 158,
+                        "toughness": 100,
+                        "hpPercent": 130
+                    },
+                    {
+                        "id": "401301003",
+                        "hp": 1117305,
+                        "speed": 174,
+                        "toughness": 160,
+                        "hpPercent": 177.778
+                    },
+                    {
+                        "id": "800302024",
+                        "hp": 453905,
+                        "speed": 158,
+                        "toughness": 100,
+                        "hpPercent": 130
+                    }
+                ],
+                [
+                    {
+                        "id": "4034010",
+                        "hp": 2269526,
+                        "speed": 174,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "atkPercent": 118,
+            "hpPercent": 200
+        },
+        "node2": {
+            "recommendedTypes": [
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "402301001",
+                        "hp": 1256968,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": 276.92199999999997
+                    },
+                    {
+                        "id": "402302001",
+                        "hp": 1117305,
+                        "speed": 132,
+                        "toughness": 160,
+                        "hpPercent": 290.908
+                    }
+                ],
+                [
+                    {
+                        "id": "402302001",
+                        "hp": 1117305,
+                        "speed": 132,
+                        "toughness": 160,
+                        "hpPercent": 290.908
+                    },
+                    {
+                        "id": "200401007",
+                        "hp": 1815621,
+                        "speed": 170,
+                        "toughness": 150,
+                        "hpPercent": 371.428
+                    },
+                    {
+                        "id": "402302001",
+                        "hp": 1117305,
+                        "speed": 132,
+                        "toughness": 160,
+                        "hpPercent": 290.908
+                    }
+                ]
+            ],
+            "atkPercent": 118,
+            "hpPercent": 200
+        }
+    },
+    {
+        "id": "1021",
+        "dateStart": "17/02/2025",
+        "dateEnd": "31/03/2025",
+        "turbulence": {
+            "id": "3030134"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "803301014",
+                        "hp": 1117305,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "1023010",
+                        "hp": 768147,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "802401107",
+                        "hp": 1536294,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2,
+                        "hpPercent": 244.44400000000002
+                    },
+                    {
+                        "id": "1023010",
+                        "hp": 768147,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ]
+            ],
+            "hpPercent": 200
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "LIGHTNING",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3002040",
+                        "hp": 109985,
+                        "speed": 106,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "4013010",
+                        "hp": 1131271,
+                        "speed": 174,
+                        "toughness": 160
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 628484,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "4014020",
+                        "hp": 3770904,
+                        "speed": 79,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 180
+        }
+    },
+    {
+        "id": "1020",
+        "dateStart": "06/01/2025",
+        "dateEnd": "17/02/2025",
+        "turbulence": {
+            "id": "3030133"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "800304016",
+                        "hp": 1047473,
+                        "speed": 227,
+                        "toughness": 100,
+                        "hpPercent": 300
+                    },
+                    {
+                        "id": "203301007",
+                        "hp": 1256968,
+                        "speed": 158,
+                        "toughness": 120,
+                        "hpPercent": 300
+                    }
+                ],
+                [
+                    {
+                        "id": "101401016",
+                        "hp": 2304441,
+                        "speed": 158,
+                        "toughness": 140,
+                        "hpPercent": 412.5
+                    },
+                    {
+                        "id": "203301007",
+                        "hp": 1256968,
+                        "speed": 158,
+                        "toughness": 120,
+                        "hpPercent": 300
+                    }
+                ]
+            ],
+            "hpPercent": 200
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1013020",
+                        "hp": 768147,
+                        "speed": 190,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 837979,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "802401106",
+                        "hp": 1675957,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2,
+                        "hpPercent": 266.666
+                    }
+                ]
+            ],
+            "hpPercent": 200
+        }
+    },
+    {
+        "id": "1019",
+        "dateStart": "25/11/2024",
+        "dateEnd": "06/01/2025",
+        "turbulence": {
+            "id": "3030132"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2013010",
+                        "hp": 628484,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 754181,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "101401012",
+                        "hp": 1634059,
+                        "speed": 158,
+                        "toughness": 120,
+                        "hpPercent": 292.5
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 754181,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ]
+            ],
+            "hpPercent": 180
+        },
+        "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2032010",
+                        "hp": 125697,
+                        "speed": 158,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3003050",
+                        "hp": 754181,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2032010",
+                        "hp": 125697,
+                        "speed": 158,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3003030",
+                        "hp": 754181,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2032010",
+                        "hp": 125697,
+                        "speed": 158,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "3004020",
+                        "hp": 2513936,
+                        "speed": 106,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 180
+        }
+    },
+    {
+        "id": "1018",
+        "dateStart": "14/10/2024",
+        "dateEnd": "25/11/2024",
+        "turbulence": {
+            "id": "3030131"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3002010",
+                        "hp": 144028,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3003050",
+                        "hp": 628484,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003030",
+                        "hp": 628484,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3002010",
+                        "hp": 144028,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3002020",
+                        "hp": 117841,
+                        "speed": 158,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "3004010",
+                        "hp": 1728331,
+                        "speed": 0,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    },
+                    {
+                        "id": "3003051",
+                        "hp": 0,
+                        "speed": 145,
+                        "toughness": 60
+                    },
+                    {
+                        "id": "3003041",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 80
+                    },
+                    {
+                        "id": "3003031",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 60
+                    }
+                ]
+            ],
+            "hpPercent": 150
+        },
+        "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8003040",
+                        "hp": 523737,
+                        "speed": 227,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 628484,
+                        "speed": 190,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "2034010",
+                        "hp": 1440276,
+                        "speed": 264,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 150
+        }
+    },
+    {
+        "id": "1017",
+        "dateStart": "02/09/2024",
+        "dateEnd": "14/10/2024",
+        "turbulence": {
+            "id": "3030130"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2032020",
+                        "hp": 90781,
+                        "speed": 158,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2033010",
+                        "hp": 544686,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 499296,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "2033010",
+                        "hp": 544686,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "200401007",
+                        "hp": 1180153,
+                        "speed": 170,
+                        "toughness": 150,
+                        "hpPercent": 241.4282
+                    }
+                ]
+            ],
+            "hpPercent": 130
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1002030",
+                        "hp": 95320,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 453905,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "1003010",
+                        "hp": 453905,
+                        "speed": 158,
+                        "toughness": 80
+                    },
+                    {
+                        "id": "1002030",
+                        "hp": 95320,
+                        "speed": 132,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "8034010",
+                        "hp": 1089372,
+                        "speed": 158,
+                        "toughness": 150,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 130
+        }
+    },
+    {
+        "id": "1016",
+        "dateStart": "22/07/2024",
+        "dateEnd": "02/09/2024",
+        "turbulence": {
+            "id": "3030129"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3012020",
+                        "hp": 58659,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "3003040",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003030",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3012020",
+                        "hp": 58659,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "3004010",
+                        "hp": 1382665,
+                        "speed": 0,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    },
+                    {
+                        "id": "3003051",
+                        "hp": 0,
+                        "speed": 145,
+                        "toughness": 60
+                    },
+                    {
+                        "id": "3003041",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 80
+                    },
+                    {
+                        "id": "3003031",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 60
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8003030",
+                        "hp": 460888,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003050",
+                        "hp": 502787,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "3024010",
+                        "hp": 628484,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        }
+    },
+    {
+        "id": "1015",
+        "dateStart": "10/06/2024",
+        "dateEnd": "22/07/2024",
+        "turbulence": {
+            "id": "3030128"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2012010",
+                        "hp": 62848,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 460888,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 502787,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "3024010",
+                        "hp": 628484,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        },
+        "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3012020",
+                        "hp": 58659,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "3003040",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003030",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "3004010",
+                        "hp": 1382665,
+                        "speed": 0,
+                        "toughness": 0,
+                        "hpBarCount": 2
+                    },
+                    {
+                        "id": "3003051",
+                        "hp": 0,
+                        "speed": 145,
+                        "toughness": 60
+                    },
+                    {
+                        "id": "3003041",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 80
+                    },
+                    {
+                        "id": "3003031",
+                        "hp": 0,
+                        "speed": 119,
+                        "toughness": 60
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        }
+    },
+    {
+        "id": "1014",
+        "dateStart": "13/05/2024",
+        "dateEnd": "19/06/2024",
+        "turbulence": {
+            "id": "3030127"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3002030",
+                        "hp": 94273,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "3003030",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3003040",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3002030",
+                        "hp": 94273,
+                        "speed": 132,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "3003030",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "100402010",
+                        "hp": 1005574,
+                        "speed": 158,
+                        "toughness": 120,
+                        "hpPercent": 261.8184
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8013010",
+                        "hp": 460888,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 502787,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2002030",
+                        "hp": 62848,
+                        "speed": 158,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2013020",
+                        "hp": 502787,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "200401007",
+                        "hp": 1089372,
+                        "speed": 170,
+                        "toughness": 150,
+                        "hpPercent": 222.85680000000002
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        }
+    },
+    {
+        "id": "1013",
+        "dateStart": "15/04/2024",
+        "dateEnd": "27/05/2024",
+        "turbulence": {
+            "id": "3030126"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1023020",
+                        "hp": 502787,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3013010",
+                        "hp": 586585,
+                        "speed": 145,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "3013010",
+                        "hp": 586585,
+                        "speed": 145,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "100401004",
+                        "hp": 837979,
+                        "speed": 158,
+                        "toughness": 140,
+                        "hpPercent": 137.1432
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 460888,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "8033010",
+                        "hp": 670383,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "8034010",
+                        "hp": 1005574,
+                        "speed": 158,
+                        "toughness": 150,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 120
+        }
+    },
+    {
+        "id": "1012",
+        "dateStart": "18/03/2024",
+        "dateEnd": "29/04/2024",
+        "turbulence": {
+            "id": "3030125"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8013010",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "200402006",
+                        "hp": 810919,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": 154.83364300000002
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        },
+        "node2": {
+            "recommendedTypes": [
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1013020",
+                        "hp": 356804,
+                        "speed": 190,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 356804,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "3002010",
+                        "hp": 89201,
+                        "speed": 132,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "1013020",
+                        "hp": 356804,
+                        "speed": 190,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "3024020",
+                        "hp": 1621838,
+                        "speed": 158,
+                        "toughness": 200
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        }
+    },
+    {
+        "id": "1011",
+        "dateStart": "19/02/2024",
+        "dateEnd": "01/04/2024",
+        "turbulence": {
+            "id": "3030124"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "3002010",
+                        "hp": 89201,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 324368,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "1023010",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "1023010",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "100402005",
+                        "hp": 551425,
+                        "speed": 158,
+                        "toughness": 120,
+                        "hpPercent": 143.573234
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "3014020",
+                        "hp": 713609,
+                        "speed": 190,
+                        "toughness": 240,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        }
+    },
+    {
+        "id": "1010",
+        "dateStart": "22/01/2024",
+        "dateEnd": "04/03/2024",
+        "turbulence": {
+            "id": "3030123"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 356804,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 389241,
+                        "speed": 190,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "2024010",
+                        "hp": 356804,
+                        "speed": 152,
+                        "toughness": 140,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        },
+        "node2": {
+            "recommendedTypes": [
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8003050",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "200401004",
+                        "hp": 648735,
+                        "speed": 157,
+                        "toughness": 150,
+                        "hpPercent": 132.714153
+                    },
+                    {
+                        "id": "2013020",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        }
+    },
+    {
+        "id": "1009",
+        "dateStart": "25/12/2023",
+        "dateEnd": "05/02/2024",
+        "turbulence": {
+            "id": "3030121"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8013010",
+                        "hp": 356804,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 120
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 389241,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "200401004",
+                        "hp": 648735,
+                        "speed": 157,
+                        "toughness": 150,
+                        "hpPercent": 132.714153
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 356804,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "1003010",
+                        "hp": 324368,
+                        "speed": 158,
+                        "toughness": 80
+                    }
+                ],
+                [
+                    {
+                        "id": "8024011",
+                        "hp": 583862,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ],
+            "hpPercent": 92.9
+        }
+    },
+    {
+        "id": "1008",
+        "dateStart": "11/12/2023",
+        "dateEnd": "25/12/2023",
+        "turbulence": {
+            "id": "3030118"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022110",
+                        "hp": 53910,
+                        "speed": 132,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 269548,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2022110",
+                        "hp": 53910,
+                        "speed": 132,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "2013010",
+                        "hp": 269548,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003030",
+                        "hp": 296503,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1022010",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 269548,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 269548,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "1022020",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "3024010",
+                        "hp": 404322,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1007",
+        "dateStart": "27/11/2023",
+        "dateEnd": "11/12/2023",
+        "turbulence": {
+            "id": "3030119"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8012010",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 296503,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8012020",
+                        "hp": 48519,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8012010",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "8013010",
+                        "hp": 296503,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "1004020",
+                        "hp": 296503,
+                        "speed": 158,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "1022010",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 269548,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003020",
+                        "hp": 269548,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "1022020",
+                        "hp": 40432,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "8024011",
+                        "hp": 485186,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1006",
+        "dateStart": "13/11/2023",
+        "dateEnd": "27/11/2023",
+        "turbulence": {
+            "id": "3030120"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "8024011",
+                        "hp": 395959,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1005",
+        "dateStart": "30/10/2023",
+        "dateEnd": "13/11/2023",
+        "turbulence": {
+            "id": "3030117"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "8024011",
+                        "hp": 395959,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1004",
+        "dateStart": "16/10/2023",
+        "dateEnd": "30/10/2023",
+        "turbulence": {
+            "id": "3030116"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "WIND"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023020",
+                        "hp": 263973,
+                        "speed": 190,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003050",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ],
+                [
+                    {
+                        "id": "8024011",
+                        "hp": 395959,
+                        "speed": 190,
+                        "toughness": 160,
+                        "hpBarCount": 2
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1003",
+        "dateStart": "02/10/2023",
+        "dateEnd": "16/10/2023",
+        "turbulence": {
+            "id": "3030115"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "1003010",
+                        "hp": 219977,
+                        "speed": 158,
+                        "toughness": 80
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8011010",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8011020",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "200402002",
+                        "hp": 494949,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": null
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1002",
+        "dateStart": "18/09/2023",
+        "dateEnd": "02/10/2023",
+        "turbulence": {
+            "id": "3030114"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "1003010",
+                        "hp": 219977,
+                        "speed": 158,
+                        "toughness": 80
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8011010",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8011020",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "200402002",
+                        "hp": 494949,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": null
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "1001",
+        "dateStart": "04/09/2023",
+        "dateEnd": "18/09/2023",
+        "turbulence": {
+            "id": "3030113"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 140
+                    },
+                    {
+                        "id": "1003010",
+                        "hp": 219977,
+                        "speed": 158,
+                        "toughness": 80
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8011010",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8013010",
+                        "hp": 241975,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8011020",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "200402002",
+                        "hp": 494949,
+                        "speed": 158,
+                        "toughness": 160,
+                        "hpPercent": null
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "115",
+        "dateStart": "21/08/2023",
+        "dateEnd": "04/09/2023",
+        "turbulence": {
+            "id": "3030112"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001030",
+                        "hp": 21998,
+                        "speed": 132,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "1023020",
+                        "hp": 263973,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "114",
+        "dateStart": "07/08/2023",
+        "dateEnd": "21/08/2023",
+        "turbulence": {
+            "id": "3030111"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001030",
+                        "hp": 21998,
+                        "speed": 132,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "1023020",
+                        "hp": 263973,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "113",
+        "dateStart": "24/07/2023",
+        "dateEnd": "07/08/2023",
+        "turbulence": {
+            "id": "3030110"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001030",
+                        "hp": 21998,
+                        "speed": 132,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8002010",
+                        "hp": 41796,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "1023020",
+                        "hp": 263973,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "8003040",
+                        "hp": 219977,
+                        "speed": 227,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    },
+                    {
+                        "id": "2022010",
+                        "hp": 26397,
+                        "speed": 110,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2022060",
+                        "hp": 48395,
+                        "speed": 110,
+                        "toughness": 30
+                    }
+                ],
+                [
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "112",
+        "dateStart": "10/07/2023",
+        "dateEnd": "24/07/2023",
+        "turbulence": {
+            "id": "3030109"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "111",
+        "dateStart": "26/06/2023",
+        "dateEnd": "10/07/2023",
+        "turbulence": {
+            "id": "3030108"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "id": "110",
+        "dateStart": "12/06/2023",
+        "dateEnd": "26/06/2023",
+        "turbulence": {
+            "id": "3030107"
+        },
+        "node1": {
+            "recommendedTypes": [
+                "WIND",
+                "QUANTUM"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2011020",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2012010",
+                        "hp": 32997,
+                        "speed": 132,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2011010",
+                        "hp": 19798,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8003030",
+                        "hp": 241975,
+                        "speed": 158,
+                        "toughness": 100
+                    },
+                    {
+                        "id": "2013010",
+                        "hp": 219977,
+                        "speed": 132,
+                        "toughness": 100
+                    }
+                ]
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [
+                "WIND",
+                "IMAGINARY"
+            ],
+            "waves": [
+                [
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2023010",
+                        "hp": 263973,
+                        "speed": 158,
+                        "toughness": 120
+                    },
+                    {
+                        "id": "8001050",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ],
+                [
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "2004010",
+                        "hp": 307968,
+                        "speed": 157,
+                        "toughness": 150
+                    },
+                    {
+                        "id": "2002010",
+                        "hp": 35196,
+                        "speed": 158,
+                        "toughness": 20
+                    },
+                    {
+                        "id": "8001040",
+                        "hp": 13199,
+                        "speed": 110,
+                        "toughness": 10
+                    }
+                ]
+            ]
+        }
+    }
+]

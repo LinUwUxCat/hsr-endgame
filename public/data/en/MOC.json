@@ -1,0 +1,148 @@
+[
+    {
+        "id": "1029",
+        "name": "Breached Nest",
+        "turbulence": {
+            "effect": "At the start of each wave, recovers 4 Skill Point(s) for allies. When ally targets use Skills or consume Skill Points, add 1 hits to \"Memory Turbulence,\" stacking up to 15 hit(s). At the start of each Cycle, each hit of \"Memory Turbulence\" deals True DMG once to a random enemy target."
+        }
+    },
+    {
+        "id": "1028",
+        "name": "Monkey Business",
+        "turbulence": {
+            "effect": "When an ally target attacks an Elite or Boss enemy with a corresponding Type weakness, add 1 Hits Per Action to \"Memory Turbulence\". Breaking an Elite or Boss enemy's weakness adds an additional 1 Hits Per Action, stacking up to 10 hits. At the start of each Cycle, each hit of \"Memory Turbulence\" deals 1 instance of True DMG to a random enemy target."
+        }
+    },
+    {
+        "id": "1027",
+        "name": "Category Mistake"
+    },
+    {
+        "id": "1026",
+        "name": "Pillar of Genesis"
+    },
+    {
+        "id": "1025",
+        "name": "Gambler's Plight"
+    },
+    {
+        "id": "1024",
+        "name": "Lupine Moon-Devourer"
+    },
+    {
+        "id": "1023",
+        "name": "Breath of the Othershore"
+    },
+    {
+        "id": "1022",
+        "name": "Out of Home"
+    },
+    {
+        "id": "1021",
+        "name": "Strife of Creation"
+    },
+    {
+        "id": "1020",
+        "name": "Troopship Mayhem"
+    },
+    {
+        "id": "1019",
+        "name": "Dancing with the Dreams"
+    },
+    {
+        "id": "1018",
+        "name": "Scalegorge Tidalflow"
+    },
+    {
+        "id": "1017",
+        "name": "The Big Sleep"
+    },
+    {
+        "id": "1016",
+        "name": "Dissipation of Dreams"
+    },
+    {
+        "id": "1015",
+        "name": "A Song's True Theme"
+    },
+    {
+        "id": "1014",
+        "name": "Dream Within Dream"
+    },
+    {
+        "id": "1013",
+        "name": "White Night Chronicles"
+    },
+    {
+        "id": "1012",
+        "name": "Eve of Wanton Feast"
+    },
+    {
+        "id": "1011",
+        "name": "Dreamland of Longing"
+    },
+    {
+        "id": "1010",
+        "name": "Light of Reignition"
+    },
+    {
+        "id": "1009",
+        "name": "Enigma in Deep Space"
+    },
+    {
+        "id": "1008",
+        "name": "Sedition of Imbibitor Lunae"
+    },
+    {
+        "id": "1007",
+        "name": "Oath of Eternal Alliance"
+    },
+    {
+        "id": "1006",
+        "name": "Divine Root Subdual"
+    },
+    {
+        "id": "1005",
+        "name": "Ambrosial Arbor's Arrival"
+    },
+    {
+        "id": "1004",
+        "name": "Living and Flaming Catastrophes"
+    },
+    {
+        "id": "1003",
+        "name": "Mara and Null"
+    },
+    {
+        "id": "1002",
+        "name": "A Shot From the Sky"
+    },
+    {
+        "id": "1001",
+        "name": "Ethereal Shipcraft"
+    },
+    {
+        "id": "115",
+        "name": "Traces of Sanctus Medicus"
+    },
+    {
+        "id": "114",
+        "name": "Raintear Strife"
+    },
+    {
+        "id": "113",
+        "name": "Adrift in Astral Seas"
+    },
+    {
+        "id": "112",
+        "name": "Stormquell"
+    },
+    {
+        "id": "111",
+        "name": "Hyperborean Search for Warmth"
+    },
+    {
+        "id": "110",
+        "name": "Coldiron Tribulation"
+    }
+]

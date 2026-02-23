@@ -37,7 +37,7 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
                 <img src="/icon/HP.webp" height={32} width={32} style={{filter: "invert(1)"}}/>
                 <span style={{color: "#cc0000"}}>{monster.hp}</span>
                 <span>{monster.hpBarCount != undefined && monster.hpBarCount > 1 ? ("×"+monster.hpBarCount) : ""}</span>
-                {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{monster.hpPercent}%]</span>}
+                {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{Math.round(monster.hpPercent)}%]</span>}
             </div>
 
             {monster.speed != undefined && monster.speed != 0 && <div style={{display: "flex", alignItems: "center"}}>

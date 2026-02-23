@@ -1,17 +1,9 @@
-interface OldEndgame {
-    name: string;
-    dateStart: Date;
-    dateEnd: Date;
-    version?: string;
-    id?: string;
-};
-
 interface Endgame {
     name?: string;
     dateStart?: string;
     dateEnd?: string;
     version?: string;
-    id?: string;
+    id: string;
 };
 
 type ElemType = "ICE" | "FIRE" | "LIGHTNING" | "QUANTUM" | "IMAGINARY" | "WIND" | "PHYSICAL";
@@ -46,6 +38,7 @@ interface Effect {
     name?: string;
     effect?: string;
     id?: string;
+    attribute?: Effect[];
 }
 
 interface AAPhase {
@@ -65,16 +58,15 @@ interface PFPhase {
 
 interface MoCPhase {
     recommendedTypes?: ElemType[];
-    wave1: Monster[];
-    wave2: Monster[];
-}
-
-interface MemoryOfChaos extends OldEndgame {
+    waves: Monster[][];
     hpPercent?: number;
     atkPercent?: number;
+}
+
+interface MemoryOfChaos extends Endgame {
     node1: MoCPhase;
     node2: MoCPhase;
-    turbulence?: string;    
+    turbulence?: Effect;    
 };
 
 interface AnomalyArbitration extends Endgame {
@@ -93,15 +85,18 @@ interface PureFiction extends Endgame {
 }
 
 interface ASNode extends BaseNode {
-    buff?: Effect;
     selectableBuff?: Effect[];
+    bossTrait?: Effect[]
     level?: number;
-    hpPercent?: number; // No fucking clue what that means
+    hpPercent?: number;
+    atkPercent?: number;
+    defPercent?: number;
 }
 
-interface ApocalypticShadow extends OldEndgame {
+interface ApocalypticShadow extends Endgame {
     node1: ASNode;
     node2: ASNode;
+    buff?: Effect;
 }
 
-export type { ASNode, OldEndgame, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
+export type { ASNode, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
