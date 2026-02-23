@@ -10,7 +10,7 @@ export default function Navbar(): ReactElement {
 
     return (
         <div className="navbar">
-            <NavLink className="navlink" to="/"><img src=""/>{t("home.home-title")}</NavLink>
+            <NavLink className="navlink" to="/"><img width="38" height={38} src="/home/home.webp"/>{t("home.home-title")}</NavLink>
             <NavLink className="navlink" to="/chaos"><img src="/home/MemoryOfChaos.webp"/>{t("home.moc")}</NavLink>
             <NavLink className="navlink" to="/fiction"><img src="/home/PureFiction.webp"/>{t("home.pf")}</NavLink>
             <NavLink className="navlink" to="/shadow"><img src="/home/ApocalypticShadow.webp"/>{t("home.as")}</NavLink>
