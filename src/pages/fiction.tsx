@@ -1,14 +1,30 @@
-import { useState, type ReactElement } from "react";
+import { useEffect, useState, type ReactElement } from "react";
 import EChartsReact from "echarts-for-react";
-import { fiction, getFullHp } from "../data/fiction";
 import CurrentPF from "../components/CurrentPF";
 import Pagination from "../components/Pagination";
 import EndgameInfo from "../components/EndgameInfo";
+import { useLanguage } from "../components/i18n/LanguageContext";
+import { getFullHpPF, sortEndgameList } from "../utils/endgame";
+import { mergeById } from "../utils/merge";
+import type { PureFiction } from "../data/types";
+
+import PF from "../data/PF.json"
 
 export default function PFPage(): ReactElement {
 
-    const [pfList] = useState(fiction.sort((a, b) => a.dateEnd < b.dateEnd ? -1 : 1));
+    const { lang } = useLanguage();
+
+    const [pfList, setPFList] = useState<PureFiction[]>(sortEndgameList(PF as PureFiction[]));
     const [currentPF, setCurrentPF] = useState<number>(pfList.length - 1);
+
+    useEffect(() => {
+        fetch(`/data/${lang}/PF.json`)
+        .then(d => d.json()
+            .then(json =>
+                setPFList(sortEndgameList(mergeById(PF, json) as PureFiction[]))
+            )
+        )
+    }, [lang])
 
     const options = {
         grid: { top: 8, right: 8, bottom: 8, left: 8 },
@@ -22,7 +38,7 @@ export default function PFPage(): ReactElement {
         series: [
             {
                 name: "Regular",
-                data: pfList.map(m => getFullHp(m)),
+                data: pfList.map(m => getFullHpPF(m)),
                 type: 'line',
                 smooth: false,
             },

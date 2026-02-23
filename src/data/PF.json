@@ -1,11 +1,30 @@
-import { date } from "../utils/date";
-import type { PFMonster, PureFiction } from "./types";
-
-const fiction : PureFiction[] = [
+[
     {
-        "name": "Wordless Novel",
-        "dateStart": date("16/02/2026"),
-        "dateEnd": date("30/03/2026"),
+        "id": "2021",
+        "dateStart": "16/02/2026",
+        "dateEnd": "30/03/2026",
+        "anomaly": [
+            {
+                "id": "3031202"
+            },
+            {
+                "id": "3031203"
+            },
+            {
+                "id": "3031204"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031346"
+            },
+            {
+                "id": "3031352"
+            },
+            {
+                "id": "3031344"
+            }
+        ],
         "node1": {
             "waves": [
                 [
@@ -57,7 +76,7 @@ const fiction : PureFiction[] = [
                         "id": "4062010",
                         "hp": 744112,
                         "toughness": 30,
-                        "amount": 20,
+                        "amount": 20
                     },
                     {
                         "id": "1004030",
@@ -132,31 +151,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Epic Collection",
-        "dateStart": date("05/01/2026"),
-        "dateEnd": date("16/02/2026"),
+        "id": "2020",
+        "dateStart": "05/01/2026",
+        "dateEnd": "16/02/2026",
+        "anomaly": [
+            {
+                "id": "3031202"
+            },
+            {
+                "id": "3031203"
+            },
+            {
+                "id": "3031204"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031346"
+            },
+            {
+                "id": "3031352"
+            },
+            {
+                "id": "3031344"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1022010",
                         "hp": 57778,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "8022020",
                         "hp": 121334,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 385187,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -164,15 +209,15 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4062010",
                         "hp": 210102,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 40
                     },
                     {
-                        "id": "4063010",
+                        "id": "406301001",
                         "hp": 6933372,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ],
@@ -180,49 +225,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2032010",
                         "hp": 665324,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2032020",
                         "hp": 665324,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2034010",
+                        "id": "2034016",
                         "hp": 27444596,
-                        "toughness": 240,
                         "speed": 173,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "4032050",
                         "hp": 115556,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "2022110",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 385187,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -230,22 +279,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032050",
                         "hp": 252123,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022010",
                         "hp": 100849,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "8003020",
+                        "id": "800302023",
                         "hp": 6933372,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -253,22 +302,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022070",
                         "hp": 532259,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022090",
                         "hp": 665324,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2024010",
+                        "id": "202401406",
                         "hp": 27444596,
-                        "toughness": 160,
                         "speed": 138,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
@@ -276,31 +325,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Syntax Rule",
-        "dateStart": date("24/11/2025"),
-        "dateEnd": date("05/01/2026"),
+        "id": "2019",
+        "dateStart": "24/11/2025",
+        "dateEnd": "05/01/2026",
+        "anomaly": [
+            {
+                "id": "3031217"
+            },
+            {
+                "id": "3031218"
+            },
+            {
+                "id": "3031219"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031340"
+            },
+            {
+                "id": "3031350"
+            },
+            {
+                "id": "3031351"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
             "waves": [
                 [
                     {
                         "id": "3012020",
                         "hp": 53926,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "1012030",
                         "hp": 53926,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 385187,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -308,22 +383,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4012020",
                         "hp": 218506,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4052010",
                         "hp": 273133,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
-                        "id": "4053010",
+                        "id": "405301002",
                         "hp": 6933372,
-                        "toughness": 180,
                         "speed": 173,
+                        "toughness": 180,
                         "amount": 1
                     }
                 ],
@@ -331,49 +406,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4062010",
                         "hp": 831654,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "3002030",
                         "hp": 748489,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "1004010",
+                        "id": "100401012",
                         "hp": 27444596,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "2002030",
                         "hp": 57778,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "4032050",
                         "hp": 115556,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 385187,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -381,22 +460,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032040",
                         "hp": 336163,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 184890,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2023030",
+                        "id": "202303016",
                         "hp": 6933372,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -404,22 +483,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032050",
                         "hp": 997985,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4032030",
                         "hp": 1131050,
-                        "toughness": 40,
                         "speed": 120,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
-                        "id": "4044010",
+                        "id": "4044012",
                         "hp": 39919412,
-                        "toughness": 200,
                         "speed": 192,
+                        "toughness": 200,
                         "amount": 1
                     }
                 ]
@@ -427,31 +506,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Iambic Pentameter",
-        "dateStart": date("13/10/2025"),
-        "dateEnd": date("24/11/2025"),
+        "id": "2018",
+        "dateStart": "13/10/2025",
+        "dateEnd": "24/11/2025",
+        "anomaly": [
+            {
+                "id": "3031207"
+            },
+            {
+                "id": "3031208"
+            },
+            {
+                "id": "3031209"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031347"
+            },
+            {
+                "id": "3031348"
+            },
+            {
+                "id": "3031349"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "2022060",
                         "hp": 61630,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4032050",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -459,22 +564,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032040",
                         "hp": 280136,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4062010",
                         "hp": 175085,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2023030",
+                        "id": "202303016",
                         "hp": 5777810,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -482,49 +587,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3021020",
                         "hp": 674078,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "3021030",
                         "hp": 392191,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "3024010",
+                        "id": "302401204",
                         "hp": 20222334,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "4012030",
                         "hp": 72835,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4032030",
                         "hp": 95246,
-                        "toughness": 40,
                         "speed": 120,
+                        "toughness": 40,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -532,22 +641,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022110",
                         "hp": 140068,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4022010",
                         "hp": 210102,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "4013010",
+                        "id": "401301201",
                         "hp": 5777810,
-                        "toughness": 140,
                         "speed": 158,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -555,22 +664,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4012010",
                         "hp": 637310,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8002010",
+                        "id": "800201009",
                         "hp": 612798,
-                        "toughness": 20,
                         "speed": 147,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "4014010",
+                        "id": "401401401",
                         "hp": 20222334,
-                        "toughness": 240,
                         "speed": 170,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
@@ -578,31 +687,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Subjective Narrative",
-        "dateStart": date("01/09/2025"),
-        "dateEnd": date("13/10/2025"),
+        "id": "2017",
+        "dateStart": "01/09/2025",
+        "dateEnd": "13/10/2025",
+        "anomaly": [
+            {
+                "id": "3031202"
+            },
+            {
+                "id": "3031203"
+            },
+            {
+                "id": "3031204"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031344"
+            },
+            {
+                "id": "3031345"
+            },
+            {
+                "id": "3031346"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE"
+            ],
             "waves": [
                 [
                     {
                         "id": "4052010",
                         "hp": 91044,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 12
                     },
                     {
                         "id": "1022010",
                         "hp": 42020,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -610,22 +745,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4052010",
                         "hp": 193469,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
                         "id": "8022020",
                         "hp": 187516,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
-                        "id": "4053010",
+                        "id": "405301002",
                         "hp": 4911138,
-                        "toughness": 180,
                         "speed": 173,
+                        "toughness": 180,
                         "amount": 1
                     }
                 ],
@@ -633,49 +768,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8032020",
                         "hp": 442965,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4032030",
                         "hp": 684583,
-                        "toughness": 40,
                         "speed": 120,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
-                        "id": "1004030",
+                        "id": "100403008",
                         "hp": 16611203,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "4032050",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4012010",
                         "hp": 72835,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -683,45 +822,45 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8012030",
                         "hp": 125011,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 130964,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8003020",
+                        "id": "800302023",
                         "hp": 4911138,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
                 [
                     {
-                        "id": "4032020",
+                        "id": "4032024",
                         "hp": 483235,
-                        "toughness": 60,
                         "speed": 168,
-                        "amount": 20
-                    },
-                    {
-                        "id": "4032020",
-                        "hp": 483235,
                         "toughness": 60,
-                        "speed": 128,
                         "amount": 20
                     },
                     {
-                        "id": "4034010",
+                        "id": "403202401",
+                        "hp": 483235,
+                        "speed": 128,
+                        "toughness": 60,
+                        "amount": 20
+                    },
+                    {
+                        "id": "4034014",
                         "hp": 16611203,
-                        "toughness": 240,
                         "speed": 158,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
@@ -729,31 +868,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Three Act Structure",
-        "dateStart": date("21/07/2025"),
-        "dateEnd": date("01/09/2025"),
+        "id": "2016",
+        "dateStart": "21/07/2025",
+        "dateEnd": "01/09/2025",
+        "anomaly": [
+            {
+                "id": "3031217"
+            },
+            {
+                "id": "3031218"
+            },
+            {
+                "id": "3031219"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031340"
+            },
+            {
+                "id": "3031341"
+            },
+            {
+                "id": "3031342"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "LIGHTNING"
+            ],
             "waves": [
                 [
                     {
                         "id": "8012010",
                         "hp": 42020,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "8002010",
                         "hp": 53226,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -761,22 +926,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032050",
                         "hp": 168082,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4032030",
                         "hp": 190493,
-                        "toughness": 40,
                         "speed": 120,
+                        "toughness": 40,
                         "amount": 20
                     },
                     {
-                        "id": "2013020",
+                        "id": "201302012",
                         "hp": 4622248,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -784,49 +949,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032050",
                         "hp": 525255,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "1012010",
                         "hp": 245119,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "1004020",
+                        "id": "100402014",
                         "hp": 14444524,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "WIND"
+            ],
             "waves": [
                 [
                     {
                         "id": "3002030",
                         "hp": 63031,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4032040",
                         "hp": 112054,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -834,22 +1003,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032040",
                         "hp": 224109,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2002030",
                         "hp": 84041,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "4033010",
+                        "id": "403301002",
                         "hp": 4622248,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ],
@@ -857,22 +1026,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2032020",
                         "hp": 315153,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 346669,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2034010",
+                        "id": "2034016",
                         "hp": 13000072,
-                        "toughness": 240,
                         "speed": 173,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
@@ -880,31 +1049,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Narrative Analysis",
-        "dateStart": date("09/06/2025"),
-        "dateEnd": date("21/07/2025"),
+        "id": "2015",
+        "dateStart": "09/06/2025",
+        "dateEnd": "21/07/2025",
+        "anomaly": [
+            {
+                "id": "3031207"
+            },
+            {
+                "id": "3031208"
+            },
+            {
+                "id": "3031209"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031333"
+            },
+            {
+                "id": "3031343"
+            },
+            {
+                "id": "3031339"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "2002030",
                         "hp": 42020,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "4032050",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -912,22 +1107,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032040",
                         "hp": 224109,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 123260,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2023030",
+                        "id": "202303016",
                         "hp": 4622248,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -935,49 +1130,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3021020",
                         "hp": 481484,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "3021030",
                         "hp": 280136,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "3024010",
+                        "id": "302401204",
                         "hp": 14444524,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "QUANTUM",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "4012020",
                         "hp": 72835,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4032010",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -985,22 +1184,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4022010",
                         "hp": 168082,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4032050",
                         "hp": 168082,
-                        "toughness": 30,
                         "speed": 186,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "4023010",
+                        "id": "402301002",
                         "hp": 4622248,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ],
@@ -1008,22 +1207,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4032010",
                         "hp": 525255,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "8022010",
                         "hp": 393942,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8024010",
+                        "id": "8024013",
                         "hp": 14444524,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
@@ -1031,31 +1230,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Structural Rules",
-        "dateStart": date("28/04/2025"),
-        "dateEnd": date("09/06/2025"),
+        "id": "2014",
+        "dateStart": "28/04/2025",
+        "dateEnd": "09/06/2025",
+        "anomaly": [
+            {
+                "id": "3031202"
+            },
+            {
+                "id": "3031203"
+            },
+            {
+                "id": "3031204"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031327"
+            },
+            {
+                "id": "3031338"
+            },
+            {
+                "id": "3031329"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "4032030",
                         "hp": 95246,
-                        "toughness": 40,
                         "speed": 120,
+                        "toughness": 40,
                         "amount": 8
                     },
                     {
                         "id": "8022020",
                         "hp": 88243,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 15
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 1
                     }
                 ],
@@ -1063,22 +1288,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8032020",
                         "hp": 115556,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4022010",
                         "hp": 157577,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "4023010",
+                        "id": "402301002",
                         "hp": 4333357,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ],
@@ -1086,49 +1311,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002030",
                         "hp": 316204,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4032010",
                         "hp": 451720,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2004010",
+                        "id": "200401009",
                         "hp": 12422291,
-                        "toughness": 150,
                         "speed": 143,
+                        "toughness": 150,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "ICE",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "2022010",
                         "hp": 33616,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 8
                     },
                     {
                         "id": "4012010",
                         "hp": 72835,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 15
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 280136,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 1
                     }
                 ],
@@ -1136,45 +1365,45 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8012030",
                         "hp": 110304,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 115556,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8003020",
+                        "id": "800302023",
                         "hp": 4333357,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
                 [
                     {
-                        "id": "4032020",
-                        "hp": 361376,
-                        "toughness": 60,
-                        "speed": 168,
-                        "amount": 20
-                    },
-                    {
                         "id": "4032024",
                         "hp": 361376,
+                        "speed": 168,
                         "toughness": 60,
-                        "speed": 128,
                         "amount": 20
                     },
                     {
-                        "id": "4034010",
+                        "id": "403202401",
+                        "hp": 361376,
+                        "speed": 128,
+                        "toughness": 60,
+                        "amount": 20
+                    },
+                    {
+                        "id": "4034014",
                         "hp": 12422291,
-                        "toughness": 240,
                         "speed": 158,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
@@ -1182,31 +1411,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Self-Fulfilling Prophecy",
-        "dateStart": date("17/03/2025"),
-        "dateEnd": date("28/04/2025"),
+        "id": "2013",
+        "dateStart": "17/03/2025",
+        "dateEnd": "28/04/2025",
+        "anomaly": [
+            {
+                "id": "3031212"
+            },
+            {
+                "id": "3031213"
+            },
+            {
+                "id": "3031214"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031335"
+            },
+            {
+                "id": "3031336"
+            },
+            {
+                "id": "3031337"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "ICE",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "4012020",
                         "hp": 68283,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "4012040",
                         "hp": 68283,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 262628,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1214,22 +1469,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002010",
                         "hp": 125186,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4022010",
                         "hp": 136566,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "1013020",
+                        "id": "101302032",
                         "hp": 3755576,
-                        "toughness": 140,
                         "speed": 173,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1237,49 +1492,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4012040",
                         "hp": 373282,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "8022010",
                         "hp": 323032,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8024010",
+                        "id": "8024013",
                         "hp": 11844510,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "8002010",
                         "hp": 49899,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "1022010",
                         "hp": 39394,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 262628,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1287,22 +1546,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022110",
                         "hp": 91044,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4022010",
                         "hp": 136566,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "4013010",
+                        "id": "401301201",
                         "hp": 3755576,
-                        "toughness": 140,
                         "speed": 158,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1310,22 +1569,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4012010",
                         "hp": 373282,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8002010",
+                        "id": "800201009",
                         "hp": 358925,
-                        "toughness": 20,
                         "speed": 147,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "4014014",
+                        "id": "401401401",
                         "hp": 11844510,
-                        "toughness": 240,
                         "speed": 170,
+                        "toughness": 240,
                         "amount": 1
                     }
                 ]
@@ -1333,31 +1592,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Clichéd Sayings",
-        "dateStart": date("03/02/2025"),
-        "dateEnd": date("17/03/2025"),
+        "id": "2012",
+        "dateStart": "03/02/2025",
+        "dateEnd": "17/03/2025",
+        "anomaly": [
+            {
+                "id": "3031207"
+            },
+            {
+                "id": "3031208"
+            },
+            {
+                "id": "3031209"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031333"
+            },
+            {
+                "id": "3031332"
+            },
+            {
+                "id": "3031334"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "2022110",
                         "hp": 52526,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "1012030",
                         "hp": 36768,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 262628,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1365,22 +1650,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "4012010",
                         "hp": 127462,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "4012030",
                         "hp": 127462,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "4013010",
+                        "id": "401301201",
                         "hp": 4044467,
-                        "toughness": 140,
                         "speed": 158,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1388,49 +1673,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8002010",
                         "hp": 252823,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
                         "id": "3002030",
                         "hp": 299396,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "1004010",
+                        "id": "100401012",
                         "hp": 10977838,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002030",
                         "hp": 55152,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "1002050",
                         "hp": 28889,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 262628,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1438,22 +1727,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2002030",
                         "hp": 73536,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
                         "id": "2022060",
                         "hp": 107852,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8003020",
+                        "id": "800302023",
                         "hp": 4044467,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1461,22 +1750,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3021020",
                         "hp": 394817,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "3021030",
                         "hp": 229712,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "3024010",
+                        "id": "302401204",
                         "hp": 11844510,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
@@ -1484,31 +1773,57 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Technicality Entrapment",
-        "dateStart": date("23/12/2024"),
-        "dateEnd": date("03/02/2025"),
+        "id": "2011",
+        "dateStart": "23/12/2024",
+        "dateEnd": "03/02/2025",
+        "anomaly": [
+            {
+                "id": "3031202"
+            },
+            {
+                "id": "3031203"
+            },
+            {
+                "id": "3031204"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031327"
+            },
+            {
+                "id": "3031328"
+            },
+            {
+                "id": "3031329"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "1012030",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 11
                     },
                     {
                         "id": "2012010",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 175085,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 3
                     }
                 ],
@@ -1516,22 +1831,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2032010",
                         "hp": 91044,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "1022020",
                         "hp": 68283,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
-                        "id": "3003030",
+                        "id": "300303006",
                         "hp": 3755576,
-                        "toughness": 140,
                         "speed": 120,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1539,49 +1854,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1012010",
                         "hp": 156876,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
                         "id": "1002030",
                         "hp": 235314,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "1004020",
+                        "id": "100402014",
                         "hp": 9244496,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 11
                     },
                     {
                         "id": "2022060",
                         "hp": 38519,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 10
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205006",
                         "hp": 175085,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 3
                     }
                 ],
@@ -1589,22 +1908,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8032010",
                         "hp": 72835,
-                        "toughness": 20,
                         "speed": 142,
+                        "toughness": 20,
                         "amount": 20
                     },
                     {
                         "id": "8032020",
                         "hp": 100149,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "8033010",
+                        "id": "803301011",
                         "hp": 3755576,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     }
                 ],
@@ -1612,22 +1931,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022080",
                         "hp": 175085,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
                         "id": "2022090",
                         "hp": 175085,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 20
                     },
                     {
-                        "id": "2024010",
+                        "id": "202401406",
                         "hp": 7222262,
-                        "toughness": 160,
                         "speed": 138,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
@@ -1635,31 +1954,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Rumor Mill",
-        "dateStart": date("11/11/2024"),
-        "dateEnd": date("23/12/2024"),
+        "id": "2010",
+        "dateStart": "11/11/2024",
+        "dateEnd": "23/12/2024",
+        "anomaly": [
+            {
+                "id": "3031002"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031330"
+            },
+            {
+                "id": "3031331"
+            },
+            {
+                "id": "3031305"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
-                        "id": "2022050",
+                        "id": "202205004",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
                         "id": "2032010",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "3003050",
+                        "id": "300305006",
                         "hp": 210102,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1667,22 +2006,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2002010",
                         "hp": 78438,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
                         "id": "8022020",
                         "hp": 154425,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 5
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205005",
                         "hp": 245119,
-                        "toughness": 50,
                         "speed": 173,
+                        "toughness": 50,
                         "amount": 2
                     }
                 ],
@@ -1690,49 +2029,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2011010",
                         "hp": 75637,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "3003050",
+                        "id": "300305006",
                         "hp": 504245,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004030",
+                        "id": "100403007",
                         "hp": 1680817,
-                        "toughness": 70,
                         "speed": 144,
+                        "toughness": 70,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
             "waves": [
                 [
                     {
                         "id": "3002030",
                         "hp": 78788,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
                         "id": "2032020",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "8003040",
+                        "id": "800304010",
                         "hp": 192594,
-                        "toughness": 60,
                         "speed": 178,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1740,22 +2083,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1012030",
                         "hp": 73536,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
                         "id": "1012010",
                         "hp": 73536,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205005",
                         "hp": 262628,
-                        "toughness": 50,
                         "speed": 173,
+                        "toughness": 50,
                         "amount": 2
                     }
                 ],
@@ -1763,22 +2106,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2011020",
                         "hp": 78788,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "8003040",
+                        "id": "800304010",
                         "hp": 481484,
-                        "toughness": 60,
                         "speed": 178,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "2004020",
+                        "id": "200402005",
                         "hp": 2188564,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
@@ -1786,31 +2129,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Volubility",
-        "dateStart": date("30/09/2024"),
-        "dateEnd": date("11/11/2024"),
+        "id": "2009",
+        "dateStart": "30/09/2024",
+        "dateEnd": "11/11/2024",
+        "anomaly": [
+            {
+                "id": "3031005"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031324"
+            },
+            {
+                "id": "3031325"
+            },
+            {
+                "id": "3031326"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "8002010",
                         "hp": 49899,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "3002030",
                         "hp": 59091,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "3013010",
+                        "id": "301301001",
                         "hp": 144445,
-                        "toughness": 60,
                         "speed": 132,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1818,22 +2181,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022110",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 7
                     },
                     {
                         "id": "2022040",
                         "hp": 61630,
-                        "toughness": 30,
                         "speed": 142,
+                        "toughness": 30,
                         "amount": 3
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205005",
                         "hp": 192594,
-                        "toughness": 50,
                         "speed": 173,
+                        "toughness": 50,
                         "amount": 2
                     }
                 ],
@@ -1841,49 +2204,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8011020",
                         "hp": 35717,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "3013010",
+                        "id": "301301001",
                         "hp": 327409,
-                        "toughness": 60,
                         "speed": 132,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004010",
+                        "id": "100401005",
                         "hp": 1190579,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "2032010",
                         "hp": 63031,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "2002010",
                         "hp": 50425,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 2
                     },
                     {
-                        "id": "3003030",
+                        "id": "300303003",
                         "hp": 189092,
-                        "toughness": 60,
                         "speed": 120,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -1891,22 +2258,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002030",
                         "hp": 91920,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
                         "id": "8032020",
                         "hp": 96297,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205005",
                         "hp": 218856,
-                        "toughness": 50,
                         "speed": 173,
+                        "toughness": 50,
                         "amount": 2
                     }
                 ],
@@ -1914,22 +2281,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8001020",
                         "hp": 42020,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "3003030",
+                        "id": "300303003",
                         "hp": 420204,
-                        "toughness": 60,
                         "speed": 120,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004030",
+                        "id": "100403007",
                         "hp": 1400681,
-                        "toughness": 70,
                         "speed": 144,
+                        "toughness": 70,
                         "amount": 1
                     }
                 ]
@@ -1937,31 +2304,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Words of Deceit",
-        "dateStart": date("19/08/2024"),
-        "dateEnd": date("30/09/2024"),
+        "id": "2008",
+        "dateStart": "19/08/2024",
+        "dateEnd": "30/09/2024",
+        "anomaly": [
+            {
+                "id": "3031001"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031303"
+            },
+            {
+                "id": "3031322"
+            },
+            {
+                "id": "3031323"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002030",
                         "hp": 36768,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "1002050",
                         "hp": 19259,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
-                        "id": "1003010",
+                        "id": "100301016",
                         "hp": 175085,
-                        "toughness": 80,
                         "speed": 144,
+                        "toughness": 80,
                         "amount": 1
                     }
                 ],
@@ -1969,22 +2356,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022010",
                         "hp": 29414,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "2022110",
                         "hp": 49024,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 8
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205003",
                         "hp": 110304,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -1992,49 +2379,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002040",
                         "hp": 50074,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "8002010",
                         "hp": 73186,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
-                        "id": "2004010",
+                        "id": "200401006",
                         "hp": 1251859,
-                        "toughness": 150,
                         "speed": 143,
+                        "toughness": 150,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
             "waves": [
                 [
                     {
                         "id": "3012020",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "3002030",
                         "hp": 39394,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 8
                     },
                     {
                         "id": "3003030",
                         "hp": 210102,
-                        "toughness": 100,
                         "speed": 120,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ],
@@ -2042,22 +2433,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3012020",
                         "hp": 34317,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 8
                     },
                     {
                         "id": "3002010",
                         "hp": 67408,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205003",
                         "hp": 110304,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2065,22 +2456,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1022010",
                         "hp": 57778,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "8002010",
                         "hp": 73186,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
-                        "id": "1004010",
+                        "id": "100401003",
                         "hp": 1444452,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     }
                 ]
@@ -2088,31 +2479,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Out of Thin Air",
-        "dateStart": date("08/07/2024"),
-        "dateEnd": date("19/08/2024"),
+        "id": "2007",
+        "dateStart": "08/07/2024",
+        "dateEnd": "19/08/2024",
+        "anomaly": [
+            {
+                "id": "3031004"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031319"
+            },
+            {
+                "id": "3031320"
+            },
+            {
+                "id": "3031321"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "2012010",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "2022060",
                         "hp": 38519,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "2013020",
                         "hp": 210102,
-                        "toughness": 100,
                         "speed": 144,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ],
@@ -2120,22 +2531,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022020",
                         "hp": 29414,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8022020",
                         "hp": 77213,
-                        "toughness": 40,
                         "speed": 173,
+                        "toughness": 40,
                         "amount": 6
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205003",
                         "hp": 110304,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2143,49 +2554,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002030",
                         "hp": 80889,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
                         "id": "1012010",
                         "hp": 53926,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
-                        "id": "1004020",
+                        "id": "100402004",
                         "hp": 1251859,
-                        "toughness": 100,
                         "speed": 144,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "QUANTUM"
+            ],
             "waves": [
                 [
                     {
                         "id": "1022010",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "1002040",
                         "hp": 22761,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8003010",
                         "hp": 175085,
-                        "toughness": 100,
                         "speed": 120,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ],
@@ -2193,22 +2608,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8012030",
                         "hp": 51475,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "2022110",
                         "hp": 49024,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
-                        "id": "3002050",
+                        "id": "300205003",
                         "hp": 110304,
-                        "toughness": 30,
                         "speed": 173,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2216,29 +2631,29 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022070",
                         "hp": 67233,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
                         "id": "2022080",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 16
                     },
                     {
-                        "id": "2024010",
+                        "id": "2024014",
                         "hp": 1365664,
-                        "toughness": 140,
                         "speed": 138,
+                        "toughness": 140,
                         "amount": 1
                     },
                     {
                         "id": "2022090",
                         "hp": 84041,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     }
                 ]
@@ -2246,31 +2661,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Lexical Enigma",
-        "dateStart": date("27/05/2024"),
-        "dateEnd": date("08/07/2024"),
+        "id": "2006",
+        "dateStart": "27/05/2024",
+        "dateEnd": "08/07/2024",
+        "anomaly": [
+            {
+                "id": "3031002"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031316"
+            },
+            {
+                "id": "3031317"
+            },
+            {
+                "id": "3031318"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "FIRE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1022010",
                         "hp": 39394,
+                        "speed": 120,
                         "toughness": 20,
-                        "speed": 120,
                         "amount": 4
                     },
                     {
-                        "id": "2022050",
+                        "id": "202205004",
                         "hp": 52526,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "3003050",
+                        "id": "300305001",
                         "hp": 157577,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -2278,72 +2713,76 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8032010",
                         "hp": 56027,
-                        "toughness": 20,
                         "speed": 142,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
                         "id": "8032020",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205062",
                         "hp": 98048,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
                 [
                     {
-                        "id": "8001020",
+                        "id": "800102015",
                         "hp": 47273,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "3003050",
+                        "id": "300305001",
                         "hp": 315153,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "2004010",
+                        "id": "200401006",
                         "hp": 1707080,
-                        "toughness": 150,
                         "speed": 143,
+                        "toughness": 150,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
             "waves": [
                 [
                     {
                         "id": "3002020",
                         "hp": 70909,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1012030",
                         "hp": 44121,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "3003010",
+                        "id": "300301004",
                         "hp": 189092,
-                        "toughness": 80,
                         "speed": 120,
+                        "toughness": 80,
                         "amount": 2
                     }
                 ],
@@ -2351,22 +2790,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002030",
                         "hp": 102425,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 7
                     },
                     {
                         "id": "3002040",
                         "hp": 79664,
-                        "toughness": 30,
                         "speed": 96,
+                        "toughness": 30,
                         "amount": 3
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205063",
                         "hp": 127462,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2374,22 +2813,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3001010",
                         "hp": 66532,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "3003010",
+                        "id": "300301004",
                         "hp": 399194,
-                        "toughness": 80,
                         "speed": 120,
+                        "toughness": 80,
                         "amount": 3
                     },
                     {
-                        "id": "1014010",
+                        "id": "101401011",
                         "hp": 1131050,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     }
                 ]
@@ -2397,31 +2836,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Fictitious Wordsmithing",
-        "dateStart": date("29/04/2024"),
-        "dateEnd": date("10/06/2024"),
+        "id": "2005",
+        "dateStart": "29/04/2024",
+        "dateEnd": "10/06/2024",
+        "anomaly": [
+            {
+                "id": "3031003"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031313"
+            },
+            {
+                "id": "3031314"
+            },
+            {
+                "id": "3031315"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002020",
                         "hp": 39394,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "8032020",
                         "hp": 57778,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "2023020",
+                        "id": "202302008",
                         "hp": 144445,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -2429,22 +2888,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022060",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 100,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
-                        "id": "2022050",
+                        "id": "202205004",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205042",
                         "hp": 98048,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2452,49 +2911,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3011010",
                         "hp": 52526,
-                        "toughness": 10,
                         "speed": 120,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "2023020",
+                        "id": "202302008",
                         "hp": 288890,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004030",
+                        "id": "100403004",
                         "hp": 1050511,
-                        "toughness": 70,
                         "speed": 144,
+                        "toughness": 70,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "1012010",
                         "hp": 36768,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1012030",
                         "hp": 36768,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "1013020",
+                        "id": "101302028",
                         "hp": 144445,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -2502,22 +2965,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002010",
                         "hp": 96297,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
                         "id": "2012010",
                         "hp": 52526,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205043",
                         "hp": 98048,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2525,22 +2988,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3001020",
                         "hp": 52526,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "1013020",
+                        "id": "101302028",
                         "hp": 288890,
-                        "toughness": 60,
                         "speed": 173,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "3024020",
+                        "id": "302402001",
                         "hp": 1181825,
-                        "toughness": 200,
                         "speed": 144,
+                        "toughness": 200,
                         "amount": 1
                     }
                 ]
@@ -2548,31 +3011,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Deceitful Chaos",
-        "dateStart": date("01/04/2024"),
-        "dateEnd": date("13/05/2024"),
+        "id": "2004",
+        "dateStart": "01/04/2024",
+        "dateEnd": "13/05/2024",
+        "anomaly": [
+            {
+                "id": "3031001"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031310"
+            },
+            {
+                "id": "3031311"
+            },
+            {
+                "id": "3031312"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002030",
                         "hp": 55152,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
                         "id": "1002050",
                         "hp": 28889,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "1003010",
+                        "id": "100301019",
                         "hp": 144445,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -2580,72 +3063,76 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002030",
                         "hp": 78788,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 5
                     },
                     {
                         "id": "2002030",
                         "hp": 52526,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 5
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205034",
                         "hp": 98048,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
                 [
                     {
-                        "id": "8001010",
+                        "id": "800101017",
                         "hp": 47273,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "1003010",
+                        "id": "100301019",
                         "hp": 288890,
-                        "toughness": 60,
                         "speed": 144,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004020",
+                        "id": "100402006",
                         "hp": 1050511,
-                        "toughness": 100,
                         "speed": 144,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
             "waves": [
                 [
                     {
                         "id": "8002010",
                         "hp": 49899,
-                        "toughness": 20,
                         "speed": 144,
-                        "amount": 4
-                    },
-                    {
-                        "id": "1012020",
-                        "hp": 19697,
                         "toughness": 20,
-                        "speed": 100,
                         "amount": 4
                     },
                     {
-                        "id": "8003040",
+                        "id": "1012021",
+                        "hp": 19697,
+                        "speed": 100,
+                        "toughness": 20,
+                        "amount": 4
+                    },
+                    {
+                        "id": "800304010",
                         "hp": 144445,
-                        "toughness": 60,
                         "speed": 178,
+                        "toughness": 60,
                         "amount": 2
                     }
                 ],
@@ -2653,45 +3140,45 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002030",
                         "hp": 78788,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 7
                     },
                     {
                         "id": "3002040",
                         "hp": 61280,
-                        "toughness": 30,
                         "speed": 96,
+                        "toughness": 30,
                         "amount": 3
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205035",
                         "hp": 98048,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
                 [
                     {
-                        "id": "8001020",
+                        "id": "800102015",
                         "hp": 50425,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 12
                     },
                     {
-                        "id": "8003040",
+                        "id": "800304010",
                         "hp": 308150,
-                        "toughness": 60,
                         "speed": 178,
+                        "toughness": 60,
                         "amount": 3
                     },
                     {
-                        "id": "1004010",
+                        "id": "100401005",
                         "hp": 1120545,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     }
                 ]
@@ -2699,31 +3186,51 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "An Expression of Eloquence",
-        "dateStart": date("04/03/2024"),
-        "dateEnd": date("15/04/2024"),
+        "id": "2003",
+        "dateStart": "04/03/2024",
+        "dateEnd": "15/04/2024",
+        "anomaly": [
+            {
+                "id": "3031003"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031307"
+            },
+            {
+                "id": "3031308"
+            },
+            {
+                "id": "3031309"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "3012020",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8003050",
                         "hp": 192594,
-                        "toughness": 100,
                         "speed": 120,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ],
@@ -2731,22 +3238,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "8032020",
                         "hp": 38519,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "8032010",
                         "hp": 28014,
-                        "toughness": 20,
                         "speed": 142,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205026",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -2754,63 +3261,67 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2022070",
                         "hp": 56027,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
                         "id": "2022080",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 144,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
-                        "id": "2024010",
+                        "id": "2024014",
                         "hp": 1138053,
-                        "toughness": 140,
                         "speed": 138,
+                        "toughness": 140,
                         "amount": 1
                     },
                     {
                         "id": "2022090",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "IMAGINARY"
+            ],
             "waves": [
                 [
                     {
                         "id": "1012030",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "2012010",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1023010",
                         "hp": 192594,
-                        "toughness": 100,
                         "speed": 120,
+                        "toughness": 100,
                         "amount": 1
                     },
                     {
                         "id": "2011020",
                         "hp": 15758,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 4
                     }
                 ],
@@ -2818,52 +3329,52 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3002010",
                         "hp": 48148,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
                         "id": "3002030",
                         "hp": 39394,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205027",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     },
                     {
                         "id": "3001020",
                         "hp": 17509,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 4
                     }
                 ],
                 [
                     {
-                        "id": "2024020",
+                        "id": "202402004",
                         "hp": 525255,
-                        "toughness": 0,
                         "speed": 120,
+                        "toughness": 0,
                         "amount": 1
                     },
                     {
                         "id": "2012010",
                         "hp": 52526,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "2022110",
                         "hp": 70034,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     }
                 ]
@@ -2871,38 +3382,58 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Tales of a Tethered Bird",
-        "dateStart": date("05/02/2024"),
-        "dateEnd": date("18/03/2024"),
+        "id": "2002",
+        "dateStart": "05/02/2024",
+        "dateEnd": "18/03/2024",
+        "anomaly": [
+            {
+                "id": "3031002"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031304"
+            },
+            {
+                "id": "3031305"
+            },
+            {
+                "id": "3031306"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "LIGHTNING",
+                "WIND"
+            ],
             "waves": [
                 [
                     {
                         "id": "1012030",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "1012020",
+                        "id": "1012021",
                         "hp": 13131,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "8003040",
                         "hp": 175085,
-                        "toughness": 100,
                         "speed": 206,
+                        "toughness": 100,
                         "amount": 1
                     },
                     {
                         "id": "8001020",
                         "hp": 10505,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 4
                     }
                 ],
@@ -2910,29 +3441,29 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002040",
                         "hp": 22761,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1012010",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205018",
                         "hp": 63031,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     },
                     {
                         "id": "2011020",
                         "hp": 15758,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 4
                     }
                 ],
@@ -2940,49 +3471,53 @@ const fiction : PureFiction[] = [
                     {
                         "id": "2002010",
                         "hp": 50425,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "2012010",
                         "hp": 47273,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
-                        "id": "2004020",
+                        "id": "200402005",
                         "hp": 787883,
-                        "toughness": 160,
                         "speed": 144,
+                        "toughness": 160,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "8032010",
                         "hp": 28014,
-                        "toughness": 20,
                         "speed": 142,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8032020",
                         "hp": 38519,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
-                        "id": "8033010",
+                        "id": "803301001",
                         "hp": 245119,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     }
                 ],
@@ -2990,22 +3525,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8012030",
                         "hp": 36768,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 6
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205019",
                         "hp": 63031,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -3013,29 +3548,29 @@ const fiction : PureFiction[] = [
                     {
                         "id": "3021020",
                         "hp": 69334,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 8
                     },
                     {
                         "id": "3021030",
                         "hp": 40340,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
-                        "id": "3024010",
+                        "id": "3024012",
                         "hp": 882429,
-                        "toughness": 160,
                         "speed": 173,
+                        "toughness": 160,
                         "amount": 1
                     },
                     {
                         "id": "3021040",
                         "hp": 47903,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     }
                 ]
@@ -3043,38 +3578,58 @@ const fiction : PureFiction[] = [
         }
     },
     {
-        "name": "Youci's Wandering Words",
-        "dateStart": date("08/01/2024"),
-        "dateEnd": date("19/02/2024"),
+        "id": "2001",
+        "dateStart": "08/01/2024",
+        "dateEnd": "19/02/2024",
+        "anomaly": [
+            {
+                "id": "3031001"
+            }
+        ],
+        "buffs": [
+            {
+                "id": "3031301"
+            },
+            {
+                "id": "3031302"
+            },
+            {
+                "id": "3031303"
+            }
+        ],
         "node1": {
+            "recommendedTypes": [
+                "PHYSICAL",
+                "ICE"
+            ],
             "waves": [
                 [
                     {
                         "id": "1002050",
                         "hp": 19259,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1002030",
                         "hp": 36768,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 4
                     },
                     {
-                        "id": "1003010",
+                        "id": "100301016",
                         "hp": 175085,
-                        "toughness": 80,
                         "speed": 144,
+                        "toughness": 80,
                         "amount": 1
                     },
                     {
                         "id": "1012010",
                         "hp": 24512,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     }
                 ],
@@ -3082,22 +3637,22 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1022020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
                         "id": "8002010",
                         "hp": 33266,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 6
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205009",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     }
                 ],
@@ -3105,56 +3660,60 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002050",
                         "hp": 38519,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 12
                     },
                     {
                         "id": "1002030",
                         "hp": 73536,
-                        "toughness": 30,
                         "speed": 120,
+                        "toughness": 30,
                         "amount": 12
                     },
                     {
-                        "id": "1004020",
+                        "id": "100402004",
                         "hp": 1138053,
-                        "toughness": 100,
                         "speed": 144,
+                        "toughness": 100,
                         "amount": 1
                     }
                 ]
             ]
         },
         "node2": {
+            "recommendedTypes": [
+                "FIRE",
+                "LIGHTNING"
+            ],
             "waves": [
                 [
                     {
-                        "id": "1012020",
+                        "id": "1012021",
                         "hp": 13131,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "8002010",
                         "hp": 33266,
-                        "toughness": 20,
                         "speed": 144,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "1013010",
+                        "id": "101301018",
                         "hp": 210102,
-                        "toughness": 140,
                         "speed": 144,
+                        "toughness": 140,
                         "amount": 1
                     },
                     {
                         "id": "1002020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     }
                 ],
@@ -3162,29 +3721,29 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002020",
                         "hp": 26263,
-                        "toughness": 20,
                         "speed": 120,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
                         "id": "1012021",
                         "hp": 13131,
-                        "toughness": 20,
                         "speed": 100,
+                        "toughness": 20,
                         "amount": 4
                     },
                     {
-                        "id": "8002050",
+                        "id": "800205010",
                         "hp": 77037,
-                        "toughness": 30,
                         "speed": 137,
+                        "toughness": 30,
                         "amount": 2
                     },
                     {
                         "id": "8001050",
                         "hp": 10505,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 4
                     }
                 ],
@@ -3192,29 +3751,29 @@ const fiction : PureFiction[] = [
                     {
                         "id": "1002020",
                         "hp": 52526,
-                        "toughness": 20,
                         "speed": 120,
-                        "amount": 8
-                    },
-                    {
-                        "id": "1012020",
-                        "hp": 26263,
                         "toughness": 20,
-                        "speed": 100,
                         "amount": 8
                     },
                     {
-                        "id": "1014010",
+                        "id": "1012021",
+                        "hp": 26263,
+                        "speed": 100,
+                        "toughness": 20,
+                        "amount": 8
+                    },
+                    {
+                        "id": "101401008",
                         "hp": 962968,
-                        "toughness": 120,
                         "speed": 144,
+                        "toughness": 120,
                         "amount": 1
                     },
                     {
                         "id": "8001050",
                         "hp": 21010,
-                        "toughness": 10,
                         "speed": 100,
+                        "toughness": 10,
                         "amount": 8
                     }
                 ]
@@ -3222,14 +3781,3 @@ const fiction : PureFiction[] = [
         }
     }
 ]
-
-function getFullHp(pf: PureFiction) {
-    const hp = (m : PFMonster) => (m.amount != undefined ? m.amount : 1) * (m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!)
-    let f = 0;
-    pf.node1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-    pf.node2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-
-    return f;
-}
-
-export { fiction, getFullHp }

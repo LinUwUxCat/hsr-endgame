@@ -1,0 +1,594 @@
+[
+    {
+        "id": "2021",
+        "name": "无字小说",
+        "anomaly": [
+            {
+                "name": "战技攻击",
+                "effect": "我方施放战技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "战斗开始时，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标造成固定数值的伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，我方全体行动提前<color style='color:#f29e38;'> 100% </color>，期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且我方施放战技攻击敌方目标后，额外对每个被攻击的敌方目标的相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "孤韵",
+                "effect": "「战意汹涌」期间，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标额外造成等同于原伤害<color style='color:#f29e38;'> 30% </color>的真实伤害。"
+            },
+            {
+                "name": "狂言",
+                "effect": "进入「战意汹涌」时，击破所有敌方目标并恢复<color style='color:#f29e38;'> 4 </color>个战技点，「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 50% </color>。"
+            },
+            {
+                "name": "谣曲",
+                "effect": "「战意汹涌」期间，忆灵造成的伤害提高<color style='color:#f29e38;'> 30% </color>，当忆灵消失时，使忆师行动提前<color style='color:#f29e38;'> 15% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2020",
+        "name": "史诗集群",
+        "anomaly": [
+            {
+                "name": "战技攻击",
+                "effect": "我方施放战技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "战斗开始时，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标造成固定数值的伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，我方全体行动提前<color style='color:#f29e38;'> 100% </color>，期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且我方施放战技攻击敌方目标后，额外对每个被攻击的敌方目标的相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "孤韵",
+                "effect": "「战意汹涌」期间，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标额外造成等同于原伤害<color style='color:#f29e38;'> 30% </color>的真实伤害。"
+            },
+            {
+                "name": "狂言",
+                "effect": "进入「战意汹涌」时，击破所有敌方目标并恢复<color style='color:#f29e38;'> 4 </color>个战技点，「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 50% </color>。"
+            },
+            {
+                "name": "谣曲",
+                "effect": "「战意汹涌」期间，忆灵造成的伤害提高<color style='color:#f29e38;'> 30% </color>，当忆灵消失时，使忆师行动提前<color style='color:#f29e38;'> 15% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2019",
+        "name": "程式句法",
+        "anomaly": [
+            {
+                "name": "触发持续伤害",
+                "effect": "敌方目标每次受到持续伤害后，使我方额外积累<color style='color:#f29e38;'> 2 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "敌方目标进入战斗时陷入<color style='color:#f29e38;'> 1 </color>层特殊<color style='color:#f29e38;'>风化</color>【迷音】，行动后陷入<color style='color:#f29e38;'> 1 </color>层【迷音】，每回合开始时受到风属性持续伤害，最多叠加<color style='color:#f29e38;'> 10 </color>层，持续<color style='color:#f29e38;'> 3 </color>回合。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时使敌方全体陷入<color style='color:#f29e38;'> 5 </color>层特殊<color style='color:#f29e38;'>风化</color>【迷音】，并使其当前承受的所有持续伤害立即产生相当于原伤害<color style='color:#f29e38;'> 100% </color>的伤害。「战意汹涌」期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，造成的伤害降低<color style='color:#f29e38;'> 35% </color>，速度提高<color style='color:#f29e38;'> 50% </color>。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "直叙",
+                "effect": "「战意汹涌」期间，我方目标造成的持续伤害无视目标<color style='color:#f29e38;'> 20% </color>的全属性抗性，敌方目标受到持续伤害后，使我方全体造成的持续伤害提高<color style='color:#f29e38;'> 1% </color>，最多叠加<color style='color:#f29e38;'> 99 </color>层，持续至「战意汹涌」结束。"
+            },
+            {
+                "name": "裂帛",
+                "effect": "「战意汹涌」期间，每层【迷音】使我方目标造成伤害时的弱点击破效率提高<color style='color:#f29e38;'> 10% </color>。"
+            },
+            {
+                "name": "书丹",
+                "effect": "每层【迷音】使敌方目标受到的伤害提高<color style='color:#f29e38;'> 3% </color>。「战意汹涌」期间，忆灵攻击后使目标陷入<color style='color:#f29e38;'> 1 </color>层【迷音】。"
+            }
+        ]
+    },
+    {
+        "id": "2018",
+        "name": "五步抑扬",
+        "anomaly": [
+            {
+                "name": "终结技攻击",
+                "effect": "我方施放终结技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "敌方目标被任意单位消灭后，为我方全体附上1层【回音】。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。「战意汹涌」期间，敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且被任意单位消灭后额外为我方全体附上1层【回音】，当【回音】叠加至<color style='color:#f29e38;'> 10 </color>层或以上时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "追想",
+                "effect": "「战意汹涌」期间，我方目标施放终结技后使我方全体造成的伤害提高<color style='color:#f29e38;'> 15% </color>，最多叠加<color style='color:#f29e38;'> 5 </color>层，持续至「战意汹涌」结束。"
+            },
+            {
+                "name": "犹记",
+                "effect": "进入「战意汹涌」时，立即恢复<color style='color:#f29e38;'> 3 </color>个战技点。「战意汹涌」期间，敌方目标受到的持续伤害提高<color style='color:#f29e38;'> 30% </color>。"
+            },
+            {
+                "name": "颖悟",
+                "effect": "「战意汹涌」期间，我方全体速度提高<color style='color:#f29e38;'> 20% </color>，施放战技后为我方全体附上<color style='color:#f29e38;'> 1 </color>层【回音】。"
+            }
+        ]
+    },
+    {
+        "id": "2017",
+        "name": "主观叙事",
+        "anomaly": [
+            {
+                "name": "战技攻击",
+                "effect": "我方施放战技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "战斗开始时，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标造成固定数值的伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，我方全体行动提前<color style='color:#f29e38;'> 100% </color>，期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且我方施放战技攻击敌方目标后，额外对每个被攻击的敌方目标的相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "谣曲",
+                "effect": "「战意汹涌」期间，忆灵造成的伤害提高<color style='color:#f29e38;'> 30% </color>，当忆灵消失时，使忆师行动提前<color style='color:#f29e38;'> 15% </color>。"
+            },
+            {
+                "name": "奏雅",
+                "effect": "进入「战意汹涌」时，立即恢复<color style='color:#f29e38;'> 3 </color>个战技点。「战意汹涌」期间，敌方目标受到的持续伤害提高<color style='color:#f29e38;'> 30% </color>。"
+            },
+            {
+                "name": "孤韵",
+                "effect": "「战意汹涌」期间，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标额外造成等同于原伤害<color style='color:#f29e38;'> 30% </color>的真实伤害。"
+            }
+        ]
+    },
+    {
+        "id": "2016",
+        "name": "三幕架构",
+        "anomaly": [
+            {
+                "name": "触发持续伤害",
+                "effect": "敌方目标每次受到持续伤害后，使我方额外积累<color style='color:#f29e38;'> 2 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "敌方目标进入战斗时陷入<color style='color:#f29e38;'> 1 </color>层特殊<color style='color:#f29e38;'>风化</color>【迷音】，行动后陷入<color style='color:#f29e38;'> 1 </color>层【迷音】，每回合开始时受到风属性持续伤害，最多叠加<color style='color:#f29e38;'> 10 </color>层，持续<color style='color:#f29e38;'> 3 </color>回合。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时使敌方全体陷入<color style='color:#f29e38;'> 5 </color>层特殊<color style='color:#f29e38;'>风化</color>【迷音】，并使其当前承受的所有持续伤害立即产生相当于原伤害<color style='color:#f29e38;'> 100% </color>的伤害。「战意汹涌」期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，造成的伤害降低<color style='color:#f29e38;'> 35% </color>，速度提高<color style='color:#f29e38;'> 50% </color>。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "直叙",
+                "effect": "「战意汹涌」期间，我方目标造成的持续伤害无视目标<color style='color:#f29e38;'> 20% </color>的全属性抗性，敌方目标受到持续伤害后，使我方全体造成的持续伤害提高<color style='color:#f29e38;'> 1% </color>，最多叠加<color style='color:#f29e38;'> 99 </color>层，持续至「战意汹涌」结束。"
+            },
+            {
+                "name": "互文",
+                "effect": "「战意汹涌」期间，我方目标造成的战技伤害提高<color style='color:#f29e38;'> 50% </color>，攻击陷入特殊<color style='color:#f29e38;'>风化</color>【迷音】的目标时，每层【迷音】额外使战技伤害提高<color style='color:#f29e38;'> 10% </color>。"
+            },
+            {
+                "name": "误置",
+                "effect": "每层【迷音】使敌方目标受到的伤害提高<color style='color:#f29e38;'> 3% </color>，「战意汹涌」期间，敌方目标进入战斗时和行动后额外叠加<color style='color:#f29e38;'> 1 </color>层特殊<color style='color:#f29e38;'>风化</color>【迷音】。"
+            }
+        ]
+    },
+    {
+        "id": "2015",
+        "name": "叙事分析",
+        "anomaly": [
+            {
+                "name": "终结技攻击",
+                "effect": "我方施放终结技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "敌方目标被任意单位消灭后，为我方全体附上1层【回音】。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。「战意汹涌」期间，敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且被任意单位消灭后额外为我方全体附上1层【回音】，当【回音】叠加至<color style='color:#f29e38;'> 10 </color>层或以上时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "共相",
+                "effect": "「战意汹涌」期间，我方全体速度提高<color style='color:#f29e38;'> 40% </color>，消耗所有【回音】攻击时恢复1个战技点。"
+            },
+            {
+                "name": "悖论",
+                "effect": "我方全体攻击没有对应属性弱点的敌人也能削减韧性，效果等同于原削韧值的<color style='color:#f29e38;'> 50% </color>，无法与其他无视弱点属性削韧效果叠加。「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 30% </color>。"
+            },
+            {
+                "name": "神谱",
+                "effect": "消耗【回音】造成伤害后，我方全体造成的伤害提高<color style='color:#f29e38;'> 60% </color>，持续<color style='color:#f29e38;'> 1 </color>回合。"
+            }
+        ]
+    },
+    {
+        "id": "2014",
+        "name": "结构规律",
+        "anomaly": [
+            {
+                "name": "战技攻击",
+                "effect": "我方施放战技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "战斗开始时，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标造成固定数值的伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，我方全体行动提前<color style='color:#f29e38;'> 100% </color>，期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且我方施放战技攻击敌方目标后，额外对每个被攻击的敌方目标的相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "肤廓",
+                "effect": "「战意汹涌」期间，我方全体战技不消耗战技点。角色施放战技或终结技后，每击中1个敌方目标获得1层【热潮】，每层使该角色造成的战技和终结技伤害提高<color style='color:#f29e38;'> 4% </color>，速度提高<color style='color:#f29e38;'> 4% </color>，最多叠加<color style='color:#f29e38;'> 10 </color>层。"
+            },
+            {
+                "name": "圣显",
+                "effect": "「战意汹涌」期间我方全体施放战技时消耗等同于自身<color style='color:#f29e38;'> 20% </color>生命上限的生命值，并在施放战技后回复自身<color style='color:#f29e38;'> 20% </color>生命上限的生命值。"
+            },
+            {
+                "name": "空头",
+                "effect": "「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 30% </color>，我方角色击破敌方目标弱点时，自身行动提前<color style='color:#f29e38;'> 12% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2013",
+        "name": "自证预言",
+        "anomaly": [
+            {
+                "name": "终结技/普攻攻击",
+                "effect": "我方施放普攻或终结技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 3 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "我方施放普攻或终结技攻击敌方目标时，为目标附上【爆裂】，最多叠加<color style='color:#f29e38;'> 3 </color>层。目标的回合开始或被任意单位消灭时，根据【爆裂】层数对该目标造成真实伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，立即为我方全体恢复<color style='color:#f29e38;'> 30% </color>能量，该效果恢复的能量可以超出目标的能量上限。期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且触发【爆裂】时会对该目标及其相邻目标造成真实伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "显化",
+                "effect": "「战意汹涌」期间，我方对处于【爆裂】的敌方目标施放战技或发动追加攻击后可以直接触发【爆裂】。"
+            },
+            {
+                "name": "灵知",
+                "effect": "「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 30% </color>，且处于【爆裂】状态的目标被任意单位消灭时会对相邻敌方目标造成<color style='color:#f29e38;'> 10 </color>点无视弱点属性的削韧。"
+            },
+            {
+                "name": "神智",
+                "effect": "「战意汹涌」期间，我方全体施放战技时消耗等同于自身当前生命值<color style='color:#f29e38;'> 20% </color>的生命值，并在施放战技后回复等同于自身生命上限<color style='color:#f29e38;'> 20% </color>的生命值。"
+            }
+        ]
+    },
+    {
+        "id": "2012",
+        "name": "陈腔滥调",
+        "anomaly": [
+            {
+                "name": "终结技攻击",
+                "effect": "我方施放终结技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "敌方目标被任意单位消灭后，为我方全体附上1层【回音】。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。「战意汹涌」期间，敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且被任意单位消灭后额外为我方全体附上1层【回音】，当【回音】叠加至<color style='color:#f29e38;'> 10 </color>层或以上时，消耗所有【回音】，每层【回音】对随机敌方目标造成1次固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "共相",
+                "effect": "「战意汹涌」期间，我方全体速度提高<color style='color:#f29e38;'> 40% </color>，消耗所有【回音】攻击时恢复1个战技点。"
+            },
+            {
+                "name": "辉光",
+                "effect": "「战意汹涌」期间，敌方目标被任意单位消灭后，有<color style='color:#f29e38;'> 50% </color>概率为我方全体附上1层【回音】。"
+            },
+            {
+                "name": "潜在",
+                "effect": "进入「战意汹涌」时，激活我方编队中第一位角色的终结技，并使其在「战意汹涌」期间施放终结技造成的伤害提高<color style='color:#f29e38;'> 50% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2011",
+        "name": "深文巧诋",
+        "anomaly": [
+            {
+                "name": "战技攻击",
+                "effect": "我方施放战技攻击敌方目标后，每击中1个敌方目标，使我方额外积累<color style='color:#f29e38;'> 5 </color>点「战意值」。"
+            },
+            {
+                "name": "战熄潮平",
+                "effect": "战斗开始时，我方施放战技攻击敌方目标后，对每个被攻击的敌方目标造成固定数值的伤害。"
+            },
+            {
+                "name": "战意汹涌",
+                "effect": "进入「战意汹涌」时，我方全体行动提前<color style='color:#f29e38;'> 100% </color>，期间敌方目标受到的伤害提高<color style='color:#f29e38;'> 50% </color>，且我方施放战技攻击敌方目标后，额外对每个被攻击的敌方目标的相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "肤廓",
+                "effect": "「战意汹涌」期间，我方全体战技不消耗战技点。角色施放战技或终结技后，每击中1个敌方目标获得1层【热潮】，每层使该角色造成的战技和终结技伤害提高<color style='color:#f29e38;'> 4% </color>，速度提高<color style='color:#f29e38;'> 4% </color>，最多叠加<color style='color:#f29e38;'> 10 </color>层。"
+            },
+            {
+                "name": "乌有",
+                "effect": "「战意汹涌」期间，我方全体造成的追加攻击伤害提高<color style='color:#f29e38;'> 40% </color>，发动追加攻击后，对每个被攻击的敌方目标及其相邻目标造成固定数值的伤害。"
+            },
+            {
+                "name": "空头",
+                "effect": "「战意汹涌」期间，敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 30% </color>，我方角色击破敌方目标弱点时，自身行动提前<color style='color:#f29e38;'> 12% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2010",
+        "name": "论黄数黑",
+        "anomaly": [
+            {
+                "name": "恶语钝刀",
+                "effect": "敌方目标受到的持续伤害提高<color style='color:#f29e38;'> 35% </color>。受到持续伤害的敌方目标造成的伤害降低<color style='color:#f29e38;'> 35% </color>，被攻击后行动提前<color style='color:#f29e38;'> 35% </color>。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "噱头",
+                "effect": "我方全体击破特攻提高<color style='color:#f29e38;'> 30% </color>，击破敌方目标时会令敌方全体陷入风化状态，每回合开始时受到固定数值的风属性持续伤害。<br>敌方全体免疫控制类负面状态。"
+            },
+            {
+                "name": "醉话",
+                "effect": "我方目标施放终结技攻击敌方目标后，若目标当前承受1/2/3种持续伤害状态，则会使其当前承受的每种持续伤害状态立即产生相当于原伤害<color style='color:#f29e38;'> 60% </color>/<color style='color:#f29e38;'> 100% </color>/<color style='color:#f29e38;'> 150% </color>的伤害。"
+            },
+            {
+                "name": "谣诼",
+                "effect": "我方攻击敌方目标后，会使目标陷入风化状态，每回合开始时受到固定数值的风属性持续伤害。"
+            }
+        ]
+    },
+    {
+        "id": "2009",
+        "name": "巧言如流",
+        "anomaly": [
+            {
+                "name": "怪诞逸闻",
+                "effect": "我方目标击破敌方目标的弱点时会为【怪诞逸闻】充能。当充能达到<color style='color:#f29e38;'> 6 </color>点时，对随机敌方目标造成<color style='color:#f29e38;'> 10 </color>次固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "咏怀",
+                "effect": "敌方目标受到的击破伤害提高<color style='color:#f29e38;'> 10% </color>，我方攻击后若对敌方造成超击破伤害，则额外为【怪诞逸闻】充能<color style='color:#f29e38;'> 1 </color>点。"
+            },
+            {
+                "name": "画境",
+                "effect": "追加攻击造成的伤害提高<color style='color:#f29e38;'> 50% </color>，追加攻击的弱点击破效率提高<color style='color:#f29e38;'> 50% </color>。"
+            },
+            {
+                "name": "漫笔",
+                "effect": "角色施放终结技进行攻击时，无视敌方目标的弱点造成韧性削减。"
+            }
+        ]
+    },
+    {
+        "id": "2008",
+        "name": "欺人虚言",
+        "anomaly": [
+            {
+                "name": "词语爆裂",
+                "effect": "我方施放终结技攻击敌方目标时，为目标附上【爆裂】，最多叠加<color style='color:#f29e38;'> 6 </color>层。目标的回合开始或目标被消灭时，根据【爆裂】层数对该目标及其相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "崩裂",
+                "effect": "持有【爆裂】的敌方目标被消灭时，使我方全体本场战斗中终结技造成的伤害提高<color style='color:#f29e38;'> 15% </color>，最多叠加<color style='color:#f29e38;'> 20 </color>次。"
+            },
+            {
+                "name": "谗慝",
+                "effect": "【爆裂】造成的伤害提高<color style='color:#f29e38;'> 20% </color>，触发时为相邻目标附上1层【爆裂】。"
+            },
+            {
+                "name": "诤语",
+                "effect": "我方施放追加攻击击中敌方目标时，有<color style='color:#f29e38;'> 60% </color>固定概率为目标附上1层【爆裂】。该效果每次攻击对每个敌方目标只能触发1次。"
+            }
+        ]
+    },
+    {
+        "id": "2007",
+        "name": "向壁虚造",
+        "anomaly": [
+            {
+                "name": "怪诞逸闻",
+                "effect": "我方发动追加攻击攻击敌方目标后，根据本次攻击的目标数量为【怪诞逸闻】充能。当充能达到<color style='color:#f29e38;'> 10 </color>点时，对随机敌方目标造成<color style='color:#f29e38;'> 10 </color>次固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "篡改",
+                "effect": "触发【怪诞逸闻】效果需要的充能点数减少<color style='color:#f29e38;'> 4 </color>，造成的伤害次数增加<color style='color:#f29e38;'> 4 </color>。"
+            },
+            {
+                "name": "妄言",
+                "effect": "我方角色施放终结技时造成的伤害提高<color style='color:#f29e38;'> 30% </color>，且施放终结技后可令【怪诞逸闻】额外获得<color style='color:#f29e38;'> 2 </color>点充能。"
+            },
+            {
+                "name": "夸大",
+                "effect": "我方角色攻击敌方目标后，可令【怪诞逸闻】额外获得<color style='color:#f29e38;'> 1 </color>点充能。"
+            }
+        ]
+    },
+    {
+        "id": "2006",
+        "name": "新词迷离",
+        "anomaly": [
+            {
+                "name": "恶语钝刀",
+                "effect": "敌方目标受到的持续伤害提高<color style='color:#f29e38;'> 35% </color>。受到持续伤害的敌方目标造成的伤害降低<color style='color:#f29e38;'> 35% </color>，被攻击后行动提前<color style='color:#f29e38;'> 35% </color>。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "批驳",
+                "effect": "敌方目标被消灭时，持有的持续伤害有<color style='color:#f29e38;'> 100% </color>基础概率转移给全体敌人。"
+            },
+            {
+                "name": "立论",
+                "effect": "敌方目标进入战斗时，陷入风化状态，每回合开始时受到固定数值的风属性持续伤害，并使自身与相邻敌方目标陷入风化状态。"
+            },
+            {
+                "name": "辨伪",
+                "effect": "我方队伍中存在3名或以上的[虚无] 命途角色时，我方全体造成的伤害提高<color style='color:#f29e38;'> 60% </color>，速度提高<color style='color:#f29e38;'> 30% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2005",
+        "name": "作言造语",
+        "anomaly": [
+            {
+                "name": "巧言令色",
+                "effect": "我方施放的追加攻击造成伤害后，累计造成的伤害值。当伤害值累计达到 100% 时，对敌方全体造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "追问",
+                "effect": "【怪诞逸闻】效果不再需要累计追加攻击造成的伤害值，改为我方每施放<color style='color:#f29e38;'> 3 </color>次追加攻击后触发，并使该效果造成的伤害提高<color style='color:#f29e38;'> 60% </color>。"
+            },
+            {
+                "name": "引申",
+                "effect": "触发【怪诞逸闻】效果时，同时为我方全体恢复等同于能量上限<color style='color:#f29e38;'> 35% </color>的能量。该效果恢复的能量可以超出目标的能量上限。"
+            },
+            {
+                "name": "归谬",
+                "effect": "我方造成的除追加攻击以外的其他所有类型的伤害也都可以累计等同于原数值<color style='color:#f29e38;'> 18% </color>的进度。"
+            }
+        ]
+    },
+    {
+        "id": "2004",
+        "name": "撒诈捣虚",
+        "anomaly": [
+            {
+                "name": "词语爆裂",
+                "effect": "我方施放终结技攻击敌方目标时，为目标附上【爆裂】，最多叠加<color style='color:#f29e38;'> 6 </color>层。目标的回合开始或目标被消灭时，根据【爆裂】层数对该目标及其相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "诱发",
+                "effect": "我方施放战技攻击敌方目标时，有<color style='color:#f29e38;'> 80% </color>固定概率为目标附上【爆裂】。"
+            },
+            {
+                "name": "殉爆",
+                "effect": "敌方目标施放技能时使自身及相邻目标陷入1层【灼伤】。处于【灼伤】状态中的敌方目标受到的伤害提高<color style='color:#f29e38;'> 10% </color>，该效果最多叠加<color style='color:#f29e38;'> 3 </color>层，且对触发怪诞逸闻效果造成的固定伤害也生效。"
+            },
+            {
+                "name": "喷溅",
+                "effect": "角色施放终结技进行攻击后，行动提前<color style='color:#f29e38;'> 25% </color>，且造成的伤害提高<color style='color:#f29e38;'> 100% </color>，持续<color style='color:#f29e38;'> 1 </color>回合。"
+            }
+        ]
+    },
+    {
+        "id": "2003",
+        "name": "舌灿莲花",
+        "anomaly": [
+            {
+                "name": "巧言令色",
+                "effect": "我方施放的追加攻击造成伤害后，累计造成的伤害值。当伤害值累计达到 100% 时，对敌方全体造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "献谄",
+                "effect": "角色的追加攻击造成的伤害提高<color style='color:#f29e38;'> 50% </color>，且触发【怪诞逸闻】的效果后会额外再触发1次效果。"
+            },
+            {
+                "name": "阿谀",
+                "effect": "施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。"
+            },
+            {
+                "name": "便侫",
+                "effect": "角色施放追加攻击击中敌方目标时，我方全体行动提前<color style='color:#f29e38;'> 14% </color>。该效果每次攻击只能触发1次。"
+            }
+        ]
+    },
+    {
+        "id": "2002",
+        "name": "羁鸟奇谭",
+        "anomaly": [
+            {
+                "name": "恶语钝刀",
+                "effect": "敌方目标受到的持续伤害提高<color style='color:#f29e38;'> 35% </color>。受到持续伤害的敌方目标造成的伤害降低<color style='color:#f29e38;'> 35% </color>，被攻击后行动提前<color style='color:#f29e38;'> 35% </color>。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "毁谤",
+                "effect": "敌方受到持续伤害时，对相邻目标造成原伤害<color style='color:#f29e38;'> 60% </color>的同属性持续伤害。"
+            },
+            {
+                "name": "谣诼",
+                "effect": "我方攻击敌方目标后，会使目标陷入风化状态，每回合开始时受到固定数值的风属性持续伤害。"
+            },
+            {
+                "name": "诋訾",
+                "effect": "敌方受到持续伤害时，为当前生命值百分比最低的我方目标恢复等同于生命上限<color style='color:#f29e38;'> 10% </color>的生命值，并使其行动提前<color style='color:#f29e38;'> 8% </color>。"
+            }
+        ]
+    },
+    {
+        "id": "2001",
+        "name": "游辞漫说",
+        "anomaly": [
+            {
+                "name": "词语爆裂",
+                "effect": "我方施放终结技攻击敌方目标时，为目标附上【爆裂】，最多叠加<color style='color:#f29e38;'> 6 </color>层。目标的回合开始或目标被消灭时，根据【爆裂】层数对该目标及其相邻目标造成固定数值的伤害。"
+            }
+        ],
+        "buffs": [
+            {
+                "name": "迸发",
+                "effect": "我方施放终结技攻击敌方目标后，将为目标附上2层【爆裂】。"
+            },
+            {
+                "name": "激扬",
+                "effect": "敌方目标进入战斗时，有<color style='color:#f29e38;'> 80% </color>概率立刻叠加1层【爆裂】。"
+            },
+            {
+                "name": "崩裂",
+                "effect": "持有【爆裂】的敌方目标被消灭时，使我方全体本场战斗中终结技造成的伤害提高<color style='color:#f29e38;'> 15% </color>，最多叠加<color style='color:#f29e38;'> 20 </color>次。"
+            }
+        ]
+    }
+]

@@ -1,34 +1,23 @@
 import { useEffect, useState, type ReactElement } from "react";
-import { getFullHp } from "../data/arbitration";
 import CurrentAA from "../components/CurrentAA";
 import Graph from "../components/Graph";
 import Pagination from "../components/Pagination";
 import EndgameInfo from "../components/EndgameInfo";
 import type { AnomalyArbitration } from "../data/types";
-import { date } from "../utils/date";
+import { getFullHpAA, sortEndgameList } from "../utils/endgame";
 import AA from "../data/AA.json"
 import { useLanguage } from "../components/i18n/LanguageContext";
 import { mergeById } from "../utils/merge";
 
 export default function AAPage(): ReactElement {
-
-    function sortAA(aa : AnomalyArbitration[]){
-        return aa.sort((a, b) => date(a.dateEnd!) < date(b.dateEnd!) ? -1 : 1)
-    }
-
     const { lang } = useLanguage();
-    const [aaList, setAAList] = useState<AnomalyArbitration[]>(sortAA(AA as AnomalyArbitration[]));
-
-    function setlist(arg: AnomalyArbitration[]){
-        console.log(arg)
-        setAAList(arg);
-    }
+    const [aaList, setAAList] = useState<AnomalyArbitration[]>(sortEndgameList(AA as AnomalyArbitration[]));
 
     useEffect(() => {
         fetch(`/data/${lang}/AA.json`)
         .then(d => d.json()
             .then(json =>
-                setlist(sortAA(mergeById(AA, json) as AnomalyArbitration[]))
+                setAAList(sortEndgameList(mergeById(AA, json) as AnomalyArbitration[]))
             )
         )
             
@@ -38,7 +27,7 @@ export default function AAPage(): ReactElement {
 
     const data = {
         names: aaList.map(l => l.name ?? ""),
-        data: [aaList.map(l => Math.round(getFullHp(l, true))), aaList.map(m => getFullHp(m))],
+        data: [aaList.map(l => Math.round(getFullHpAA(l, true))), aaList.map(m => getFullHpAA(m))],
         titles: ["Total HP Count (Plight)", "Total HP Count (Regular)"],
         colors: ['#cc0000', '#4444cc']
     }

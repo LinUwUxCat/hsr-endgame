@@ -61,7 +61,6 @@ interface AAKing extends AAPhase {
 interface PFPhase {
     recommendedTypes?: ElemType[];
     waves: PFMonster[][];
-    anomaly?: Effect[];
 }
 
 interface MoCPhase {
@@ -86,9 +85,11 @@ interface AnomalyArbitration extends Endgame {
     bossHard: AAKing;
 }
 
-interface PureFiction extends OldEndgame {
+interface PureFiction extends Endgame {
     node1: PFPhase;
     node2: PFPhase;
+    anomaly?: Effect[];
+    buffs?: Effect[];
 }
 
 interface ASNode extends BaseNode {
