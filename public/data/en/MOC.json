@@ -1,5 +1,13 @@
 [
     {
+        "id": 1030,
+        "name": "Cyber Mystery",
+        "turbulence": {
+            "name": "",
+            "effect": "At the start of each wave or Cycle, gains <color=#f29e38ff><unbreak>5</unbreak></color> Punchline point(s). When obtaining Punchline, adds a corresponding amount of Charge to \"Memory Turbulence,\" stacking up to <color=#f29e38ff><unbreak>50</unbreak></color> points.\\nAt the start of every Cycle, \"Memory Turbulence\" deals 1 instance of True DMG to enemy targets based on the amount of Charge points."
+        }
+    },
+    {
         "id": "1029",
         "name": "Breached Nest",
         "turbulence": {

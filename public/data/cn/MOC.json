@@ -1,5 +1,13 @@
 [
     {
+        "id": 1030,
+        "name": "网络谜踪",
+        "turbulence": {
+            "name": "",
+            "effect": "每个波次或轮开始时，获得<color=#f29e38ff><unbreak>5</unbreak></color>个笑点，每次获得笑点时，为【记忆紊流】增加对应点数的充能，最多叠加<color=#f29e38ff><unbreak>50</unbreak></color>点。\\n每个轮开始时，【记忆紊流】根据充能点数对敌方目标造成1次真实伤害。"
+        }
+    },
+    {
         "id": "1029",
         "name": "堤溃蚁穴",
         "turbulence": {
