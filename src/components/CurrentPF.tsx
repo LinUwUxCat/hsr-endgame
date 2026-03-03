@@ -13,10 +13,10 @@ export default function CurrentPF({pf} : CurrentPFProps) : ReactElement {
 
     return (
         <div style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
-            <div style={{width: "60vw", margin: "10px 0"}}> 
+            <div style={{width: "99vw", margin: "10px 0"}}> 
                 <StackedEffectElement effects={pf.buffs ?? []} />
             </div>
-            <div style={{width: "60vw", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "10px", marginBottom: "20px"}}>
+            <div className="grid" style={{width: "99vw", gridTemplateColumns: "repeat(3, 1fr)", marginBottom: "20px"}}>
                 {pf.anomaly?.map(v=> <EffectElement effect={v} />)}
             </div>
             <div style={{display: "flex", alignItems: "center", justifyContent: "space-between", width: "50vw"}}>
