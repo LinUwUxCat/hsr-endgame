@@ -18,7 +18,7 @@ export default function EffectElement({effect} : EffectElementProps) : ReactElem
             padding: "25px",
             borderRadius: "10px"
         }}>
-            <div>{effect.name ?? ""}</div>
+            <div style={{fontWeight: 700}}>{effect.name ?? ""}</div>
             <div style={{display: "flex", flexDirection: "column"}}>{getEffect(effect.effect ?? "")}</div>
         </div>
     )

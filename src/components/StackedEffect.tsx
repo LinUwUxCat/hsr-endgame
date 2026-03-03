@@ -21,7 +21,7 @@ export default function StackedEffectElement({effects} : StackedEffectElementPro
         }}>
             {effects.map(effect => (
                 <div style={{display: "flex", flexDirection: "column",}}>
-                    <div>{effect.name ?? ""}</div>
+                    <div style={{fontWeight: 700}}>{effect.name ?? ""}</div>
                     <div style={{display: "flex", flexDirection: "column"}}>{getEffect(effect.effect ?? "")}</div>
                 </div>
             ))}
