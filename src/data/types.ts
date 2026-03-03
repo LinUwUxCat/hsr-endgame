@@ -9,20 +9,21 @@ interface Endgame {
 type ElemType = "ICE" | "FIRE" | "LIGHTNING" | "QUANTUM" | "IMAGINARY" | "WIND" | "PHYSICAL";
 
 interface Monster {
-    name?: string; 
-    hp?: number;
-    hpPercent?: number; // compared to normal enemy
-    toughness?: number | number[];
-    atk?: number;
-    weakness?: ElemType[];
-    hpBarCount?: number;
-    toughnessBarCount?: number;
-    speed?: number;
-    resist?: {[key in ElemType]?: number};
+    name?: string; // Name
+    hp?: number; // HP (preferably rounded)
+    hpPercent?: number; // compared to normal enemy ? Used homdgcat data there
+    toughness?: number | number[]; // Toughness if number | toughness per phase if array
+    atk?: number; // Attack stat
+    weakness?: ElemType[]; // Weaknesses (elements)
+    hpBarCount?: number; // Number of HP bars. Note that this is relevant for the bosses in multiple HP-based phases (With dots on the left of the HP bar indicating the phase) and not for bosses like Lygus that have multiple HP bars and multiple phases but they're not based on HP.
+    toughnessBarCount?: number; // Number of toughness bars
+    speed?: number; // Speed stat
+    resist?: {[key in ElemType]?: number}; // Elements resisted and by how much in %.
     actionAdvance?: number; // AA in %
 
-    unsure?: boolean;
-    id?: string;
+    unsure?: boolean; // True if i'm unsure of the data. this is for manually entered data.
+    id?: string; // ID of the monster.
+    image?: string; // ID of image. If empty ID is used for image
 }
 
 interface BaseNode { // TODO: Switch all Nodes/Phases to extend this

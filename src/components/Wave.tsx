@@ -1,7 +1,7 @@
 import type { ReactElement } from "react";
 import type { Monster } from "../data/types";
 import MonsterElement from "./Monster";
-import { monsters } from "../data/monsters";
+import { useLoadedFile } from "./i18n/LoadedFileContext";
 
 interface WaveProps {
     wave: Monster[];
@@ -11,19 +11,22 @@ interface WaveProps {
 
 export default function Wave({ wave, waveNmr, monsterSize }: WaveProps): ReactElement {
 
+    const { monsters } = useLoadedFile();
+
     function getMonsterFull(m: Monster): Monster {
         if (m.id == undefined) return m;
-        let shortId = parseInt(m.id.slice(0, 7));
-        shortId = shortId - (shortId % 10);
-        if (monsters[shortId] == undefined) return m;
-        return { ...monsters[shortId], ...m }
+
+        let found = monsters.find(v => v.id == m.id);
+
+        if (found == undefined) return m;
+        return { ...found, ...m }
     }
 
     function getMonsters() {
         return wave.map((monster, i) => {
             const m = getMonsterFull(monster)
             return (
-                <MonsterElement size={monsterSize} monster={m} key={i}/>
+                <MonsterElement size={monsterSize} monster={m} key={`${m.id}-${i}`}/>
             )
         })
     }

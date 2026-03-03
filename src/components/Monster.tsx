@@ -15,8 +15,8 @@ export default function MonsterElement({monster, size} : MonsterElementProps) : 
 
 
     function getWeakness(w : ElemType[]){
-        return w.map(e => {
-            return <img src={"/types/" + e.toString() + ".png"} style={{width: "26px", height: "26px"}}/>
+        return w.map((e, i) => {
+            return <img src={"/types/" + e.toString() + ".png"} style={{width: "26px", height: "26px"}} key={i}/>
         })
     }
 

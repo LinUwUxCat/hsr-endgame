@@ -9,6 +9,7 @@ import ASPage from './pages/shadow';
 import Navbar from './layout/nav';
 import HomePage from './pages/home';
 import { LanguageProvider } from './components/i18n/LanguageProvider';
+import { LoadedFileProvider } from './components/i18n/LoadedFileProvider';
 
 const router = createBrowserRouter([
   {
@@ -45,7 +46,9 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <LanguageProvider>
-      <RouterProvider router={router} />
+      <LoadedFileProvider>
+        <RouterProvider router={router} />
+      </LoadedFileProvider>
     </LanguageProvider>
   </StrictMode>,
 )
