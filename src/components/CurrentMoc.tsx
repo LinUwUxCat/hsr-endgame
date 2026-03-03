@@ -12,7 +12,7 @@ export default function CurrentMoc({moc} : CurrentMocProps) : ReactElement {
 
     return (
         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-            <div>
+            <div style={{maxWidth: "80vw"}}>
                 <EffectElement effect={moc.turbulence} />
             </div>
             <div className="comp" style={{display: "grid", gridTemplateColumns: "repeat(2, 1fr)"}}>
