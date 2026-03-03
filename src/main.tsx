@@ -10,6 +10,7 @@ import Navbar from './layout/nav';
 import HomePage from './pages/home';
 import { LanguageProvider } from './components/i18n/LanguageProvider';
 import { LoadedFileProvider } from './components/i18n/LoadedFileProvider';
+import { SettingsProvider } from './components/Settings/SettingsProvider';
 
 const router = createBrowserRouter([
   {
@@ -45,10 +46,12 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <LanguageProvider>
-      <LoadedFileProvider>
-        <RouterProvider router={router} />
-      </LoadedFileProvider>
-    </LanguageProvider>
+    <SettingsProvider>
+      <LanguageProvider>
+        <LoadedFileProvider>
+          <RouterProvider router={router} />
+        </LoadedFileProvider>
+      </LanguageProvider>
+    </SettingsProvider>
   </StrictMode>,
 )
