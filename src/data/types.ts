@@ -100,4 +100,4 @@ interface ApocalypticShadow extends Endgame {
     buff?: Effect;
 }
 
-export type { ASNode, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
+export type { ASNode, Effect, ApocalypticShadow, PureFiction, PFPhase, PFMonster, Endgame, MemoryOfChaos, Monster, ElemType, MoCPhase, AAPhase, AnomalyArbitration }
