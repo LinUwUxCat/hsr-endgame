@@ -72,7 +72,8 @@ export default function MonsterPage(): ReactElement {
 
     return (
         <>
-            <div style={{ display: "flex", justifyContent: "center", width: "90%", padding: "1% 5%" }}>
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", width: "90%", padding: "1% 5%" }}>
+                <span style={{fontWeight: 600, fontSize: '1.5rem'}}>{monster.name}</span>
                 <MonsterElement monster={monster} size={3} noclick />
             </div>
             <EChartsReact option={option} />
