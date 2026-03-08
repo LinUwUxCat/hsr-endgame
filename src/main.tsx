@@ -11,6 +11,7 @@ import HomePage from './pages/home';
 import { LanguageProvider } from './components/i18n/LanguageProvider';
 import { LoadedFileProvider } from './components/i18n/LoadedFileProvider';
 import { SettingsProvider } from './components/Settings/SettingsProvider';
+import MonsterPage from './pages/monster';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/shadow",
         element: <ASPage />
+      },
+      {
+        path: "/monster/:id",
+        element: <MonsterPage />
       }
     ]
   }
