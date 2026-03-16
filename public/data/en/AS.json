@@ -1,5 +1,41 @@
 [
     {
+        "id": "3016",
+        "name": "Militant Lupine",
+        "buff": {
+            "name": "",
+            "effect": "When an enemy target with <color=#f29e38ff>\"Steadfast Safeguard\"</color> is inflicted with <color=#f29e38ff>Weakness Break</color>, dispels control states from all allies, restores Skill Points, immediately takes action, and grants Aha an extra turn (this turn will count as <color=#f29e38ff><unbreak>10</unbreak></color> fixed Punchline points).\\nIncreases Elation DMG dealt to all enemies by <color=#f29e38ff><unbreak>0.25%</unbreak></color> and Break DMG by <color=#f29e38ff><unbreak>0.15%</unbreak></color>."
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "effect": "All allies' Elation DMG ignores <color=#f29e38ff><unbreak>0.15%</unbreak></color> of enemy target's All-Type RES. When an enemy target's \"War Armor\" or \"Centirefined War Armor\" are broken, gains <color=#f29e38ff><unbreak>3</unbreak></color> Punchline points."
+                },
+                {
+                    "effect": "After an ally target uses their Ultimate, the CRIT DMG dealt by their Skill increases by <color=#f29e38ff><unbreak>0.5%</unbreak></color> for <color=#f29e38ff><unbreak>2</unbreak></color> turn(s)."
+                },
+                {
+                    "effect": "Increases Follow-Up ATK and Ultimate DMG dealt by all allies by <color=#f29e38ff><unbreak>0.5%</unbreak></color>, and additionally increases by <color=#f29e38ff><unbreak>0.5%</unbreak></color> against enemy targets in Weakness Broken state."
+                }
+            ],
+            "bossTrait": []
+        },
+        "node2": {
+            "selectableBuff": [
+                {
+                    "effect": "Increases all enemies' Break DMG taken by <color=#f29e38ff><unbreak>0.1%</unbreak></color>. After Breaking an enemy's Weakness, increases all allies' SPD by <color=#f29e38ff><unbreak>0.15%</unbreak></color> for <color=#f29e38ff><unbreak>2</unbreak></color> turn(s)."
+                },
+                {
+                    "effect": "Increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>0.3%</unbreak></color>. Additionally increases the CRIT DMG by <color=#f29e38ff><unbreak>0.3%</unbreak></color> for the 1st character in the team lineup and their memosprite."
+                },
+                {
+                    "effect": "Increases DoT dealt to enemy targets in the Weakness Broken state by <color=#f29e38ff><unbreak>0.3%</unbreak></color>."
+                }
+            ],
+            "bossTrait": []
+        }
+    },
+    {
         "id": "3015",
         "name": "Dominance of Netherveil"
     },

@@ -1,5 +1,51 @@
 [
     {
+        "id": "3016",
+        "dateStart": "16/03/2026",
+        "dateEnd": "27/04/2026",
+        "turbulence": {
+            "id": 3110015
+        },
+        "node1": {
+            "recommendedTypes": [],
+            "waves": [
+                [
+                    {
+                        "id": "401401304",
+                        "hp": 8084165,
+                        "hpBarCount": 2,
+                        "toughness": 0
+                    }
+                ]
+            ],
+            "bossTrait": [],
+            "selectableBuff": [
+                "3111083",
+                "3111084",
+                "3111085"
+            ]
+        },
+        "node2": {
+            "recommendedTypes": [],
+            "waves": [
+                [
+                    {
+                        "id": "203501204",
+                        "hp": 11856776,
+                        "hpBarCount": 2,
+                        "toughness": 0
+                    }
+                ]
+            ],
+            "bossTrait": [],
+            "selectableBuff": [
+                "3111086",
+                "3111087",
+                "3111088"
+            ]
+        }
+    },
+    {
         "id": "3015",
         "dateStart": "02/02/2026",
         "dateEnd": "16/03/2026",

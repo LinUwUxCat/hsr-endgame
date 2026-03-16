@@ -1,5 +1,41 @@
 [
     {
+        "id": "3016",
+        "name": "兵锋天狼",
+        "buff": {
+            "name": "",
+            "effect": "拥有<color=#f29e38ff>【坚防守备】</color>的敌方目标被<color=#f29e38ff>弱点击破</color>时，使我方全体目标解除控制状态、恢复战技点、立即行动并使阿哈立即获得一个额外回合（本回合固定计入<color=#f29e38ff><unbreak>10</unbreak></color>笑点）。\\n敌方全体目标受到的欢愉伤害提高<color=#f29e38ff><unbreak>0.25%</unbreak></color>，弱点击破伤害提高<color=#f29e38ff><unbreak>0.15%</unbreak></color>。"
+        },
+        "node1": {
+            "selectableBuff": [
+                {
+                    "effect": "我方全体造成的欢愉伤害无视敌方目标<color=#f29e38ff><unbreak>0.15%</unbreak></color>的全属性抗性。破坏敌方目标的【战甲】或【百炼战甲】时，获得<color=#f29e38ff><unbreak>3</unbreak></color>笑点。"
+                },
+                {
+                    "effect": "我方目标施放终结技后，使自身战技造成的暴击伤害提高<color=#f29e38ff><unbreak>0.5%</unbreak></color>，持续<color=#f29e38ff><unbreak>2</unbreak></color>回合。"
+                },
+                {
+                    "effect": "我方全体造成的追加攻击和终结技伤害提高<color=#f29e38ff><unbreak>0.5%</unbreak></color>，对弱点击破状态下的敌方目标额外提高<color=#f29e38ff><unbreak>0.5%</unbreak></color>。"
+                }
+            ],
+            "bossTrait": []
+        },
+        "node2": {
+            "selectableBuff": [
+                {
+                    "effect": "敌方全体受到的击破伤害提高<color=#f29e38ff><unbreak>0.1%</unbreak></color>。击破敌方弱点后，我方全体速度提高<color=#f29e38ff><unbreak>0.15%</unbreak></color>，持续<color=#f29e38ff><unbreak>2</unbreak></color>回合。"
+                },
+                {
+                    "effect": "我方全体的暴击伤害提高<color=#f29e38ff><unbreak>0.3%</unbreak></color>，编队中的第1位角色及其忆灵的暴击伤害额外提高<color=#f29e38ff><unbreak>0.3%</unbreak></color>。"
+                },
+                {
+                    "effect": "处于弱点击破状态下的敌方目标受到的持续伤害提高<color=#f29e38ff><unbreak>0.3%</unbreak></color>。"
+                }
+            ],
+            "bossTrait": []
+        }
+    },
+    {
         "id": "3015",
         "name": "支配冥茫",
         "buff": {
