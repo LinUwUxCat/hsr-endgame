@@ -30,7 +30,7 @@ export default function MonsterElement({monster, size, noclick} : MonsterElement
             <div className="monster-img">
                 <img src={getImageUrl(monster.image ?? monster.id ?? "/nonexistent")} style={{width: `${128*size}px`, height: `${128*size}px`}}/>
                 <div className="monster-name" style={{width: `${128*size}px`, height: `${128*size}px`}}>{monster.name ?? monster.id ?? "UNKNOWN"}</div>
-                {(monster as PFMonster).amount != undefined && <div className="monster-amount">{(monster as PFMonster).amount}</div>}
+                {(monster as PFMonster).amount != undefined && (monster as PFMonster).amount! > 1 && <div className="monster-amount">{(monster as PFMonster).amount}</div>}
             </div>
             
             <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
@@ -40,7 +40,7 @@ export default function MonsterElement({monster, size, noclick} : MonsterElement
             
             {monster.hp && <div style={{fontWeight: "bold", display: "flex", alignItems: "center"}}>
                 <img src="/icon/HP.webp" height={32} width={32} style={{filter: "invert(1)"}}/>
-                <span style={{color: "#cc0000"}}>{monster.hp}</span>
+                <span style={{color: "#cc0000"}}>{monster.hp.toFixed(0)}</span>
                 <span>{monster.hpBarCount != undefined && monster.hpBarCount > 1 ? ("×"+monster.hpBarCount) : ""}</span>
                 {monster.hpPercent && <span style={{fontWeight: "normal", color: "#666"}}> [{Math.round(monster.hpPercent)}%]</span>}
             </div>}

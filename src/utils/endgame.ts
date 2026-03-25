@@ -17,11 +17,11 @@ export function getFullHpPF(pf: PureFiction) {
 export function getFullHpAA(aa : AnomalyArbitration, hard: boolean = false){
     const hp = (m : Monster) => m.hpBarCount != undefined ? m.hpBarCount * m.hp! : m.hp!
     let f = 0;
-    aa.knight1.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-    aa.knight2.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-    aa.knight3.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c))
-    if (!hard) aa.boss.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c));
-    else aa.bossHard.waves.forEach(w => f+=w.map(v => hp(v)).reduce((p,c)=>p+c));
+    aa.knight1.waves.forEach(w => f+=getWaveHp(w))
+    aa.knight2.waves.forEach(w => f+=getWaveHp(w))
+    aa.knight3.waves.forEach(w => f+=getWaveHp(w))
+    if (!hard) aa.boss.waves.forEach(w => f+=getWaveHp(w));
+    else aa.bossHard.waves.forEach(w => f+=getWaveHp(w));
     return f;
 }
 
@@ -42,4 +42,13 @@ export function getFullHpAS(apoc: ApocalypticShadow): number {
     apoc.node2.waves.forEach(w => f += w.map(v => hp(v)).reduce((p, c) => p + c))
 
     return f;
+}
+
+// Get HP of the monster **GROUP**, so a single monster if Monster and multiple if PFMonster. Do not use this to display on the UI
+function getMonsterHp(mon : Monster | PFMonster) : number {
+    return (mon.hp ?? 0) * (mon.hpBarCount ?? 1) * ((mon as PFMonster).amount ?? 1) ;
+}
+
+function getWaveHp(wave: Monster[]): number {
+    return wave.reduce((prev, cur) => prev+getMonsterHp(cur), 0);
 }

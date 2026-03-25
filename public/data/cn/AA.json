@@ -261,9 +261,122 @@
                 }
             ]
         }
-    }, 
+    },
     {
         "id": "4004",
         "name": "网络风波"
+    },
+    {
+        "id": "4005",
+        "name": "别惹帕姆",
+        "knight1": {
+            "name": "骑士（一）",
+            "anomaly": [
+                {
+                    "id": "3033041",
+                    "name": "桎梏",
+                    "effect": "我方目标初始获得<color=#f29e38ff><unbreak>2</unbreak></color>层该效果，每层使自身造成的伤害降低<color=#f29e38ff><unbreak>0.1%</unbreak></color>，该效果不可解除，每次施放终结技后移除1层该效果。"
+                }
+            ]
+        },
+        "knight2": {
+            "name": "骑士（二）",
+            "anomaly": [
+                {
+                    "id": "3033038",
+                    "name": "失能",
+                    "effect": "进入战斗时，固定降低我方目标<color=#f29e38ff><unbreak>0.5%</unbreak></color>的能量，并使我方目标在自身回合外的能量恢复效率降低<color=#f29e38ff><unbreak>0.5%</unbreak></color>，持续<color=#f29e38ff><unbreak>2</unbreak></color>回合。"
+                },
+                {
+                    "id": "3033024",
+                    "name": "挑衅+",
+                    "effect": "敌方目标受到<color=#f29e38ff><unbreak>5</unbreak></color>次攻击后立即行动，该计数在敌方目标回合开始时清空。"
+                }
+            ]
+        },
+        "knight3": {
+            "name": "骑士（三）",
+            "anomaly": [
+                {
+                    "id": "3033025",
+                    "name": "滋扰",
+                    "effect": "敌方目标施放攻击后，对攻击目标随机造成<color=#f29e38ff><unbreak>0.05%</unbreak></color>或者<color=#f29e38ff><unbreak>0.1%</unbreak></color>的行动延后。"
+                }
+            ]
+        },
+        "boss": {
+            "name": "将杀王棋",
+            "anomaly": [
+                {
+                    "id": "3033017",
+                    "name": "龟裂",
+                    "effect": "我方目标受到敌方攻击时会被施加【龟裂】效果，每层使持有者在受到攻击后额外损失最大生命值<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>的生命值，该效果叠加层数无上限且不可驱散。持有【龟裂】的目标获得除自身外的友方目标施加的护盾效果或治疗后，双方均解除全部【龟裂】效果。"
+                },
+                {
+                    "id": "3033025",
+                    "name": "滋扰",
+                    "effect": "敌方目标施放攻击后，对攻击目标随机造成<color=#f29e38ff><unbreak>0.05%</unbreak></color>或者<color=#f29e38ff><unbreak>0.1%</unbreak></color>的行动延后。"
+                },
+                {
+                    "id": "3033041",
+                    "name": "桎梏",
+                    "effect": "我方目标初始获得<color=#f29e38ff><unbreak>2</unbreak></color>层该效果，每层使自身造成的伤害降低<color=#f29e38ff><unbreak>0.1%</unbreak></color>，该效果不可解除，每次施放终结技后移除1层该效果。"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033048",
+                    "name": "喜笑颜开",
+                    "effect": "我方全体目标的欢愉度提高<color=#f29e38ff><unbreak>0.4%</unbreak></color>，阿哈时刻结束时，我方角色固定恢复<color=#f29e38ff><unbreak>0.1%</unbreak></color>能量。"
+                },
+                {
+                    "id": "3033049",
+                    "name": "落井下石",
+                    "effect": "敌方目标受到来自我方的追加攻击后，受到的伤害提高<color=#f29e38ff><unbreak>0.15%</unbreak></color>，持续<color=#f29e38ff><unbreak>2</unbreak></color>回合，该效果最多叠加<color=#f29e38ff><unbreak>4</unbreak></color>层。"
+                },
+                {
+                    "id": "3033050",
+                    "name": "后勤发力",
+                    "effect": "我方全体目标造成的伤害提高<color=#f29e38ff><unbreak>0.4%</unbreak></color>，我方「合金保姆」的速度提高<color=#f29e38ff><unbreak>0.5%</unbreak></color>。"
+                }
+            ]
+        },
+        "bossHard": {
+            "name": "将杀王棋",
+            "anomaly": [
+                {
+                    "id": "3033018",
+                    "name": "龟裂+",
+                    "effect": "我方目标受到敌方攻击时会被施加【龟裂+】效果，每层使持有者在受到攻击后额外损失最大生命值<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>的生命值，该效果叠加层数无上限且不可驱散。持有【龟裂+】的目标获得除自身外的友方目标施加的护盾效果或治疗后，双方均解除全部【龟裂+】效果。"
+                },
+                {
+                    "id": "3033026",
+                    "name": "滋扰+",
+                    "effect": "敌方目标施放攻击后，对攻击目标随机造成<color=#f29e38ff><unbreak>0.05%</unbreak></color>或者<color=#f29e38ff><unbreak>0.2%</unbreak></color>的行动延后。"
+                },
+                {
+                    "id": "3033046",
+                    "name": "桎梏++",
+                    "effect": "我方目标初始获得<color=#f29e38ff><unbreak>2</unbreak></color>层该效果，每层使自身造成的伤害降低<color=#f29e38ff><unbreak>0.3%</unbreak></color>，该效果不可解除，每次施放终结技后移除1层该效果。"
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033048",
+                    "name": "喜笑颜开",
+                    "effect": "我方全体目标的欢愉度提高<color=#f29e38ff><unbreak>0.4%</unbreak></color>，阿哈时刻结束时，我方角色固定恢复<color=#f29e38ff><unbreak>0.1%</unbreak></color>能量。"
+                },
+                {
+                    "id": "3033049",
+                    "name": "落井下石",
+                    "effect": "敌方目标受到来自我方的追加攻击后，受到的伤害提高<color=#f29e38ff><unbreak>0.15%</unbreak></color>，持续<color=#f29e38ff><unbreak>2</unbreak></color>回合，该效果最多叠加<color=#f29e38ff><unbreak>4</unbreak></color>层。"
+                },
+                {
+                    "id": "3033050",
+                    "name": "后勤发力",
+                    "effect": "我方全体目标造成的伤害提高<color=#f29e38ff><unbreak>0.4%</unbreak></color>，我方「合金保姆」的速度提高<color=#f29e38ff><unbreak>0.5%</unbreak></color>。"
+                }
+            ]
+        }
     }
 ]

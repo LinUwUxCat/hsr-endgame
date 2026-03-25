@@ -44,7 +44,7 @@ interface Effect {
 
 interface AAPhase {
     recommendedTypes?: ElemType[];
-    waves: Monster[][];
+    waves: PFMonster[][];
     anomaly?: Effect[];
 }
 

@@ -2,17 +2,130 @@
     {
         "id": "4001",
         "name": "Intellitron Endgame"
-    }, 
+    },
     {
         "id": "4002",
         "name": "Illusory Realm of the Blazing Sun"
-    }, 
+    },
     {
-        "id":"4003",
+        "id": "4003",
         "name": "Dissonance"
     },
     {
         "id": "4004",
         "name": "Cyber Crisis"
+    },
+    {
+        "id": "4005",
+        "name": "Don't Mess With Pom-Pom",
+        "knight1": {
+            "name": "Knight (I)",
+            "anomaly": [
+                {
+                    "id": "3033041",
+                    "name": "Confinement",
+                    "effect": "Ally targets initially obtain <color=#f29e38ff><unbreak>2</unbreak></color> stack(s) of this effect, with each stack decreasing their own DMG by <color=#f29e38ff><unbreak>0.1%</unbreak></color>. This effect cannot be dispelled, and 1 stack is removed after each Ultimate used."
+                }
+            ]
+        },
+        "knight2": {
+            "name": "Knight (II)",
+            "anomaly": [
+                {
+                    "id": "3033038",
+                    "name": "Depowered",
+                    "effect": "When entering combat, reduces ally target's Energy by <color=#f29e38ff><unbreak>0.5%</unbreak></color> and decreases their Energy Regeneration Rate by <color=#f29e38ff><unbreak>0.5%</unbreak></color> outside of their turn for <color=#f29e38ff><unbreak>2</unbreak></color> turn(s)."
+                },
+                {
+                    "id": "3033024",
+                    "name": "Taunting+",
+                    "effect": "Enemy target takes immediate action after being attacked <color=#f29e38ff><unbreak>5</unbreak></color> time(s). This tally resets at the start of the enemy target's turn."
+                }
+            ]
+        },
+        "knight3": {
+            "name": "Knight (III)",
+            "anomaly": [
+                {
+                    "id": "3033025",
+                    "name": "Interference",
+                    "effect": "After the enemy target uses an attack, randomly causes <color=#f29e38ff><unbreak>0.05%</unbreak></color> or <color=#f29e38ff><unbreak>0.1%</unbreak></color> action delay to the attacked target."
+                }
+            ]
+        },
+        "boss": {
+            "name": "King in Check",
+            "anomaly": [
+                {
+                    "id": "3033017",
+                    "name": "Sunder",
+                    "effect": "When ally targets are being attacked by enemies, the \"Sunder\" effect will be inflicted on them. Each stack additionally causes the holder to lose HP equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of their Max HP. This effect can be stacked indefinitely and cannot be dissipated. After targets with \"Sunder\" received a Shield from an ally target other than themselves or healing, all \"Sunder\" effects are dispelled on both targets."
+                },
+                {
+                    "id": "3033025",
+                    "name": "Interference",
+                    "effect": "After the enemy target uses an attack, randomly causes <color=#f29e38ff><unbreak>0.05%</unbreak></color> or <color=#f29e38ff><unbreak>0.1%</unbreak></color> action delay to the attacked target."
+                },
+                {
+                    "id": "3033041",
+                    "name": "Confinement",
+                    "effect": "Ally targets initially obtain <color=#f29e38ff><unbreak>2</unbreak></color> stack(s) of this effect, with each stack decreasing their own DMG by <color=#f29e38ff><unbreak>0.1%</unbreak></color>. This effect cannot be dispelled, and 1 stack is removed after each Ultimate used."
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033048",
+                    "name": "Beaming with Joy",
+                    "effect": "Increases Elation for all allies by <color=#f29e38ff><unbreak>0.4%</unbreak></color>. When an Aha Instant ends, all ally characters regenerate <color=#f29e38ff><unbreak>0.1%</unbreak></color> Energy."
+                },
+                {
+                    "id": "3033049",
+                    "name": "Add Insult to Injury",
+                    "effect": "After an enemy target is hit by an ally's Follow-Up ATK, DMG taken by them increases by <color=#f29e38ff><unbreak>0.15%</unbreak></color> for <color=#f29e38ff><unbreak>2</unbreak></color> turn(s). This effect can stack up to <color=#f29e38ff><unbreak>4</unbreak></color> time(s)."
+                },
+                {
+                    "id": "3033050",
+                    "name": "Logistics Boost",
+                    "effect": "Increases all ally targets' DMG dealt by <color=#f29e38ff><unbreak>0.4%</unbreak></color> and increases ally's Alloy Pommy's SPD by <color=#f29e38ff><unbreak>0.5%</unbreak></color>."
+                }
+            ]
+        },
+        "bossHard": {
+            "name": "King in Check",
+            "anomaly": [
+                {
+                    "id": "3033018",
+                    "name": "Sunder+",
+                    "effect": "When ally targets are being attacked by enemies, the \"Sunder+\" effect will be inflicted on them. Each stack additionally causes the holder to lose HP equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of their Max HP. This effect can be stacked indefinitely and cannot be dissipated. After targets with \"Sunder+\" received a Shield from an ally target other than themselves or healing, all \"Sunder+\" effects are dispelled on both targets."
+                },
+                {
+                    "id": "3033026",
+                    "name": "Interference+",
+                    "effect": "After the enemy target uses an attack, randomly causes <color=#f29e38ff><unbreak>0.05%</unbreak></color> or <color=#f29e38ff><unbreak>0.2%</unbreak></color> action delay to the attacked target."
+                },
+                {
+                    "id": "3033046",
+                    "name": "Confinement++",
+                    "effect": "Ally targets initially obtain <color=#f29e38ff><unbreak>2</unbreak></color> stack(s) of this effect, with each stack decreasing their own DMG by <color=#f29e38ff><unbreak>0.3%</unbreak></color>. This effect cannot be dispelled, and 1 stack is removed after each Ultimate used."
+                }
+            ],
+            "buffs": [
+                {
+                    "id": "3033048",
+                    "name": "Beaming with Joy",
+                    "effect": "Increases Elation for all allies by <color=#f29e38ff><unbreak>0.4%</unbreak></color>. When an Aha Instant ends, all ally characters regenerate <color=#f29e38ff><unbreak>0.1%</unbreak></color> Energy."
+                },
+                {
+                    "id": "3033049",
+                    "name": "Add Insult to Injury",
+                    "effect": "After an enemy target is hit by an ally's Follow-Up ATK, DMG taken by them increases by <color=#f29e38ff><unbreak>0.15%</unbreak></color> for <color=#f29e38ff><unbreak>2</unbreak></color> turn(s). This effect can stack up to <color=#f29e38ff><unbreak>4</unbreak></color> time(s)."
+                },
+                {
+                    "id": "3033050",
+                    "name": "Logistics Boost",
+                    "effect": "Increases all ally targets' DMG dealt by <color=#f29e38ff><unbreak>0.4%</unbreak></color> and increases ally's Alloy Pommy's SPD by <color=#f29e38ff><unbreak>0.5%</unbreak></color>."
+                }
+            ]
+        }
     }
 ]
